@@ -6,3 +6,7 @@
 # https://pybrew.codebasehq.com/mirosubs/tickets/89
 # https://pybrew.codebasehq.com/mirosubs/tickets/73
 # https://pybrew.codebasehq.com/mirosubs/tickets/48
+
+# https://pybrew.codebasehq.com/mirosubs/tickets/83
+
+# https://pybrew.codebasehq.com/mirosubs/tickets/78
