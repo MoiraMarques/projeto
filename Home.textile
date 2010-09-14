@@ -1,1 +1,9 @@
-Welcome to the Miro-Subs wiki!
+== Current ticket priority ordering ==
+
+# https://pybrew.codebasehq.com/mirosubs/tickets/120
+# Morgan's HTML changes that place instructions on the side
+# https://pybrew.codebasehq.com/mirosubs/tickets/115
+# https://pybrew.codebasehq.com/mirosubs/tickets/4
+# https://pybrew.codebasehq.com/mirosubs/tickets/89
+# https://pybrew.codebasehq.com/mirosubs/tickets/73
+# https://pybrew.codebasehq.com/mirosubs/tickets/48
