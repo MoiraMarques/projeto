@@ -2,21 +2,29 @@ Welcome to the Universal Subtitles project.
 
 Contact us immediately if you'd like to be involved!  universalsubtitles at pculture.org
 
-Repository: http://github.com/8planes/mirosubs/ 
+Repository "http://github.com/8planes/mirosubs/":http://github.com/8planes/mirosubs/ 
 (see the README to get started)
 
-Development mailing list: http://groups.google.com/group/universal-subtitles-dev/
+Development mailing list: "http://groups.google.com/group/universal-subtitles-dev/":http://groups.google.com/group/universal-subtitles-dev/
 
-Open tickets (widget): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=main&resolution=--- 
-Open tickets (site): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=website&resolution=---
-Open tickets (design): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=design&resolution=---
+"Open tickets (widget)":http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=main&resolution=--- 
+"Open tickets (site)":http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=website&resolution=---
+"Open tickets (design)":http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=design&resolution=---
 
-Report a bug: http://bugzilla.pculture.org/enter_bug.cgi?product=Miro Subtitles
+"Report a bug":http://bugzilla.pculture.org/enter_bug.cgi?product=Miro Subtitles
 
 Here are some bite-sized tickets that might be good for newcomers to the project!
 
-# http://bugzilla.pculture.org/show_bug.cgi?id=13431 -- bookmarklet
-# http://bugzilla.pculture.org/show_bug.cgi?id=13392 -- title for html5 videos
-# http://bugzilla.pculture.org/show_bug.cgi?id=13363 -- error when youtube link is broken/removed
-# http://bugzilla.pculture.org/show_bug.cgi?id=13022 -- youtube player sometimes starts playing again when pause is called and playhead time is set to 0.
-# http://bugzilla.pculture.org/show_bug.cgi?id=13444 -- blip.tv support
+# "Awesome bookmarklet and code for site templates":http://bugzilla.pculture.org/show_bug.cgi?id=13431 -- 
+# "Getting good titles for html5 videos":http://bugzilla.pculture.org/show_bug.cgi?id=13392
+# "Machine translation in widget dropdown menu":http://bugzilla.pculture.org/show_bug.cgi?id=13443
+# "Error when youtube link is broken/removed":http://bugzilla.pculture.org/show_bug.cgi?id=13363
+# "youtube player sometimes starts playing again when pause is called and playhead time is set to 0":http://bugzilla.pculture.org/show_bug.cgi?id=13022 -- 
+# "blip.tv support": http://bugzilla.pculture.org/show_bug.cgi?id=13444
+
+And some other ideas:
+
+# different websites / arbitrary flv or mp4 using our own flash player
+# optimization and speedups
+# login using facebook id
+# export to other subtitle formats (substation, ttml)
