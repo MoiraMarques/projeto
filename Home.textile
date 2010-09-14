@@ -67,10 +67,17 @@ Hey, I thought you should check out this video on universalsubtitles.org.  You c
 # Video page shd show stats on video.   This should be to the right
  Views, Subtitles fetched, Translations, Transcribed?  Yes / No ****adam will need to add this value in 
 # -All videos page heading.  "All submitted videos".-  
-# Work out subtitle position on video with adam.  See note:In the new html, you're forcing the mirosubs-captionDiv to have a top of 220px in the css. Any reason for this? I'm also setting the value in js code, but . Anyway, for now I've added the top style to mirosubs-captionDivBg, which has to end up behind the caption div for them to be visible on flash videos in FF/Linux and possibly FF/Windows and IE.
-# Work out dynamic changes to subtitle size based on video size with Adam.  
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
 # Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
+# Work out subtitle position on video with adam.  See note:In the new html, you're forcing the mirosubs-captionDiv to have a top of 220px in the css. Any reason for this? I'm also setting the value in js code, but . Anyway, for now I've added the top style to mirosubs-captionDivBg, which has to end up behind the caption div for them to be visible on flash videos in FF/Linux and possibly FF/Windows and IE.
+# Work out dynamic changes to subtitle size based on video size with Adam.  
+# The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)  
+# Style the user profile page, including the photo (when uploaded) and the photo form and the "holmes's activity" section.  Note, the activity list can read like the one on the front page.  Also style it for when its somebody else's page (not yours) for example: http://mirosubsstaging.8planes.com/profiles/17/ (including photo and activity).
+# Style the front page.  Starting a thread now with Dean and Nick, I'll take a pass and digest this for you, follow up with me if I haven't yet when you get to this item.
+# Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.  
+# Don't use underline in recent activity list.  Get rid of 3D bubbles in recent activity list.  Show user image thumbnail in recent activity list (on left side next to name, small)
+# Fix style in the translation page.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
+
 
 Other design wishlist (low priority):
 
