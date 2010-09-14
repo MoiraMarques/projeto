@@ -10,6 +10,8 @@ h2. Current ticket priority ordering
 # -Atul firefox extension "fast" ticket http://github.com/8planes/mirosubs/issues#issue/2-
 # -Set up server at universalsubtitles.com-
 # Send email to Michael Dale about widget API
+# http://bugzilla.pculture.org/show_bug.cgi?id=13078
+# http://bugzilla.pculture.org/show_bug.cgi?id=13079
 # -increase CTRL skip back interval from 4 to 8 seconds (so minor I didn't bother creating a ticket)-
 # size videos (e.g. youtube videos) to match width of interface
 # Add numbers to the bottom tabs to indicate the progression (i.e., 1. Transcribe, 2. Sync, 3. Review). 
