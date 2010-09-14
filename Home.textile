@@ -24,6 +24,8 @@ Note, if the item refers to a screenshot, search email for some string from the 
 # when you click on the tab and select something in the menu like 'add subtitles' the text doesn't turn white when you hover
 # -OpenID login screen needs to be styled.  Morgan-- let me know if there is any hold up on this.-
 # -Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.-  
+# Timestamps in subtitle stack appear on the right margin with "left right" buttons to their left.   
+# Currently to the left of the zero marker in timeline there's a difference of a pixel or two between the marked area and the blank area.
 # Make HTML for this same "early testing stages" warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot (search email for the text of this todo)
 # Make HTML for demo video (include an image there) and widget demo as in front page mockup.  
 # Style "recent activity" with some kind of box around the whole thing (also on users' recent activity)  
@@ -51,3 +53,7 @@ Other design wishlist (low priority):
 # When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
 # Fix funny white line below youtube video between youtube video and the rest of the widget.  
 # We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
+# Mockup a few other subtitle styles (white with black border.  yellowtext with black border and make active subtitle highlight yellow instead of blue).
+# Mockup times sitting *on* the dividing line in a rounded or squared box, or maybe with no box at all, just the line ends and you see the time there.   
+# Mockup: .X and + buttons show below the left / right buttons on titles in list (possibly in the middle of the title so you can't click accidentally)  to add and remove titles.  
+# Make an intro screen we can use for all of our videos with the logo, a title for the video (e.g. Step 2: Syncing Subtitles) , and the brand.  send to everyone as original editable files
