@@ -58,7 +58,7 @@ h2. Waiting on Morgan
 # dropdown: make the logo rotate slowly as a loading indicator.
 # dropdown: make the "choose language" tab with the divder and down arrow (see layer in PSD nick sent).
 # login window -> HTML
-# Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make buttons larger.
+# Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.
 # Make video player (see email from Holmes)
 # In "finished.html" (see email) Style the "Share" and "Translate" buttons, style the embed code, make a back button on "Return to Transcribe".
 
