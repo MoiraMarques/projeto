@@ -78,6 +78,9 @@ problem might be that they are too wide for the dialog structure.  Morgan--can y
 9. White outline of widget is transparent.  It shouldn't be.
 10. The subtitle text must be centered in the div and not in the video, so it sometimes gets too close to the left margin.
 11. There's a band of white down the right side of the box, not covered by the subtitling image.  
+12. Nick made a few tweaks to the dropdown CSS here (see email).  He changed the font, the positioning (left instead of right) and the menu color.  Can you incorporate these?
+13. We're thinking the green color on the button and the logo looks way too pukey.   Can you make it brighter?
+14. The rotating logo isn't visible enough as a loading indicator.  Can you replace it with a spinner that sits on the metal tab and temporarily replaces the green logo?
 
 h2. Non acted-upon suggestions from first round of user testing
 
