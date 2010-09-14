@@ -8,8 +8,6 @@ h3. Future Django projects
 # Experience for organizations, access controlled wiki or moderation/appoval of community work
 
 
-
-
 h2. Morgan's design list (top ones first!):
 
 Note, if the item refers to a screenshot, search email for some string from the item...  The email will include a screenshot.   or IM with holmes to resend screenshot.
@@ -26,6 +24,15 @@ Note, if the item refers to a screenshot, search email for some string from the 
 # -Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.-  
 # Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot (search email for the text of this todo)
 # Style a nice way for empty subs to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
+# create open-hand and closed-hand cursor files for dragging the timeline around. Some special instructions:
+1. Here are the cursor files used by google maps:
+http://maps.gstatic.com/intl/en_us/mapfiles/openhand_8_8.cur and
+http://maps.gstatic.com/intl/en_us/mapfiles/closedhand_8_8.cur . The
+google closure library already works with these.
+2. To jive with the closure library, you'll have to specify a hotspot
+of 7,5 in your cursor editing software.
+
+
 
 Other design wishlist (low priority):
 
