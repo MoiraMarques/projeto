@@ -1,6 +1,6 @@
 Welcome to the Universal Subtitles project.  
 
-Contact us immediately if you'd like to be involved!  universalsubtitles at pculture.org
+Contact us immediately if you'd like to be involved!  universalsubtitles@pculture.org
 
 Repository "http://github.com/8planes/mirosubs/":http://github.com/8planes/mirosubs/ 
 (see the README to get started)
