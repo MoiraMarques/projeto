@@ -9,7 +9,7 @@ h2. The Tasks
 # Implement "recent activity" list on front page
 ## First, add a @datetime_started@ to @TranslationVersion@, just like @VideoCaptionVersion@. Use South for this, and make it so that we can apply the migration using deploy/fabfile.py.
 ## Show ten most recent activities in "recent activity" list, where an activity is a @TranslationVersion@ or @VideoCaptionVersion@. Present the activities like "USERNAME edited subtitles for VIDEO at 2:10 pm" and "USERNAME edited Spanish translations for VIDEO at 2:11 pm" where USERNAME and VIDEO are actual names with links to the profile page and video page, respectively. 
-# "All Videos" tab: make it work / useful
+# Alter videos.views.video_list:
 #* make lists sortable (with up/down arrows)
 #* fix "translation count" and display of translation numbers
 #* some URLs are blank (are they Youtube videos identified by video iD? they should show youube URL).  
