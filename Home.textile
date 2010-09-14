@@ -19,6 +19,13 @@ Note, if the item refers to a screenshot, search email for some string from the 
 * abutting subtitles should be divided by a single thing line
 # See email "Youtube sizing issue" this one?? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
 # HTML of revision history page (see email subject "Revision history page")
+# Make window as short as possible.  
+* Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down or somewhere else.
+* Reduce height of subtitle list in sync mode to shorten the page.  As long as 4 long subtitles fit that's okay.
+* Maybe get rid of the white border on the window in favor of something simpler
+* Get rid of white border in favor of something simpler.
+* While you're at it, get rid of the water mark for now.  
+* Squeeze it vertically as much as you can without making it look bad or compromising function.  Maybe just shorten the height of everything 10% in addition to these other changes.
 # when you click on the tab and select something in the menu like 'add subtitles' the text doesn't turn white when you hover
 # Change "Submit Video" in front nav to "Subtitle a video"
 # Fix style in the translation page in widget.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  
