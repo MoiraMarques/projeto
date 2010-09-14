@@ -12,9 +12,8 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # -Disable sharing and embed-
 # First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
 # Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
-# QUESTION: Can users go back in and edit "finished" subtitles that they "own"?  If not, that ticket should be in this list.
+# Can users go back in and edit "finished" subtitles that they "own"?  If not, make it so
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
-# New round of HTML fixes from Morgan.  Hopefully down to #12 (IE testing, fixes)
 
 h3. Iterative projects
 
