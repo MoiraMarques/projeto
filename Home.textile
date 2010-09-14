@@ -13,15 +13,15 @@ h2. Critical Stuff for next round of development
 
 # -Make sure youtube video is not covering subtitles on mac osx/ff-
 # -Fix small problem (subtitles in overlay still advance when holding spacebar): https://pybrew.codebasehq.com/mirosubs/tickets/23-
-# New HTML
 # Add an item to the dropdown menu "Download .SRT (ES)" that appears when a subtitle track is active
 # -"embed code" displayed on final "thanks for submitting" page of widget is not an embed code, it's just a link.  This field should include embed code, as shown on site (something that can be pasted into html to load video).-
+# Add some way in embed code to display subtitles in a given language by default.  (something like "autoplay=es" for spanish?? )
 # -Open ID login works https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89-
 # let users Create account (in widget in dropdown menu, and in login button) http://bugzilla.pculture.org/show_bug.cgi?id=13079
 and then move it back to universalsubtitles.org/  ... right now at universalsubtitles.org/front/ (l: universal pw: subtitles) all links are broken.
 # Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
-# Add some way in embed code to display subtitles in a given language by default.  (something like "autoplay=es" for spanish?? )  
-# Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
+# New HTML
+  # Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
 # Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.) 
 
 h2. Critical things on the website
