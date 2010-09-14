@@ -24,11 +24,11 @@ and then move it back to universalsubtitles.org/  ... right now at universalsubt
 # "Recent activity" list of recently touched video on front page working or removed
 # On website: We need a place where we can test the site before making it public.   universalsubtitles.org/front/  (but with all links working) 
 # On site: All Videos" tab remove from nav or make it work / useful
-* make lists sortable (with up/down arrows)
-* fix "translation count" and display of translation numbers
-* some URL's are blank (are they Youtube videos identified by video iD? they should show youube URL).  
-* Remove transcription column since we're only allowing one,
-* Change "subtitles fetched" to "subtitles viewed" and have a number based on the number of times somebody views a title.
+#* make lists sortable (with up/down arrows)
+#* fix "translation count" and display of translation numbers
+#* some URL's are blank (are they Youtube videos identified by video iD? they should show youube URL).  
+#* Remove transcription column since we're only allowing one,
+#* Change "subtitles fetched" to "subtitles viewed" and have a number based on the number of times somebody views a title.
 # Add feedback form and a mailto link ("or <a>email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org
 
 == End critical stuff ==
