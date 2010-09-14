@@ -70,12 +70,12 @@ h2. Morgan's list.
 
 h3. Fixes based on adam's work (more will probably appear here) ... See the email I sent for screenshots on some of these.
 
-1. I need help with html/css for tab under video. Morgan, let's talk about this.
+1. Need green box "To begin, press TAB to play and start typing!" in the Transcribe view (see mockups)
 2. Without timeline, dialog is too short in sync & review modes.Elements on right overlap.
 3. When clicking "Done" in Review state, we contact the server. Need
 to show loading thing here.  HW: Let's use the first spinner (from the first widget, or something similar) right on the metal button in the space to the left of "Done"
 4. In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.
-6. Finished state probably needs some design help.
+6. Finished state needs some design help, but just take a quick pass unless you've received a new mockup from holmes.
 7. Haven't tried youtube videos yet. Will try that tomorrow. Biggest
 problem might be that they are too wide for the dialog structure.  Morgan--can you make a design that uses / sizes a youtube video?
 8. grey dotted outline when you click in the widget dialog, this isn't a firefox extension, is it?  (see screenshot below)
