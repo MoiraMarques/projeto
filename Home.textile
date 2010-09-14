@@ -9,6 +9,7 @@ h2. Current ticket priority ordering
 # -Set up server at universalsubtitles.com-
 # -increase CTRL skip back interval from 4 to 8 seconds (so minor I didn't bother creating a ticket)-
 
+
 h2. Critical Stuff for next round of development
 
 # -Make sure youtube video is not covering subtitles on mac osx/ff-
@@ -21,7 +22,7 @@ h2. Critical Stuff for next round of development
 "Login / Create Account".  (this page: http://mirosubsdev.8planes.com/widget/login/?next=/widget/close_window/) 
 and then move it back to universalsubtitles.org/  ... right now at universalsubtitles.org/front/ (l: universal pw: subtitles) all links are broken.
 # Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
-# New HTML
+# New HTML (note: HTML mockups show lots of leading zeros, which I think we don't want / don't have... if we have them, get rid of them :)
   # Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
 # Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.) 
 
