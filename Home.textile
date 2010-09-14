@@ -22,6 +22,7 @@ h3. Iterative projects
 # Send email to Michael Dale about widget API and him using it (ask Nick first where this is at)
 # Incentives, points (for users), leaderboard, gaming
 
+
 h4. Future stuff
 
 # Mechanical turk
@@ -43,6 +44,7 @@ h3. Medium priority, nice to have, maybe we don't care:
 h2. Morgan's Design / XHTML /CSS list.
 
 # Make video player (see email from Holmes)
+# Make HTML for timestamp buttons that are left/right (not up/down) as you mentioned before.
 
 Website todos:
 # Login page styling: http://mirosubsstaging.8planes.com/auth/login/
