@@ -17,6 +17,7 @@ These are the two big important ones:
 
 Important but slightly lower priority:
 
+# Make a transparent PNG so that the truncated edge of subtitles (always much longer than their box) fade nicely out and they reach the edge.   
 # Timestamps in subtitle stack appear on the right margin with "left right" buttons to their left.   
 # Currently to the left of the zero marker in timeline there's a difference of a pixel or two between the marked area and the blank area.
 # Style a nice way for empty subs to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
