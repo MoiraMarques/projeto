@@ -15,6 +15,7 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # Can users go back in and edit "finished" subtitles that they "own"?  If not, make it so
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
 
+
 h3. Iterative projects
 
 # Make Atul's jetpack extension work
@@ -49,6 +50,9 @@ These first:
 # -Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.-
 # Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
 # -add the label "embed code" to the embed code on the finished / sharing screen-
+# Checkin pause button .mirosubs-playPause.pause span
+# Checkin volume control.
+
 
 
 Website todos:
