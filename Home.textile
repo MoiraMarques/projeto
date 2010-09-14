@@ -38,14 +38,11 @@ h2. Critical things on the website
 
 h2. End critical stuff
 
-
 # 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
 # Send email to Michael Dale about widget API
-# size videos (e.g. youtube videos) to match width of interface
-# Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
 # First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
-# Add start over button to sync phase: https://pybrew.codebasehq.com/mirosubs/tickets/99
 # Empty subs display "silence": https://pybrew.codebasehq.com/mirosubs/tickets/84
+# Make Google accounts work using openID.
 # Adding and deleting lines: http://bugzilla.pculture.org/show_bug.cgi?id=12975
 # Subtitle onscreen should change when user edits title https://pybrew.codebasehq.com/mirosubs/tickets/106
 # Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
@@ -54,6 +51,7 @@ h2. End critical stuff
 # Expand widget when you submit video on site: https://pybrew.codebasehq.com/mirosubs/tickets/95
 # Behavior for user logging out during subtitle authoring http://bugzilla.pculture.org/show_bug.cgi?id=12961
 # Disable "Log in to save" message during &null session 
+# Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
 
 
 == Waiting on Morgan ==
