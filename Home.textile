@@ -22,7 +22,6 @@ and then move it back to universalsubtitles.org/  ... right now at universalsubt
 
 === Critical things on the website === 
 # "Recent activity" list of recently touched video on front page working or removed
-# On website: We need a place where we can test the site before making it public.   universalsubtitles.org/front/  (but with all links working) 
 # On site: All Videos" tab remove from nav or make it work / useful
 #* make lists sortable (with up/down arrows)
 #* fix "translation count" and display of translation numbers
