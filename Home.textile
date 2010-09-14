@@ -55,18 +55,12 @@ h2. End critical stuff
 
 == Waiting on Morgan ==
 
-# We need to see next subtitle in list in sync / review: https://pybrew.codebasehq.com/mirosubs/tickets/96.  Morgan should style this and describe where/how the title should be kept centered.
-# Style the "translate" interface (completely unstyled right now)
-# https://pybrew.codebasehq.com/mirosubs/tickets/48
-# shortcut sidebar style: http://bugzilla.pculture.org/show_bug.cgi?id=12966
-# Move sidebar to the right, make sure it doesn't stay in place when the rest of the widget scrolls
-# better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
-# Fix Safari / Chrome CSS/XHTML errors (see email) ... test in IE7 / IE8 too.
-# Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
-# Right now it creates confusion that you can't see the video playback slider unless you mouse over the video.  Design a video playback slider for HTML5 videos that is constantly part of the interface and doesn't overlap with subtitles.
-# Remove the grey border around the blue instructions box (not the one on the side, the one "inside" the widget).
-# The subtitles are too dark and don't stand out well on videos with lots of text in the bottom half of the screen (say, a news show).  Make the subtitles brighter (yellow with grey outline?) possibly looking at what VLC does for subs.
-# An nice effect: the button would start colorless (even though it would look like a button) and start to glow green as you progress through the video.  When you hit the end of the video it would pulse green.  
+# dropdown: make the logo rotate slowly as a loading indicator.
+# dropdown: make the "choose language" tab with the divder and down arrow (see layer in PSD nick sent).
+# login window -> HTML
+# Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make buttons larger.
+# Make video player (see email from Holmes)
+# In "finished.html" (see email) Style the "Share" and "Translate" buttons, style the embed code, make a back button on "Return to Transcribe".
 
 == Non acted-upon suggestions from first round of user testing==
 
