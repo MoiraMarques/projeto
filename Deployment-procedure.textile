@@ -1,6 +1,6 @@
-* Deployment happens when there is finished work (that is, no functionality with missing design or vice versa)
-* Understand finished work so we can deploy it.
-* See the list of tickets being deployed.
+Milestones:
+
+* Holmes will manage milestone list, based on conversation with Dean and Nick.
 
 Finishing a ticket:
 
