@@ -1,40 +1,34 @@
 == Current ticket priority ordering ==
 
 # https://pybrew.codebasehq.com/mirosubs/tickets/120 -- intern is working on this right now.
-# Dropdown menu: https://pybrew.codebasehq.com/mirosubs/tickets/115
-# Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
+# Subs site jumps when switching tabs in widget: https://pybrew.codebasehq.com/mirosubs/tickets/77
+# Don't start playing until user says "play" https://pybrew.codebasehq.com/mirosubs/tickets/94
+# Focus should go to text-entry on TAB press: http://bugzilla.pculture.org/show_bug.cgi?id=12969
+# Change "Type Subtitle" to "Type subtitle and hit enter" and remove after the first time: http://bugzilla.pculture.org/show_bug.cgi?id=12974    
+# Focus / spacebar keys issue for youtube and html5: https://pybrew.codebasehq.com/mirosubs/tickets/66
+# Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
+# Hold spacebar functionality (the easy way): https://pybrew.codebasehq.com/mirosubs/tickets/23
+# Dropdown menu: https://pybrew.codebasehq.com/mirosubs/tickets/115 AND Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
 # OpenID: https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89
+# Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
+# Add start over button to sync: https://pybrew.codebasehq.com/mirosubs/tickets/99
 # Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
 # First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
-# Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
-# Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
-# Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
-
-== still un prioritized===
-
-
-# Browser can't play HTML5 video: https://pybrew.codebasehq.com/mirosubs/tickets/114
-# Hold spacebar functionality: https://pybrew.codebasehq.com/mirosubs/tickets/23
 # Empty subs display "silence": https://pybrew.codebasehq.com/mirosubs/tickets/84
-# Youtube focus / keys issue: https://pybrew.codebasehq.com/mirosubs/tickets/66
-# Subs site jumps when switching tabs in widget: https://pybrew.codebasehq.com/mirosubs/tickets/77
-# Small text change in subtitle field: https://pybrew.codebasehq.com/mirosubs/tickets/86
-# Show good error message when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/90
-# Don't start playing until user says "play" https://pybrew.codebasehq.com/mirosubs/tickets/94
-# Expand widget when you submit on site: https://pybrew.codebasehq.com/mirosubs/tickets/95
-# Need to see next subtitle in list in sync / review: https://pybrew.codebasehq.com/mirosubs/tickets/96
-# Add start over button: https://pybrew.codebasehq.com/mirosubs/tickets/99
+# Adding and deleting lines: http://bugzilla.pculture.org/show_bug.cgi?id=12975
 # Subtitle onscreen should change when user edits title https://pybrew.codebasehq.com/mirosubs/tickets/106
+# Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
+# When browser can't play HTML5 video: https://pybrew.codebasehq.com/mirosubs/tickets/114
+# Show good error message when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
+# Expand widget when you submit video on site: https://pybrew.codebasehq.com/mirosubs/tickets/95
 # Behavior for user logging out during subtitle authoring http://bugzilla.pculture.org/show_bug.cgi?id=12961
-# Disable "Log in to save" message during &null session
+# Disable "Log in to save" message during &null session 
 
-Waiting on Morgan:
+
+== Waiting on Morgan ==
+
+# We need to see next subtitle in list in sync / review: https://pybrew.codebasehq.com/mirosubs/tickets/96.  Morgan should style this and describe where/how the title should be kept centered.
 # https://pybrew.codebasehq.com/mirosubs/tickets/48
-
-Focus should go to text-entry on TAB press: http://bugzilla.pculture.org/show_bug.cgi?id=12969
-Remove "Type subtitle" after the first time: http://bugzilla.pculture.org/show_bug.cgi?id=12974    
-Deleting a blank line during transcribe step: http://bugzilla.pculture.org/show_bug.cgi?id=12975
-for morgan:
-shortcut sidebar style: http://bugzilla.pculture.org/show_bug.cgi?id=12966
-better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
-Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
+# shortcut sidebar style: http://bugzilla.pculture.org/show_bug.cgi?id=12966
+# better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
+# Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
