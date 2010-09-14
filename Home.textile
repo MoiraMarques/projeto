@@ -11,6 +11,7 @@ h3. Future Django projects
 h2. Morgan's design list (top ones first!):
 
 Note, if the item refers to a screenshot, search email for some string from the item...  The email will include a screenshot.   or IM with holmes to resend screenshot.
+# We need a loading state for the login dialog. After the site/twitter/openid popup disappears, it tries to contact the server. This leaves the user thinking "wtf?" while the login dialog just hangs there, apparently doing nothing.
 # HTML of revision history page (see email subject "Revision history page")
 # Make ">" into small play buttons (that say "PLAY" and appear on hover over that item) in the "view" and "diff" revision history pages.
 # fix text padding on subtitles in timeline.
