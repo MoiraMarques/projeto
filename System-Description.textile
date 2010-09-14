@@ -1,5 +1,3 @@
-h1. Important notes on code/system
-
 h2. General System Info
 
 Due to historical reasons, we use the words "subtitles" and "captions" interchangeably.
