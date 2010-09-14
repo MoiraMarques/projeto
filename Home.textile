@@ -1,4 +1,4 @@
-== Current ticket priority ordering ==
+h2. Current ticket priority ordering
 
 # https://pybrew.codebasehq.com/mirosubs/tickets/120 -- intern is working on this right now.
 # Subs site jumps when switching tabs in widget: https://pybrew.codebasehq.com/mirosubs/tickets/77
