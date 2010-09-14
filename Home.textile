@@ -57,7 +57,7 @@ h2. Morgan's Design / XHTML /CSS list.
 # -Make HTML based on mockups for FINISHED screen (see email "tweaked post subtitles page")-
 # Make HTML based on "how-to video" mockup that Holmes sent.
 # Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.
-# Test the widget in IE 7 / IE 8 and fix any CSS issues.  
+# Waiting on Adam: Test the widget in IE 7 / IE 8 and fix any CSS issues.  
 # When clicking "Done" in Review state, we contact the server. Need
 to show loading thing here.  HW: Let's use the first spinner (from the first widget, or something similar) right on the metal button in the space to the left of "Done"
 # Make video player (see email from Holmes)
