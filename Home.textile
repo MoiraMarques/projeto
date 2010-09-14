@@ -9,7 +9,7 @@ h2. Current ticket priority ordering
 # -Set up server at universalsubtitles.com-
 # -increase CTRL skip back interval from 4 to 8 seconds (so minor I didn't bother creating a ticket)-
 
-== Critical Stuff for next round of development ==
+h2. Critical Stuff for next round of development
 
 # Fix small problem (subtitles in overlay still advance when holding spacebar): https://pybrew.codebasehq.com/mirosubs/tickets/23
 # New HTML
@@ -20,7 +20,8 @@ and then move it back to universalsubtitles.org/  ... right now at universalsubt
 # Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
 # Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
 
-=== Critical things on the website === 
+h2. Critical things on the website
+
 # "Recent activity" list of recently touched video on front page working or removed
 # On site: All Videos" tab remove from nav or make it work / useful
 #* make lists sortable (with up/down arrows)
@@ -30,7 +31,7 @@ and then move it back to universalsubtitles.org/  ... right now at universalsubt
 #* Change "subtitles fetched" to "subtitles viewed" and have a number based on the number of times somebody views a title.
 # Add feedback form and a mailto link ("or <a>email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org
 
-== End critical stuff ==
+h2. End critical stuff
 
 
 # 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
@@ -74,4 +75,3 @@ and then move it back to universalsubtitles.org/  ... right now at universalsubt
 * Make backspace (when not editing) work like "undo" for transcribe and sync, and show in key controls list.
 * The "Start Over" link should be available on every tab.   In review, it should ask the user "do you want to delete all syncing information and start over?  Yes, delete all  /  No, just rewind to beginning" with No as default.  On the transcribe page it should say "do you really want to delete everything and start over? Yes, delete everything. /  No, don't delete" with no as default
 * For morgan: restore start over button visibility.  Somebody thought it was too faint.
-* 
