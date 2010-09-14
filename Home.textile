@@ -41,42 +41,33 @@ h2. Critical things on the website
 # Add feedback form and a mailto link ("or <a mailto="">email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org.  We will be making a few static pages with this feedback form, so maybe just make us a static page we can copy.  
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html
 
-h2. End critical stuff
+h2. Morgan's Design / XHTML /CSS list.
 
-
-
-h2. Morgan's list.
-
-* Morgan, can you cross these off when done?  These ones are done, right:
-
-# dropdown: make the logo rotate slowly as a loading indicator.
-# dropdown: make the "choose language" tab with the divder and down arrow (see layer in PSD nick sent).
-# login window -> HTML
-# Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.
 # Make video player (see email from Holmes)
-# In "finished.html" (see email) Style the "Share" and "Translate" buttons, style the embed code, make a back button on "Return to Transcribe", generally, let's make this page look good.
-
-h3. Fixes based on adam's work (more will probably appear here) ... See the email I sent for screenshots on some of these.
-
-1. Need green box "To begin, press TAB to play and start typing!" in the Transcribe view (see mockups)
-2. Without timeline, dialog is too short in sync & review modes.Elements on right overlap.
-3. When clicking "Done" in Review state, we contact the server. Need
+# login window -> HTML
+# Need green box "To begin, press TAB to play and start typing!" in the Transcribe view (see mockups)
+# Without timeline, dialog is too short in sync & review modes.Elements on right overlap.  
+# Morgan--can you make a design that uses / sizes youtube videos and HTML5 of different aspect ratios to not look f'ed?  If you do it by making the bottom left quadrant variable height, make sure the "press TAB to play" button looks good".
+# Related: when video is a different height / aspect ratio than the area we've provided, make sure it looks nice.
+# Make HTML based on mockups for EDIT / SHARE / FINISHED (coming soon from holmes)
+# Make HTML based on "how-to video" mockup that Holmes sent.
+# Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.
+# Another Safari issue: I think the subtitles may be appearing too high in the video compared to the Firefox ones.  Not sure.
+# Test the widget in IE 7 / IE 8 and fix any CSS issues.  
+# When clicking "Done" in Review state, we contact the server. Need
 to show loading thing here.  HW: Let's use the first spinner (from the first widget, or something similar) right on the metal button in the space to the left of "Done"
-4. In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.
-6. Finished state needs some design help, but just take a quick pass unless you've received a new mockup from holmes.
-7. Haven't tried youtube videos yet. Will try that tomorrow. Biggest
-problem might be that they are too wide for the dialog structure.  Morgan--can you make a design that uses / sizes a youtube video?
-8. grey dotted outline when you click in the widget dialog, this isn't a firefox extension, is it?  (see screenshot below)
-9. White outline of widget is transparent.  It shouldn't be.
-10. The subtitle text must be centered in the div and not in the video, so it sometimes gets too close to the left margin.
-11. There's a band of white down the right side of the box, not covered by the subtitling image.  
-12. Nick made a few tweaks to the dropdown CSS here (see email).  He changed the font, the positioning (left instead of right) and the menu color.  Can you incorporate these?
-13. We're thinking the green color on the button and the logo looks way too pukey.   Can you make it brighter?
-14. The rotating logo isn't visible enough as a loading indicator.  Can you replace it with a spinner that sits on the metal tab and temporarily replaces the green logo?
-15. Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.
-16. Another Safari issue: I think the subtitles may be appearing too high in the video compared to the Firefox ones.  Not sure.
-17. "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
-18. When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
+# We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
+# Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.
+# dropdown: make the "choose language" tab with the divider and down arrow (see layer in PSD nick sent).
+# In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.
+# White outline of widget is transparent.  It shouldn't be.
+# "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
+# grey dotted outline when you click in the widget dialog, this isn't a firefox extension, is it?  (see screenshot below)
+# The subtitle text must be centered in the div and not in the video, so it sometimes gets too close to the left margin.
+# There's a band of white down the right side of the box, not covered by the subtitling image.  
+# Nick made a few tweaks to the dropdown CSS here (see email).  He changed the font, the positioning (left instead of right) and the menu color.  Can you incorporate these?
+# The rotating logo isn't visible enough as a loading indicator.  One possible solution: replace it with a spinner that sits on the metal tab and temporarily replaces the green logo
+# When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
 
 h2. Non acted-upon suggestions from first round of user testing
 
