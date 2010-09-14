@@ -22,7 +22,7 @@ Release:
    * holmes (and maybe janet) processes feedback (from email and user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
 * developers submit fix to same milestone, notify janet or holmes and retest (with possible additional email to humans)
 * Janet gives go-ahead to deploy based on test coverage.
-* Developer deploys
+* Developer deploys (or developers can give janet a command to deploy)
 
 Testing process:
 * Automated regression testing using selenium.  These tests should be located on a pcf server and run nightly  results posted and accessible by all via web.
