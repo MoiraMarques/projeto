@@ -1,6 +1,6 @@
-**Interested in contributing to Universal Subtitles?  "Universal Subtitles Development":http://wiki.github.com/8planes/mirosubs/for-developers-getting-involved-with-universal-subtitles**
+h2. Interested in contributing to Universal Subtitles?  
 
-
+"Universal Subtitles Development":http://wiki.github.com/8planes/mirosubs/dev-center**
 
 "Testing and staging servers":http://wiki.github.com/8planes/mirosubs/testing-and-staging-servers
 
