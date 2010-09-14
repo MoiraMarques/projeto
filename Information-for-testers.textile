@@ -1,0 +1,14 @@
+<i>We'll flesh out the instructions for testers soon.  For now, I'm just pasting in an email that Janet sent this morning to our <a href="http://groups.google.com/group/universal-subtitles-testing/">testing list</a> (which everyone interested in testing should join)</i>
+
+Today we updated the Universal Subtitles staging website to prepare for the 0.8 Milestone Release.  We are hoping to get as much testing done as we can in the next day or two so that we can push to the live site.
+
+I've posted a set of draft release notes to the testing wiki: <a href="http://wiki.github.com/PCF-qa/universal-subtitles/08-release-details">http://wiki.github.com/PCF-qa/universal-subtitles/08-release-details</a> where you can see more information about what has changed in this release.
+
+For testing this release, here is what we are hoping you will do:
+
+1. Go to <a href="http://litmus.pculture.org/run_tests.cgi?test_run_id=40">http://litmus.pculture.org/run_tests.cgi?test_run_id=40</a> and sign in or create an account if you don't already have one.
+2. Specify your Browser / OS configuration and start running tests from the groups that are listed.
+3. For each test that you run, please mark it pass / fail / unclear. Don't worry if you can't run all the tests.
+4. If you encounter an error, please note it in the comments sections of litmus.  If you are comfortable using bugzilla, then please post a bug using this link: <a href="http://bugzilla.pculture.org/enter_bug.cgi?product=Miro%20Subtitles&version=0.8%20staging">http://bugzilla.pculture.org/enter_bug.cgi?product=Miro%20Subtitles&version=0.8%20staging</a>
+
+If your time is limited, we'd be happy if you could just browse through the staging website: <a href="http://staging.universalsubtitles.org">http://staging.universalsubtitles.org</a> and use the Try the Demo button, as well as open this url: http://staging.universalsubtitles.org/videos and browse the video information, edit and versioning functionality. On the website there is a feedback form you can use to provide comments.
