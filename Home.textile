@@ -12,6 +12,7 @@ h2. Current ticket priority ordering
 == Critical Stuff for next round of development ==
 
 # Fix small problem (subtitles in overlay still advance when holding spacebar): https://pybrew.codebasehq.com/mirosubs/tickets/23
+# New HTML
 # "embed code" displayed on final "thanks for submitting" page of widget is not an embed code, it's just a link.  This field should include embed code, as shown on site (something that can be pasted into html to load video).
 # On site: "recent activity" working or removed
 # Open ID login works https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89
