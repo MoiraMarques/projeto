@@ -45,29 +45,28 @@ h2. Morgan's Design / XHTML /CSS list.
 # Make video player (see email from Holmes)
 
 Website todos:
-
+# Login page styling: http://mirosubsstaging.8planes.com/auth/login/
+* Login and create account are side by side with nice big buttons.  
+* Nice big buttons for Twitter and openID.  
+* OpenID login screen also needs to be styled.  You can use the tabbed login screen if you want (different tabs for twitter, * openID, normal, etc) if you want, but the twitter one will just have a button in the middle.
 # Video page should show sharing links, Just like the light blue box in the "Finished" page in the widget, to the right next to video.  This can replace the other embed code.
 # Videos in pages should be sized to match the height of this sharing box, more or less.
 # Feedback form at bottom of page should be styled.  Like:  We need your feedback!
 This site is a work in progress.  Please let us know if you have any issues, questions, or suggestions!.
 The send feedback button should be big.  There should be some divider that separates this from the rest of the page.  
-# Video page shd show stats on video.   This should be to the right
-* Views
-* Subtitles fetched
-* Translations
-* Transcribed?  Yes / No
-# All videos page heading.  "All submitted videos"
-# Recent changes needs some basic styling.  Just needs to be a bit prettier I think.  Maybe some colors and bolding of the username or video instead of the underline.  Twitter is probably an okay model.  If you don't have ideas for this, skip it.
-# Login page styling: http://mirosubsstaging.8planes.com/auth/login/
-* Login and create account are side by side with nice big buttons.  
-* Nice big buttons for Twitter and openID.  
-* OpenID login screen also needs to be styled.  You can use the tabbed login screen if you want (different tabs for twitter, * openID, normal, etc) if you want, but the twitter one will just have a button in the middle.
+# Recent changes (on front page here: http://mirosubsstaging.8planes.com/) needs some basic styling.  Just needs to be a bit prettier I think.  Maybe some colors and bolding of the username or video instead of the underline.  Twitter is probably an okay model.  If you don't have ideas for this, skip it.
 # Make a page for "email a friend".  
 To: (email address)
 From: (email address)
 Note: 
 Hey, I thought you should check out this video on universalsubtitles.org.  You can add subtitles, watch the video with subtitles that others have made, or translate the subtitles into a new language.
-# Make a demo page for testers where we detect browser.  Holmes will send a mockup
+# Video page shd show stats on video.   This should be to the right
+* Views
+* Subtitles fetched
+* Translations
+* Transcribed?  Yes / No
+# All videos page heading.  "All submitted videos".  
+# Make a demo page for testers  Holmes will send a mockup
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
 # Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
 
