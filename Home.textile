@@ -8,7 +8,7 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # -When the widget displays a video in a page (user has not clicked subtitle me to open dialog) don't change the size of the video.-
 # -When browser can't play HTML5 video show an error message "Sorry, your browser can't play HTML5/Ogg video.  <a>Try Firefox</a>"  in video playback area.-
 # -2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
-# Allow multiple widgets to run on same page: http://subtesting.com/universal-subtitles-demo/ (this should be lower priority if it's going to take more than an hour or two) **I have a plan for changing embed style to resemble Twitter's. Will take about 2 hours of intense labor **
+# Allow multiple widgets to run on same page: http://subtesting.com/universal-subtitles-demo/ (this should be lower priority if it's going to take more than an hour or two) **[Adam] I have a plan for changing embed style to resemble Twitter's. Will take about 2 hours of intense labor**
 # Disable sharing and embed
 # First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
 # Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
