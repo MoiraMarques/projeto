@@ -34,3 +34,5 @@ h2. Current ticket priority ordering
 # better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
 # Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
 # Remove the grey border around the blue instructions box (not the one on the side, the one "inside" the widget).
+# The subtitles are too dark and don't stand out well on videos with lots of text in the bottom half of the screen (say, a news show).  Make the subtitles brighter (yellow with grey outline?) possibly looking at what VLC does for subs.
+# An nice effect: the button would start colorless (even though it would look like a button) and start to glow green as you progress through the video.  When you hit the end of the video it would pulse green.  
