@@ -5,7 +5,7 @@ h2. Current ticket priority ordering
 # -Focus should go to text-entry on TAB press: http://bugzilla.pculture.org/show_bug.cgi?id=12969-
 # -Change "Type Subtitle" to "Type subtitle and hit enter" and remove after the first time: http://bugzilla.pculture.org/show_bug.cgi?id=12974-
 # -Focus / spacebar keys issue for youtube and html5: http://bugzilla.pculture.org/show_bug.cgi?id=12990-
-# Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
+# -Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
 # -Hold spacebar functionality (the easy way): https://pybrew.codebasehq.com/mirosubs/tickets/23-
 # Dropdown menu: https://pybrew.codebasehq.com/mirosubs/tickets/115 AND Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
 # OpenID: https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89
