@@ -47,6 +47,8 @@ These first:
 # Make video player (see email from Holmes)
 # FOLLOW UP WITH ADAM ABOUT THIS: Got the real widget up and running on IE at mswidgetdev, e.g. http://mswidgetdev.8planes.com/widget-demo.rb?youtube_videoid=tfd5p1JqUsw&null .  *There appear to be some minor styling issues* around the input box for typing in new subs. Morgan, do you have any insight into this? It appears that IE interprets the selector ".mirosubs-transcribeControls input.trans" differently here for some weird reason. Please check it out using IE Developer Tools and let me know what you think. 
 # Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.
+# Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
+# add the label "embed code" to finished / sharing screen
 
 Website todos:
 # -Login page styling: http://mirosubsstaging.8planes.com/auth/login/-
@@ -66,11 +68,8 @@ Hey, I thought you should check out this video on universalsubtitles.org.  You c
 # -All videos page heading.  "All submitted videos".-  
 # Work out subtitle position on video with adam.  See note:In the new html, you're forcing the mirosubs-captionDiv to have a top of 220px in the css. Any reason for this? I'm also setting the value in js code, but . Anyway, for now I've added the top style to mirosubs-captionDivBg, which has to end up behind the caption div for them to be visible on flash videos in FF/Linux and possibly FF/Windows and IE.
 # Work out dynamic changes to subtitle size based on video size with Adam.  
-# Make a demo page for testers  Holmes will send a mockup
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
 # Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
-# Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
-# add the label "embed code" to finished / sharing screen
 
 Other design wishlist (low priority):
 
