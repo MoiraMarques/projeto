@@ -23,7 +23,7 @@ h2. Critical Stuff for next round of development
 # -Fix .SRT export so that it works in VLC (see email).  Also, exported file should have the same name as the ogg file (e.g. if it's switch.ogg it should be switch.srt)-
 # New HTML (note: HTML mockups show lots of leading zeros, which I think we don't want / don't have... if we have them, get rid of them :)
 # -Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78-
-# Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.) 
+# -Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.)-
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
 
 
