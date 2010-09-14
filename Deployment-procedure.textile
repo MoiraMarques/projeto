@@ -16,8 +16,8 @@ Finishing a ticket:
 
 Release:
 
-* Completion of the last ticket in the milestone starts the Release Process
-* Dev pushes last commit to staging server
+* Completion of the last ticket in the milestone starts the Release Process.
+* Dev pushes last commit to staging server, and sends email to SubtitleDev mailing list
 * Start human testing process (email to holmes, janet, testers with change list, blog post)
    * holmes (and maybe janet) processes feedback (from email and user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
 * developers submit fix to same milestone, notify janet or holmes and retest (with possible additional email to humans)
@@ -38,7 +38,7 @@ Testing process:
     1. We have automated testing using selenium.  These tests should be located on a pcf server and run nightly  results posted and accessible by all via web.
    2. Tests are updated after bug fixed in bugzilla.  Can use the needs testing flag (or make custom flag) to indicate that a particular test requires a new test generated or a test to be updated.  Each automated test should have a manual test case in Litmus. Results can be entered in litmus for automated test runs too.
   3. Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  We get regular interns from Hitek who can be relied upon to run tests when required.
-  4. I think the testing workflow document is the test results that you can view in litmus that would show the breakdown of #testers, tests run, browser / os, and pass/fail results.
+  4. Test results are available in Litmus to show the breakdown of #testers, tests run, browser / os, and pass/fail results.
 
 After deploy: 
 * Deploy at the beginning of the day for developer availability if there are problems.
