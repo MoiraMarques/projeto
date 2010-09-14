@@ -31,6 +31,7 @@ http://maps.gstatic.com/intl/en_us/mapfiles/closedhand_8_8.cur . The
 google closure library already works with these.
 2. To jive with the closure library, you'll have to specify a hotspot
 of 7,5 in your cursor editing software.
+** Morgan, adam suggested a tool in his email, but it looks like you can do with photoshop: http://www.google.com/search?q=cur+files+in+photoshop&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a
 
 
 
