@@ -53,14 +53,36 @@ h2. End critical stuff
 # Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
 
 
-h2. Waiting on Morgan
+h2. Morgan's list.
+
+* Morgan, can you cross these off when done?  These ones are done, right:
 
 # dropdown: make the logo rotate slowly as a loading indicator.
 # dropdown: make the "choose language" tab with the divder and down arrow (see layer in PSD nick sent).
 # login window -> HTML
 # Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.
 # Make video player (see email from Holmes)
-# In "finished.html" (see email) Style the "Share" and "Translate" buttons, style the embed code, make a back button on "Return to Transcribe".
+# In "finished.html" (see email) Style the "Share" and "Translate" buttons, style the embed code, make a back button on "Return to Transcribe", generally, let's make this page look good.
+
+h3. Fixes based on adam's work (more will probably appear here) ... See the email I sent for screenshots on some of these.
+
+1. I need help with html/css for tab under video. Morgan, let's talk about this.
+2. Without timeline, dialog is too short in sync & review modes.Elements on right overlap.
+3. When clicking "Done" in Review state, we contact the server. Need
+to show loading thing here.  *** Let's use the first spinner (from the first widget, or something similar) right on the metal button in the space to the left of "Done"
+4. In Sync or Review, try double-clicking on sub. The elements overlap
+a bit, so we need some design help here.
+5. Legend keys not exhibiting mouseover behavior on FF3.5/Linux. I
+spent a few minutes investigating this and it looks like there is no
+obvious reason. Might be that :hover and :active pseudoclasses are
+hokey. **** This isn't a big deal.
+6. Finished state probably needs some design help.
+7. Haven't tried youtube videos yet. Will try that tomorrow. Biggest
+problem might be that they are too wide for the dialog structure.  *** Morgan, can you make a design that uses / sizes a youtube video?
+8. grey dotted outline when you click in the widget dialog, this isn't a firefox extension, is it?  (see screenshot below)
+9. White outline of widget is transparent.  It shouldn't be.
+10. The subtitle text must be centered in the div and not in the video, so it sometimes gets too close to the left margin.
+11. There's a band of white down the right side of the box, not covered by the subtitling image.  
 
 h2. Non acted-upon suggestions from first round of user testing
 
