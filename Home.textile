@@ -7,6 +7,8 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # -Expand widget when you submit video on universalsubtitles site: https://pybrew.codebasehq.com/mirosubs/tickets/95 (might be done already?)-
 # -When the widget displays a video in a page (user has not clicked subtitle me to open dialog) don't change the size of the video.-
 # When browser can't play HTML5 video show an error message "Sorry, your browser can't play HTML5/Ogg video.  <a>Try Firefox</a>"  in video playback area.  
+# 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
+# First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
 # Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
 # QUESTION: Can users go back in and edit "finished" subtitles that they "own"?  If not, that ticket should be in this list.
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
@@ -14,8 +16,8 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 
 
 h3. Iterative projects
-# 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
-# First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
+
+
 # Make Atul's jetpack extension work
 # Revisioning aka Wikimode
 # Send email to Michael Dale about widget API and him using it (ask Nick first where this is at)
