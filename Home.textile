@@ -5,13 +5,15 @@ h2. Morgan's design list (top ones first!):
 # Video in site displays misaligned (to the right 20px or so) because of clash between site CSS and widget CSS, adam says easy to fix.   test both Youtube and ogg.  Example: http://mirosubsdev.8planes.com/videos/tnQ4xO0Ghy9O/ 
 
 Mini project: try to get widget down to 551 pixels (or as close as possible).  Mock this up and send to npr, dean, holmes for feedback before implementing.
-* Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down or somewhere else.
+* Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down so that it doesn't take up vertical space... or move it somewhere else.
+* look at "new button design" item... it may be helpful.
 * Reduce height of subtitle list in sync mode to shorten the page.  As long as 4 long subtitles fit that's okay.
 * Get rid of white border in favor of something simpler.
 * While you're at it, get rid of the water mark for now.  
 * Squeeze it vertically as much as you can without making it look bad or compromising function.  Maybe just shorten the height of everything 10% in addition to these other changes.  
 
 New button design -- ping holmes for mockups via IM:
+* see email "new button mockups"
 * Insert next subtitle now / start over / etc from new mockups
 * Skip back
 * in "beginner/default" play mode: Replay / Play next 8 seconds with replay grey out until option selected.  
@@ -29,8 +31,9 @@ of 7,5 in your cursor editing software.
 ** Morgan, adam suggested a tool in his email, but it looks like you can do with photoshop: http://www.google.com/search?q=cur+files+in+photoshop&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a
 
 Lower priority:
-# Make a transparent PNG so that the truncated edge of timeline subtitles (always much longer than their box) fade nicely out and they reach the edge.
 # Style a nice way for empty in the vertical subtitle list to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
+# Make a transparent PNG so that the truncated edge of timeline subtitles (always much longer than their box) fade nicely out and they reach the edge.
+
 
 Other design wishlist (low priority):
 
