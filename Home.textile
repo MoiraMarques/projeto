@@ -1,6 +1,6 @@
 == Current ticket priority ordering ==
 
-# https://pybrew.codebasehq.com/mirosubs/tickets/120
+# https://pybrew.codebasehq.com/mirosubs/tickets/120 -- intern is working on this right now.
 # Morgan's HTML changes that place instructions on the side
 # https://pybrew.codebasehq.com/mirosubs/tickets/115
 # https://pybrew.codebasehq.com/mirosubs/tickets/4
