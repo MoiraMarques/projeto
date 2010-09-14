@@ -36,7 +36,7 @@ h2. Critical things on the website
 #* some URL's are blank (are they Youtube videos identified by video iD? they should show youube URL).  
 #* Remove transcription column since we're only allowing one,
 #* Change "subtitles fetched" to "subtitles viewed" and have a number based on the number of times somebody views a title.
-# Add feedback form and a mailto link ("or <a>email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org
+# Add feedback form and a mailto link ("or <a mailto="">email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org.  We will be making a few static pages with this feedback form, so maybe just make us a static page we can copy.  
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html
 
 h2. End critical stuff
