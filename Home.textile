@@ -19,7 +19,7 @@ Note, if the item refers to a screenshot, search email for some string from the 
 # subtitles should display in bottom part of video (position moved up again)
 # Get rid of "shadow" on subtitles in video.  
 # make active subtitle light blue (same as in list)
-# See email "Youtube sizing issue" this one?? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
+# See email "Youtube sizing issue".  Was this done already and just not deployed? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
 
 h3. Mini project: try to get widget down to 551 pixels.  
 
