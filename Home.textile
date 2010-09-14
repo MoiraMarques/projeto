@@ -27,6 +27,7 @@ h2. Critical Stuff for next round of development
 # Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.  
 # Restart is not working in the review stage.  Restart should stop the video and set playhead to 0.
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
+# Try ctrl/tab with nightly build from Mozilla.
 
 h2. Critical things on the website
 
