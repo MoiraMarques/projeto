@@ -6,13 +6,13 @@ Due to historical reasons, we use the words "subtitles" and "captions" interchan
 
 The general idea is that someone logs in and starts subtitling a video. During a particular subtitling session, a @video.models.VideoCaptionVersion@ is created. If the subtitles are edited in a new subtitling session, a new @video.models.VideoCaptionVersion@ is created. The new VideoCaptionVersion contains the subtitles from the pervious VideoCaptionVersion along with any new edits.
 
-A @video.models.VideoCaptionVersion@ has is_complete of True whenever someone gets to the end of the subtitling process. Each subsequent VideoCaptionVersion at this point will have is_complete = True.
+A @video.models.VideoCaptionVersion@ has @is_complete@ of @True@ whenever someone gets to the end of the subtitling process. Each subsequent VideoCaptionVersion at this point will have @is_complete@ = @True@.
 
-Each @video.models.VideoCaption@ in a @video.models.VideoCaptionVersion@ has a unique caption_id. This will identify that particular VideoCaption across versions.
+Each @video.models.VideoCaption@ in a @video.models.VideoCaptionVersion@ has a unique @caption_id@. This will identify that particular VideoCaption across versions.
 
 Once there is a @video.models.VideoCaptionVersion@ with is_complete = true, people are allowed to translate the subtitles. Translations are versioned also, with each translation adding a TranslationVersion.
 
-Each Translation is linked to its subtitle by caption_id.
+Each Translation is linked to its subtitle by @caption_id@.
 
 h2. What are null captions and null translations?
 
