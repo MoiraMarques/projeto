@@ -52,6 +52,7 @@ These first:
 # -add the label "embed code" to the embed code on the finished / sharing screen-
 # Checkin pause button .mirosubs-playPause.pause span
 # Checkin volume control.
+# Style progress time (right now in adam's demo it's high and a bit off center.)
 
 
 
