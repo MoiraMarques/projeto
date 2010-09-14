@@ -6,7 +6,7 @@ h2. Current ticket priority ordering
 # -Change "Type Subtitle" to "Type subtitle and hit enter" and remove after the first time: http://bugzilla.pculture.org/show_bug.cgi?id=12974-
 # -Focus / spacebar keys issue for youtube and html5: http://bugzilla.pculture.org/show_bug.cgi?id=12990-
 # -Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
-# -Hold spacebar functionality (the easy way): https://pybrew.codebasehq.com/mirosubs/tickets/23-
+# -Hold spacebar functionality (the easy way): https://pybrew.codebasehq.com/mirosubs/tickets/23-  one small problem (subtitles in overlay still advance when holding spacebar) see ticket.
 # Send email to Michael Dale about widget API
 # increase CTRL skip back interval from 4 to 8 seconds (so minor I didn't bother creating a ticket)
 # size videos (e.g. youtube videos) to match width of interface
