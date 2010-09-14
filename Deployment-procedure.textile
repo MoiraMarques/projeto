@@ -16,20 +16,16 @@ Finishing a ticket:
 
 Release:
 
-* Developer starts testing cycle (always same person, say, adam).  
-* creates new milestone in bugzilla so that any subsequent stuff will not get added to current milestone (since all developers are attaching finished work to most recent milestone).
-* pushes master to staging server
-* starts testing process (email to holmes, janet, testers with change list, and selenium)
-* holmes (and maybe janet) processes feedback (from email and eventually user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
-* developers submit fix to same milestone, notify janet or holmes and rerun selenium (or rerun whole testing process if they are worried)
+* Completion of the last ticket in the milestone starts the Release Process
+* Dev pushes last commit to staging server
+* Start human testing process (email to holmes, janet, testers with change list, blog post)
+   * holmes (and maybe janet) processes feedback (from email and user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
+* developers submit fix to same milestone, notify janet or holmes and retest (with possible additional email to humans)
 * holmes or janet gives goahead to deploy.
 * developer deploys
 
-  * Notes from Janet for Release:
-   1. from comment above, on second item, I think the milestone should already be created
-
 Testing process:
-* Automated testing using selenium.  Ideally, developers need to be able to activate and interpret, but discuss with Janet.  
+* Automated regression testing using selenium.  Ideally, developers need to be able to activate and interpret, but discuss with Janet.  
 * Automated testing needs to get updated with new features changes... at least, developers, morgan need to give janet notes on changing the test.  A bugzilla search for list of tickets solved since last deploy.
 * Possibly get an intern or elancer to do this
 * Automated testing runs again after changes made to testing process.  (Janet runs it this time)
@@ -39,9 +35,9 @@ Testing process:
 * we try to get an intern or a hardcore volunteer to maintain selenium tests?
 
    * Notes for Janet for Testing process
-    1. We have automated testing using selenium.  These tests should be located on a pcf server and run nightly w/ a cron job, results posted and accessible by all via web.
+    1. We have automated testing using selenium.  These tests should be located on a pcf server and run nightly  results posted and accessible by all via web.
    2. Tests are updated after bug fixed in bugzilla.  Can use the needs testing flag (or make custom flag) to indicate that a particular test requires a new test generated or a test to be updated.  Each automated test should have a manual test case in Litmus. Results can be entered in litmus for automated test runs too.
-  3. Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  Hardcore volunteers are pretty rare, but we get regular interns from Hitek who can be relied upon to run tests when required.
+  3. Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  We get regular interns from Hitek who can be relied upon to run tests when required.
   4. I think the testing workflow document is the test results that you can view in litmus that would show the breakdown of #testers, tests run, browser / os, and pass/fail results.
 
 After deploy: 
