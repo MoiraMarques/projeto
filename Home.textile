@@ -1,7 +1,7 @@
 h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 
 # -Add "Please login"/username to widget dialog.-
-# Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.  
+# -Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.-  
 # Restart is not working in the review stage.  In all stages, restart should stop the video and set playhead to 0.
 # Try ctrl/tab with nightly build from Mozilla.
 # Expand widget when you submit video on universalsubtitles site: https://pybrew.codebasehq.com/mirosubs/tickets/95 (might be done already?)
