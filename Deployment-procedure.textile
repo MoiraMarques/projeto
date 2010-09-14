@@ -4,11 +4,11 @@
 
 Finishing a ticket:
 
+* Developers prioritize tickets from the most recent milestone.
 * Developer or morgan finishes ticket (finished = it doesn't need any other work to be complete, they don't need to assign to anyone else to complete it)
 * Checks their changes into master when they finish it
-* Mark the Resolved Fix and note the commit in the ticket.
-* Target it to most recent milestone (if the one on the live site is 1.5, 1.6) <---- we need a list of all changes on testing site / when the release is pushed what's in it... for testing purposes).
-* Push changes to the dev site.
+* Mark the ticket Resolved Fixed and note the commit in the ticket.
+* Push changes to the Dev site.
 * Each Night at x hours, all changes on dev site pushed to the staging server
 * On staging server, selenium regressions tests are automatically run.
 * Tester manually tests fixed bugs and marks as verified.
