@@ -62,6 +62,7 @@ to show loading thing here.  HW: Let's use the first spinner (from the first wid
 # We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
 # Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.
 # dropdown: make the "choose language" tab with the divider and down arrow (see layer in PSD nick sent).
+# make a "+" button (this could just be a small white "+" or it could have a circle around it) somewhere near the center corner where the video, the instructions, and the list of subtitles meet.  This should change to "minus" when timeline view appears.  Send Adam and Holmes a note that it's there, and should hide / remove.
 # In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.
 # White outline of widget is transparent.  It shouldn't be.
 # "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
