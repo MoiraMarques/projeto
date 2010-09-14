@@ -17,7 +17,8 @@ h2. Critical Stuff for next round of development
 # -"embed code" displayed on final "thanks for submitting" page of widget is not an embed code, it's just a link.  This field should include embed code, as shown on site (something that can be pasted into html to load video).-
 # Add some way in embed code to display subtitles in a given language by default.  (something like "autoplay=es" for spanish?? )
 # -Open ID login works https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89-
-# let users Create account (in widget in dropdown menu, and in login button) http://bugzilla.pculture.org/show_bug.cgi?id=13079
+# let users Create account (in widget in dropdown menu, and in login button) http://bugzilla.pculture.org/show_bug.cgi?id=13079 / Create account page should be the same as login page on site, with a button that says create account.  Button in widget menu can say 
+"Login / Create Account".  (this page: http://mirosubsdev.8planes.com/widget/login/?next=/widget/close_window/) 
 and then move it back to universalsubtitles.org/  ... right now at universalsubtitles.org/front/ (l: universal pw: subtitles) all links are broken.
 # Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
 # New HTML
