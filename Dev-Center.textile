@@ -1,4 +1,4 @@
-Welcome to the Universal Subtitles project.
+Welcome to the Universal Subtitles project.  We have so much that we're trying to build and we'd love to have you join us!
 
 <h3>Source Code, Mailing List, Bug Tracker</h3>
 <ul>
