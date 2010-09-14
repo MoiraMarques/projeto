@@ -36,6 +36,10 @@ http://forum.developers.facebook.net/viewtopic.php?pid=194054
 
 It looks like one can't even embed the FB player. Maybe we can scrape flv urls for FB?
 
-h1. List of sites supported by vidscraper (other method preferred): 
+h1. vidscraper supported sites: 
 
-* <a href="http://git.participatoryculture.org/vidscraper/tree/vidscraper/sites">http://git.participatoryculture.org/vidscraper/tree/vidscraper/sites</a>
+* blip
+* fora
+* google video
+* ustream
+* vimeo (but URLs change)
