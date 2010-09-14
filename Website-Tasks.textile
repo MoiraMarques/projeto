@@ -19,3 +19,15 @@ bc.    def translation_count(self):
 # Add feedback form and a mailto link ("or <a mailto="">email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org.  We will be making a few static pages with this feedback form, so also make us a static page with the form on it that we can use as a template.  
 # Get most recent version of widget (http://mswidgetstaging.8planes.com/widget-demo.rb?video_url=http://videos.mozilla.org/firefox3/switch/switch.ogg&null) working on the "submit video" page (and front page) of the website (right now, there's an old version of the widget.
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html
+
+h2. Second round of tasks 
+
+# (mark done tasks above as finished using the "-" strikethrough notation)
+# Make a universalsubtitles.org/demo page where we display different content based on browser detection.  Comment the page so that it's obvious how to fill in different content for different browsers.  The different browsers (and fallback order) are:
+* HTML5 Ogg capable browsers (Chrome, Firefox post 3.5)
+* HTML5 h.264 capable browsers that can't play Ogg (Safari, iPhone, iPad)
+* Browsers with Flash (IE)
+# Make an "email a friend" page that lets users email a link to a video to friends.  From: (email address) To: (multiple emails separated by commas or line breaks) and a box pre-filled with a default message.  The default message can be passed to this page, so that we can easily create a button that fills in an arbitrary default message like "Please help me translate this video" or "Watch this awesome video with Spanish subtitles" etc.
+
+
+ 
