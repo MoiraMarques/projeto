@@ -25,9 +25,9 @@ h2. Morgan's design list (top ones first!):
 # -Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.-  
 # -Timestamps in subtitle stack appear on the right margin with "left right" buttons to their left.-   
 # -Currently to the left of the zero marker in timeline there's a difference of a pixel or two between the marked area and the blank area.-
-# Make HTML for this same "early testing stages" warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot (search email for the text of this todo)
+# -Make HTML for this same "early testing stages" warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot (search email for the text of this todo)-
 # Make HTML for demo video (include an image there) and widget demo as in front page mockup.  
-# Style "recent activity" with some kind of box around the whole thing (also on users' recent activity)  
+# -Style "recent activity" with some kind of box around the whole thing (also on users' recent activity)-  
 # Style a nice way for empty subs to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
 # create open-hand and closed-hand cursor files for dragging the timeline around. Some special instructions:
 1. Here are the cursor files used by google maps:
