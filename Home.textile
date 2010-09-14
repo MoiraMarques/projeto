@@ -60,16 +60,10 @@ Website todos:
 This site is a work in progress.  Please let us know if you have any issues, questions, or suggestions!.
 The send feedback button should be big.  There should be some divider that separates this from the rest of the page.-  
 # -Recent changes (on front page here: http://mirosubsstaging.8planes.com/) needs some basic styling.  Just needs to be a bit prettier I think.  Maybe some colors and bolding of the username or video instead of the underline.  Twitter is probably an okay model.  If you don't have ideas for this, skip it.-
-# -Make a page for "email a friend".  NOTE: one of these exists already, I'll ping adam and try to find out what/where (no link is visible on the site as far as I know).
-To: (email address)
-From: (email address)
-Note:- 
+# -Make a page for "email a friend".  NOTE: one of these exists already, I'll ping adam and try to find out what/where (no link is visible on the site as far as I know).To: (email address) From: (email address) Note:- 
 Hey, I thought you should check out this video on universalsubtitles.org.  You can add subtitles, watch the video with subtitles that others have made, or translate the subtitles into a new language. ****adam will need to add this value in 
 # Video page shd show stats on video.   This should be to the right
-* Views
-* Subtitles fetched
-* Translations
-* Transcribed?  Yes / No
+ Views, Subtitles fetched, Translations, Transcribed?  Yes / No ****adam will need to add this value in 
 # -All videos page heading.  "All submitted videos".-  
 # Make a demo page for testers  Holmes will send a mockup
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
