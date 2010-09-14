@@ -50,10 +50,10 @@ These first:
 # -Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.-
 # Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
 # -add the label "embed code" to the embed code on the finished / sharing screen-
-# Checkin pause button .mirosubs-playPause.pause span
-# Checkin volume control.
+# -Checkin pause button .mirosubs-playPause.pause span-
+# -Checkin volume control.-
 # Style progress time (right now in adam's demo it's high and a bit off center.)
-
+# We want some branding in the widget. ("Universal Subtitles" and "universalsubtitles.org")  Try these two things: 1) In the "Press TAB to begin" green box, and 2) as a watermark, maybe below the widget or to the right on the grey background.  Not sure about a nice way to do this.  
 
 
 Website todos:
