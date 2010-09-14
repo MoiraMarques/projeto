@@ -1,6 +1,6 @@
 h2. Current ticket priority ordering
 
-# -https://pybrew.codebasehq.com/mirosubs/tickets/120 -- intern is working on this right now.-
+# -https://pybrew.codebasehq.com/mirosubs/tickets/120-
 # -Subs site jumps when switching tabs in widget: https://pybrew.codebasehq.com/mirosubs/tickets/77-
 # -Focus should go to text-entry on TAB press: http://bugzilla.pculture.org/show_bug.cgi?id=12969-
 # -Change "Type Subtitle" to "Type subtitle and hit enter" and remove after the first time: http://bugzilla.pculture.org/show_bug.cgi?id=12974-
