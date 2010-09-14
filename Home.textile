@@ -1,4 +1,4 @@
-h2. Priority ordering
+h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 
 # Add "Please login"/username to widget dialog.
 # Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.  
