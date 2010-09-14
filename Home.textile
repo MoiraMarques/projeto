@@ -77,6 +77,7 @@ Hey, I thought you should check out this video on universalsubtitles.org.  You c
 # Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.  
 # Don't use underline in recent activity list.  Get rid of 3D bubbles in recent activity list.  Show user image thumbnail in recent activity list (on left side next to name, small)
 # Fix style in the translation page.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
+# Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot.
 
 
 Other design wishlist (low priority):
