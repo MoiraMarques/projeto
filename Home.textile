@@ -17,7 +17,7 @@ Note, if the item refers to a screenshot, search email for some string from the 
 # -Make HTML for pages 2 and 3 of revision history mockup (sent via email).-
 # Fix style in the translation page in widget.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  
 # Choose language in translation page in widget.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
-# -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos) - 
+# -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
 # -Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about- 
 # -Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq-
 # Do a 1 hour round on style niceness for the timeline view (see email, and IM with Holmes when you get to this).  There will be lots of ideas here, so take a first stab at some of those top items while it's fresh in your head.
