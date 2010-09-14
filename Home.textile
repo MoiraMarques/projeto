@@ -37,7 +37,7 @@ google closure library already works with these.
 of 7,5 in your cursor editing software.
 ** Morgan, adam suggested a tool in his email, but it looks like you can do with photoshop: http://www.google.com/search?q=cur+files+in+photoshop&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a
 # Want to see what my play controls would look like black and blended into the timeline?
-
+# Make ">" into small play buttons (that say "PLAY" and appear on hover over that item) in the revision history.
 
 
 
