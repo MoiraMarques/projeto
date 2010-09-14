@@ -11,6 +11,14 @@ Mini project: try to get widget down to 551 pixels (or as close as possible).  M
 * While you're at it, get rid of the water mark for now.  
 * Squeeze it vertically as much as you can without making it look bad or compromising function.  Maybe just shorten the height of everything 10% in addition to these other changes.  
 
+New button design -- ping holmes for mockups via IM:
+* Insert next subtitle now / start over / etc from new mockups
+* Skip back
+* in "beginner/default" play mode: Replay / Play next 8 seconds with replay grey out until option selected.  
+* Done / back button from new mockups
+* shopping cart style steps across the top.
+* make "on deck" subtitle purple (or some other unused color) and make it that color in the list too).  Send adam a note to make a ticket if code change is necessary.
+
 # create open-hand and closed-hand cursor files for dragging the timeline around. Some special instructions:
 1. Here are the cursor files used by google maps:
 http://maps.gstatic.com/intl/en_us/mapfiles/openhand_8_8.cur and
@@ -23,14 +31,6 @@ of 7,5 in your cursor editing software.
 Lower priority:
 # Make a transparent PNG so that the truncated edge of timeline subtitles (always much longer than their box) fade nicely out and they reach the edge.
 # Style a nice way for empty in the vertical subtitle list to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
-
-New button design -- ping holmes for mockups via IM:
-* Insert next subtitle now / start over / etc from new mockups
-* Skip back
-* in "beginner/default" play mode: Replay / Play next 8 seconds with replay grey out until option selected.  
-* Done / back button from new mockups
-* shopping cart style steps across the top.
-* make "on deck" subtitle purple (or some other unused color) and make it that color in the list too).  Send adam a note to make a ticket if code change is necessary.
 
 Other design wishlist (low priority):
 
