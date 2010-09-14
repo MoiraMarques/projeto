@@ -7,9 +7,9 @@ Repository "http://github.com/8planes/mirosubs/":http://github.com/8planes/miros
 
 Development mailing list: "http://groups.google.com/group/universal-subtitles-dev/":http://groups.google.com/group/universal-subtitles-dev/
 
-"Open tickets (widget)":http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=main&resolution=--- 
-"Open tickets (site)":http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=website&resolution=---
-"Open tickets (design)":http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=design&resolution=---
+Open tickets (widget): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=main&resolution=--- 
+Open tickets (site): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=website&resolution=---
+Open tickets (design): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=design&resolution=---
 
 "Report a bug":http://bugzilla.pculture.org/enter_bug.cgi?product=Miro Subtitles
 
