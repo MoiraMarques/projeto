@@ -21,7 +21,6 @@ h2. Critical Stuff for next round of development
 # -let users Create account (in widget in dropdown menu, and in login button) http://bugzilla.pculture.org/show_bug.cgi?id=13079 / Create account page should be the same as login page on site, with a button that says create account.  Button in widget menu can say  "Login / Create Account".  (this page: http://mirosubsdev.8planes.com/widget/login/?next=/widget/close_window/) and then move it back to universalsubtitles.org/  ... right now at universalsubtitles.org/front/ (l: universal pw: subtitles) all links are broken.-
 # -Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88-
 # -Fix .SRT export so that it works in VLC (see email).  Also, exported file should have the same name as the ogg file (e.g. if it's switch.ogg it should be switch.srt)-
-jhjkhjhgjhg
 # New HTML (note: HTML mockups show lots of leading zeros, which I think we don't want / don't have... if we have them, get rid of them :)
 # -Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78-
 # Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.) 
