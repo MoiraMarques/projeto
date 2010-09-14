@@ -23,6 +23,8 @@ h2. Critical Stuff for next round of development
 # New HTML (note: HTML mockups show lots of leading zeros, which I think we don't want / don't have... if we have them, get rid of them :)
   # Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
 # Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.) 
+# Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
+
 
 h2. Critical things on the website
 
@@ -34,6 +36,7 @@ h2. Critical things on the website
 #* Remove transcription column since we're only allowing one,
 #* Change "subtitles fetched" to "subtitles viewed" and have a number based on the number of times somebody views a title.
 # Add feedback form and a mailto link ("or <a>email us directly</a>") to all pages except front page under the heading "Send us your feedback!"  Form lets user enter in an email address (not required) and a message with a "send feedback" button.    Emails to feedback@universalsubtitles.org
+# Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html
 
 h2. End critical stuff
 
