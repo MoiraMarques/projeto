@@ -7,6 +7,7 @@ Welcome to the Universal Subtitles project.  We have so much that we're trying t
 <li>"*Bug Tracker*":http://bugzilla.pculture.org/enter_bug.cgi?product=Miro Subtitles</li>
 <ul><li>"Widget Related Tickets":http://bugzilla.pculture.org/buglist.cgi?product=Miro%20Subtitles&component=main&resolution%3D%E2%80%94-</li>
 <li>"Website Related Tickets":http://bugzilla.pculture.org/buglist.cgi?product=Miro%20Subtitles&component=website&resolution%3D%E2%80%94-</li></ul>
+<li>"*Testing mailing list*":http://groups.google.com/group/universal-subtitles-testing/</li> (for anyone helping us test)
 </ul>
 
 <h3>Starter Projects</h3>
