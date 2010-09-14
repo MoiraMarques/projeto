@@ -2,6 +2,7 @@ Milestones:
 
 * Holmes will manage milestone list, based on conversation with Dean and Nick.
 
+
 Finishing a ticket:
 
 * Developers prioritize tickets from the most recent milestone.
@@ -18,6 +19,7 @@ Release:
 
 * Completion of the last ticket in the milestone starts the Release Process.
 * Dev pushes last commit to staging server, and sends email to SubtitleDev and SubtitleTesting, and pculture (testers@pculture.org) mailing list
+* holmes drafts a script for usertesting.com based on tickets in milestone... includes any new user facing stuff, and perhaps a basic runthrough.  This can happen before milestone is complete and embargoed.
 * Start human testing process (email to holmes, janet, testers with change list, blog post)
    * holmes (and maybe janet) processes feedback (from email and user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
 * developers submit fix to same milestone, notify janet or holmes and retest (with possible additional email to humans)
