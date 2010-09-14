@@ -1,7 +1,7 @@
 h2. Getting Help/Asking Questions
 
-Tech Lead: Adam Duston, SMS: +1-312-375-9879, aduston@gmail.com, aduston on skype
-Project Mgr: Holmes Wilson, hwilson@gmail.com
+Tech Lead: Adam Duston, SMS: +1-312-375-9879, ''.join(['aduston', '@gmail.com']), aduston on skype
+Project Mgr: Holmes Wilson, ''.join(['hwilson', '@gmail.com'])
 
 
 h2. The Tasks
