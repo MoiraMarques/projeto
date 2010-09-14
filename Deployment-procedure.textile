@@ -6,7 +6,7 @@ Finishing a ticket:
 
 * Developer or morgan finishes ticket (finished = it doesn't need any other work to be complete, they don't need to assign to anyone else to complete it)
 * Checks their changes into master when they finish it
-* Mark the ticket as done, note the revision number (maybe not necessary)
+* Mark the ticket as done, note the commit
 * Target it to most recent milestone (if the one on the live site is 1.5, 1.6) <---- we need a list of all changes on testing site / when the release is pushed what's in it... for testing purposes).
 
   * Notes from Janet for finishing a ticket
