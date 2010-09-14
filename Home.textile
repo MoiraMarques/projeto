@@ -12,6 +12,8 @@ h2. Current ticket priority ordering
 
 h2. Critical Stuff for next round of development
 
+sdfsdf
+
 # -Make sure youtube video is not covering subtitles on mac osx/ff-
 # -Fix small problem (subtitles in overlay still advance when holding spacebar): https://pybrew.codebasehq.com/mirosubs/tickets/23-
 # -Add an item to the dropdown menu "Download .SRT (ES)" that appears when a subtitle track is active-
