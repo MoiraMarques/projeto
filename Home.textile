@@ -35,9 +35,12 @@ h2. Current ticket priority ordering
 == Waiting on Morgan ==
 
 # We need to see next subtitle in list in sync / review: https://pybrew.codebasehq.com/mirosubs/tickets/96.  Morgan should style this and describe where/how the title should be kept centered.
+# Style the "translate" interface (completely unstyled right now)
 # https://pybrew.codebasehq.com/mirosubs/tickets/48
 # shortcut sidebar style: http://bugzilla.pculture.org/show_bug.cgi?id=12966
+# Move sidebar to the right, make sure it doesn't stay in place when the rest of the widget scrolls
 # better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
+# Fix Safari / Chrome CSS/XHTML errors (see email) ... test in IE7 / IE8 too.
 # Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
 # Right now it creates confusion that you can't see the video playback slider unless you mouse over the video.  Design a video playback slider for HTML5 videos that is constantly part of the interface and doesn't overlap with subtitles.
 # Remove the grey border around the blue instructions box (not the one on the side, the one "inside" the widget).
@@ -53,3 +56,4 @@ h2. Current ticket priority ordering
 * Make backspace (when not editing) work like "undo" for transcribe and sync, and show in key controls list.
 * The "Start Over" link should be available on every tab.   In review, it should ask the user "do you want to delete all syncing information and start over?  Yes, delete all  /  No, just rewind to beginning" with No as default.  On the transcribe page it should say "do you really want to delete everything and start over? Yes, delete everything. /  No, don't delete" with no as default
 * For morgan: restore start over button visibility.  Somebody thought it was too faint.
+* 
