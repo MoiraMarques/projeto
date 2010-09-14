@@ -53,7 +53,7 @@ These first:
 # -Checkin pause button .mirosubs-playPause.pause span-
 # -Checkin volume control.-
 # -Style progress time (right now in adam's demo it's high and a bit off center.)-
-# We want some branding in the widget. ("Universal Subtitles" and "universalsubtitles.org")  Try these two things: 1) In the "Press TAB to begin" green box, and 2) as a watermark, maybe below the widget or to the right on the grey background.  Not sure about a nice way to do this.  
+# -We want some branding in the widget. ("Universal Subtitles" and "universalsubtitles.org")  Try these two things: 1) In the "Press TAB to begin" green box, and 2) as a watermark, maybe below the widget or to the right on the grey background.  Not sure about a nice way to do this.-  
 
 
 Website todos:
