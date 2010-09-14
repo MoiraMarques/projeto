@@ -14,7 +14,7 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
 # Can users go back in and edit "finished" subtitles that they "own"?  If not, make it so
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
-
+# 
 
 h3. Iterative projects
 
@@ -83,7 +83,7 @@ Hey, I thought you should check out this video on universalsubtitles.org.  You c
 # -Don't use underline in recent activity list.-  -Get rid of 3D bubbles in recent activity list.-  Show user image thumbnail in recent activity list (on left side next to name, small)
 # Fix style in the translation page.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
 # Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot.
-
+# Make HTML for pages 2 and 3 of revision history mockup (sent via email).
 
 Other design wishlist (low priority):
 
