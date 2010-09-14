@@ -11,7 +11,7 @@ Open tickets (widget): http://bugzilla.pculture.org/buglist.cgi?product=Miro Sub
 Open tickets (site): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=website&resolution=---
 Open tickets (design): http://bugzilla.pculture.org/buglist.cgi?product=Miro Subtitles&component=design&resolution=---
 
-"Report a bug":http://bugzilla.pculture.org/enter_bug.cgi?product=Miro Subtitles
+Report a bug: http://bugzilla.pculture.org/enter_bug.cgi?product=Miro Subtitles
 
 Here are some bite-sized tickets that might be good for newcomers to the project!
 
