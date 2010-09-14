@@ -8,6 +8,7 @@ h2. Current ticket priority ordering
 # Focus / spacebar keys issue for youtube and html5: http://bugzilla.pculture.org/show_bug.cgi?id=12990
 ** For HTML5, this should no longer be an issue. The problem appears to be unsolvable for youtube. See http://bugzilla.pculture.org/show_bug.cgi?id=12969#c2 .
 # Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
+** Waiting for response from Holmes
 # Hold spacebar functionality (the easy way): https://pybrew.codebasehq.com/mirosubs/tickets/23
 # Dropdown menu: https://pybrew.codebasehq.com/mirosubs/tickets/115 AND Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
 # OpenID: https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89
