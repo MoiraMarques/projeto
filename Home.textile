@@ -57,3 +57,15 @@ Other design wishlist (low priority):
 # Mockup times sitting *on* the dividing line in a rounded or squared box, or maybe with no box at all, just the line ends and you see the time there.   
 # Mockup: .X and + buttons show below the left / right buttons on titles in list (possibly in the middle of the title so you can't click accidentally)  to add and remove titles.  
 # Make an intro screen we can use for all of our videos with the logo, a title for the video (e.g. Step 2: Syncing Subtitles) , and the brand.  send to everyone as original editable files
+
+Next design iterations (just a note for Holmes):
+
+Change to button-based (not key based)interface
+# Send morgan mockups
+# make ticket for adam on autopause dropdown
+# WITH BUTTONS CHANGE: make "on deck" subtitle purple (or some other unused color) and make it that color in the list too).  Send adam a note to make a ticket if code change is necessary.
+# Design (or describe) a nice fade-in for the on-deck subtitle.  Should happen pretty fast, like 1 second.    On-deck subtitle should be 2 seconds long, centered in the empty space to the right of the playhead.  Show us a demo, then send to adam to make ticket.
+
+Change to side by side, short interface
+
+# Send morgan mockups
