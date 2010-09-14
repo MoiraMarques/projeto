@@ -1,3 +1,7 @@
+Testing and staging servers:  http://wiki.github.com/8planes/mirosubs/testing-and-staging-servers
+
+
+
 h2. Morgan's design list (top ones first!):
 
 # Fixes to revision history style (see email "Stylesheet fixes" from alerion)
