@@ -5,7 +5,7 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # -Restart is not working in the review stage.  In all stages, restart should stop the video and set playhead to 0.-
 # -Try ctrl/tab with nightly build from Mozilla.-
 # -Expand widget when you submit video on universalsubtitles site: https://pybrew.codebasehq.com/mirosubs/tickets/95 (might be done already?)-
-# When the widget displays a video in a page (user has not clicked subtitle me to open dialog) don't change the size of the video.
+# -When the widget displays a video in a page (user has not clicked subtitle me to open dialog) don't change the size of the video.-
 # When browser can't play HTML5 video show an error message "Sorry, your browser can't play HTML5/Ogg video.  <a>Try Firefox</a>"  in video playback area.  
 # Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
 # QUESTION: Can users go back in and edit "finished" subtitles that they "own"?  If not, that ticket should be in this list.
