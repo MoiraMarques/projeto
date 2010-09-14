@@ -2,9 +2,30 @@ h2. Priority ordering
 
 # Add "Please login"/username to widget dialog.
 # Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.  
-# Restart is not working in the review stage.  Restart should stop the video and set playhead to 0.
-# Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
+# Restart is not working in the review stage.  In all stages, restart should stop the video and set playhead to 0.
 # Try ctrl/tab with nightly build from Mozilla.
+# Expand widget when you submit video on site: https://pybrew.codebasehq.com/mirosubs/tickets/95 (might be done already?)
+# When browser can't play HTML5 video: https://pybrew.codebasehq.com/mirosubs/tickets/114
+# Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
+# QUESTION: Can users go back in and edit "finished" subtitles that they "own"?  If not, that ticket should be in this list.
+# Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
+
+h3. Iterative projects
+# 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
+# First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
+# Revisioning aka Wikimode
+# Send email to Michael Dale about widget API and him using it (ask Nick first where this is at)
+
+h3. Medium priority, nice to have, maybe we don't care:
+
+# Empty subs display "silence": https://pybrew.codebasehq.com/mirosubs/tickets/84
+# BUG: When I'm holding down the spacebar and I let go briefly and hold down again,  the subtitle on the video overlay does not advance, even though the subtitle in the list (and as far as I can tell, the transition being recorded) does advance.  Subtitle on the screen should advance with the subtitles in the list.  
+# If user is holding down spacebar and lifts up and pushes down again "immediately" (in less than 0.1 or 0.2 seconds?) then no previously recorded transition should happen in that time (talk to holmes about this). 
+# Subtitle onscreen should change when user edits title https://pybrew.codebasehq.com/mirosubs/tickets/106
+# Make Google accounts work using openID.
+# Adding and deleting lines: http://bugzilla.pculture.org/show_bug.cgi?id=12975
+# Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
+# Behavior for user logging out during subtitle authoring http://bugzilla.pculture.org/show_bug.cgi?id=12961
 
 h2. Critical things on the website
 
@@ -22,21 +43,6 @@ h2. Critical things on the website
 
 h2. End critical stuff
 
-# 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
-# Send email to Michael Dale about widget API (ask Nick first)
-# First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
-# When I'm holding down the spacebar and I let go briefly and hold down again,  the subtitle on the video overlay does not advance, even though the subtitle in the list (and as far as I can tell, the transition being recorded) does advance.  Subtitle on the screen should advance with the subtitles in the list.   
-# Empty subs display "silence": https://pybrew.codebasehq.com/mirosubs/tickets/84
-# Make Google accounts work using openID.
-# Adding and deleting lines: http://bugzilla.pculture.org/show_bug.cgi?id=12975
-# Subtitle onscreen should change when user edits title https://pybrew.codebasehq.com/mirosubs/tickets/106
-# Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
-# When browser can't play HTML5 video: https://pybrew.codebasehq.com/mirosubs/tickets/114
-# Show good error message when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
-# Expand widget when you submit video on site: https://pybrew.codebasehq.com/mirosubs/tickets/95
-# Behavior for user logging out during subtitle authoring http://bugzilla.pculture.org/show_bug.cgi?id=12961
-# Disable "Log in to save" message during &null session 
-# Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
 
 
 h2. Morgan's list.
