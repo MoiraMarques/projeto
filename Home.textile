@@ -17,7 +17,9 @@ Note, if the item refers to a screenshot, search email for some string from the 
 * make video player black or dark, remove dividers btw play and volume and playback slider, build in to timeline marker bar with some nice subtle division (grey line?), reduce number of lines in marker to 4 and numbers to minute.seconds  like 4:20 for 4 minutes 20 seconds or 20 for 20 seconds. (see holmes mockup).
 * highlight active subtitle blue (same as in list)
 * abutting subtitles should be divided by a single thing line
+* subtitles should display in bottom part of video (position moved up again)
 # See email "Youtube sizing issue" this one?? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
+# Get rid of "shadow" on subtitles in video.  
 # HTML of revision history page (see email subject "Revision history page")
 # Make window as short as possible.  
 * Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down or somewhere else.
