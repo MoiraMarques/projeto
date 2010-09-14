@@ -24,8 +24,9 @@ h2. Critical Stuff for next round of development
 # New HTML (note: HTML mockups show lots of leading zeros, which I think we don't want / don't have... if we have them, get rid of them :)
 # -Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78-
 # -Active subtitle should never display at the bottom of the list.  (After the 2nd or 3rd subtitle, keep it centered and scroll.... we want people to be able to see what subtitle is on deck.)-
+# Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.  
+# Restart is not working in the review stage.  Restart should stop the video and set playhead to 0.
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
-
 
 h2. Critical things on the website
 
@@ -43,9 +44,10 @@ h2. Critical things on the website
 
 h2. End critical stuff
 
-# 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
-# Send email to Michael Dale about widget API
+# 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
+# Send email to Michael Dale about widget API (ask Nick first)
 # First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
+# When I'm holding down the spacebar and I let go briefly and hold down again,  the subtitle on the video overlay does not advance, even though the subtitle in the list (and as far as I can tell, the transition being recorded) does advance.  Subtitle on the screen should advance with the subtitles in the list.   
 # Empty subs display "silence": https://pybrew.codebasehq.com/mirosubs/tickets/84
 # Make Google accounts work using openID.
 # Adding and deleting lines: http://bugzilla.pculture.org/show_bug.cgi?id=12975
