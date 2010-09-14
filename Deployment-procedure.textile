@@ -6,14 +6,13 @@ Finishing a ticket:
 
 * Developer or morgan finishes ticket (finished = it doesn't need any other work to be complete, they don't need to assign to anyone else to complete it)
 * Checks their changes into master when they finish it
-* Mark the ticket as done, note the commit
+* Mark the Resolved Fix and note the commit in the ticket.
 * Target it to most recent milestone (if the one on the live site is 1.5, 1.6) <---- we need a list of all changes on testing site / when the release is pushed what's in it... for testing purposes).
-
-  * Notes from Janet for finishing a ticket
-      1. Finished ticket gets mark Resolved  Fixed in Bugzilla when change is checked into Master
-      2. Tickets should already be targeted for the milestone, that way developers can see priority list, you can see the work left for a particular milestone,  plus it's conceivable that a ticket may be desired for a future (known release not the current one.
-      3.  For fixed tickets checked into master, there's a known way to determine that it is available for testing (always on mirosubsdev, or whatever)
-     4.  Once a ticket is fixed, it gets tested and marked as Verified.
+* Push changes to the dev site.
+* Each Night at x hours, all changes on dev site pushed to the staging server
+* On staging server, selenium regressions tests are automatically run.
+* Tester manually tests fixed bugs and marks as verified.
+* Tester checks daily results of selenium test run.
 
 Release:
 
