@@ -70,6 +70,7 @@ Hey, I thought you should check out this video on universalsubtitles.org.  You c
 # Make a demo page for testers  Holmes will send a mockup
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
 # Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
+# Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
 
 
 Other design wishlist (low priority):
