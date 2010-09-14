@@ -51,8 +51,8 @@ h2. Morgan's Design / XHTML /CSS list.
 # Without timeline, dialog is too short in sync & review modes.Elements on right overlap.  
 # Morgan--can you make a design that uses / sizes youtube videos and HTML5 of different aspect ratios to not look f'ed?  If you do it by making the bottom left quadrant variable height, make sure the "press TAB to play" button looks good".
 # Related: when video is a different height / aspect ratio than the area we've provided, make sure it looks nice.
+# Put a "back" arrow next to "return to transcribe mode" in "edit.html" (see email "HTML for "Edit" functionality in widget") 
 # Make HTML based on mockups for FINISHED screen (see email "tweaked post subtitles page")
-# Make HTML based on mockups for EDIT / SHARE / FINISHED (coming soon from holmes)
 # Make HTML based on "how-to video" mockup that Holmes sent.
 # Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.
 # Another Safari issue: I think the subtitles may be appearing too high in the video compared to the Firefox ones.  Not sure.
