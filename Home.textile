@@ -12,27 +12,28 @@ h2. Morgan's design list (top ones first!):
 
 Note, if the item refers to a screenshot, search email for some string from the item...  The email will include a screenshot.   or IM with holmes to resend screenshot.
 # HTML of revision history page (see email subject "Revision history page")
+# Make ">" into small play buttons (that say "PLAY" and appear on hover over that item) in the "view" and "diff" revision history pages.
 # fix text padding on subtitles in timeline.
 # make video player black or dark, remove dividers btw play and volume and playback slider, build in to timeline marker bar with some nice subtle division (grey line?), reduce number of lines in marker to 4 and numbers to minute.seconds  like 4:20 for 4 minutes 20 seconds or 20 for 20 seconds. (see holmes mockup).
 # subtitles that touch should be divided by a single thing line (no rounding)
 # subtitles should display in bottom part of video (position moved up again)
 # Get rid of "shadow" on subtitles in video.  
 # make active subtitle light blue (same as in list)
-
 # See email "Youtube sizing issue" this one?? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
 
+h3. Mini project: try to get widget down to 551 pixels.  
 
-# Make window as short as possible.  
 * Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down or somewhere else.
 * Reduce height of subtitle list in sync mode to shorten the page.  As long as 4 long subtitles fit that's okay.
-* Maybe get rid of the white border on the window in favor of something simpler
 * Get rid of white border in favor of something simpler.
 * While you're at it, get rid of the water mark for now.  
-* Squeeze it vertically as much as you can without making it look bad or compromising function.  Maybe just shorten the height of everything 10% in addition to these other changes.
+* Squeeze it vertically as much as you can without making it look bad or compromising function.  Maybe just shorten the height of everything 10% in addition to these other changes.  
+
+
+h3. List continues:
+
 # when you click on the tab and select something in the menu like 'add subtitles' the text doesn't turn white when you hover
 # Change "Submit Video" in front nav to "Subtitle a video"
-# Fix style in the translation page in widget.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  
-# Choose language in translation page in widget.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
 # -OpenID login screen needs to be styled.  Morgan-- let me know if there is any hold up on this.-
 # -Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.-  
 # Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot (search email for the text of this todo)
@@ -47,8 +48,8 @@ google closure library already works with these.
 2. To jive with the closure library, you'll have to specify a hotspot
 of 7,5 in your cursor editing software.
 ** Morgan, adam suggested a tool in his email, but it looks like you can do with photoshop: http://www.google.com/search?q=cur+files+in+photoshop&ie=utf-8&oe=utf-8&aq=t&rls=org.mozilla:en-US:official&client=firefox-a
-# Want to see what my play controls would look like black and blended into the timeline?
-# Make ">" into small play buttons (that say "PLAY" and appear on hover over that item) in the revision history.
+
+
 
 
 
