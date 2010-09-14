@@ -44,17 +44,17 @@ h3. Medium priority, nice to have, maybe we don't care:
 h2. Morgan's Design / XHTML /CSS list.
 
 These first:
-# Send Adam the HTML for the login window 
+# -Send Adam the HTML for the login window- 
 # FOLLOW UP WITH ADAM ABOUT THIS ON IM: Got the real widget up and running on IE at mswidgetdev, e.g. http://mswidgetdev.8planes.com/widget-demo.rb?youtube_videoid=tfd5p1JqUsw&null .  *There appear to be some minor styling issues* around the input box for typing in new subs. Morgan, do you have any insight into this? It appears that IE interprets the selector ".mirosubs-transcribeControls input.trans" differently here for some weird reason. Please check it out using IE Developer Tools and let me know what you think. 
-# Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.
+# -Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.-
 # Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
-# add the label "embed code" to the embed code on the finished / sharing screen
+# -add the label "embed code" to the embed code on the finished / sharing screen-
 
 
 Website todos:
 # -Login page styling: http://mirosubsstaging.8planes.com/auth/login/-
 * -Login and create account are side by side with nice big buttons.-  
-* Nice big buttons for Twitter and openID.  
+* -Nice big buttons for Twitter and openID.-  
 * OpenID login screen also needs to be styled.  You can use the tabbed login screen if you want (different tabs for twitter, * openID, normal, etc) if you want, but the twitter one will just have a button in the middle.
 # -Video page should show sharing links, Just like the light blue box in the "Finished" page in the widget, to the right next to video.  This can replace the other embed code.-
 # -Videos in pages should be sized to match the height of this sharing box, more or less.-
@@ -64,18 +64,18 @@ The send feedback button should be big.  There should be some divider that separ
 # -Recent changes (on front page here: http://mirosubsstaging.8planes.com/) needs some basic styling.  Just needs to be a bit prettier I think.  Maybe some colors and bolding of the username or video instead of the underline.  Twitter is probably an okay model.  If you don't have ideas for this, skip it.-
 # -Make a page for "email a friend".  NOTE: one of these exists already, I'll ping adam and try to find out what/where (no link is visible on the site as far as I know).To: (email address) From: (email address) Note:- 
 Hey, I thought you should check out this video on universalsubtitles.org.  You can add subtitles, watch the video with subtitles that others have made, or translate the subtitles into a new language. ****adam will need to add this value in 
-# Video page shd show stats on video.   This should be to the right
- Views, Subtitles fetched, Translations, Transcribed?  Yes / No ****adam will need to add this value in 
+# -Video page shd show stats on video.   This should be to the right
+ Views, Subtitles fetched, Translations, Transcribed?  Yes / No-
 # -All videos page heading.  "All submitted videos".-  
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
 # Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
-# Work out subtitle position on video with adam.  See note:In the new html, you're forcing the mirosubs-captionDiv to have a top of 220px in the css. Any reason for this? I'm also setting the value in js code, but . Anyway, for now I've added the top style to mirosubs-captionDivBg, which has to end up behind the caption div for them to be visible on flash videos in FF/Linux and possibly FF/Windows and IE.
-# Work out dynamic changes to subtitle size based on video size with Adam.  
+# -Work out subtitle position on video with adam.  See note:In the new html, you're forcing the mirosubs-captionDiv to have a top of 220px in the css. Any reason for this? I'm also setting the value in js code, but . Anyway, for now I've added the top style to mirosubs-captionDivBg, which has to end up behind the caption div for them to be visible on flash videos in FF/Linux and possibly FF/Windows and IE.-
+# -Work out dynamic changes to subtitle size based on video size with Adam.- 
 # The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)  
-# Style the user profile page, including the photo (when uploaded) and the photo form and the "holmes's activity" section.  Note, the activity list can read like the one on the front page.  Also style it for when its somebody else's page (not yours) for example: http://mirosubsstaging.8planes.com/profiles/17/ (including photo and activity).
-# Style the front page.  Starting a thread now with Dean and Nick, I'll take a pass and digest this for you, follow up with me if I haven't yet when you get to this item.
+# -Style the user profile page, including the photo (when uploaded) and the photo form and the "holmes's activity" section.  Note, the activity list can read like the one on the front page.  Also style it for when its somebody else's page (not yours) for example: http://mirosubsstaging.8planes.com/profiles/17/ (including photo and activity).-
+# -Style the front page.  Starting a thread now with Dean and Nick, I'll take a pass and digest this for you, follow up with me if I haven't yet when you get to this item.-
 # Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.  
-# Don't use underline in recent activity list.  Get rid of 3D bubbles in recent activity list.  Show user image thumbnail in recent activity list (on left side next to name, small)
+# -Don't use underline in recent activity list.-  -Get rid of 3D bubbles in recent activity list.-  Show user image thumbnail in recent activity list (on left side next to name, small)
 # Fix style in the translation page.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
 # Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot.
 
