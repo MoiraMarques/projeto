@@ -38,6 +38,7 @@ h3. Medium priority, nice to have, maybe we don't care:
 # Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
 # Behavior for user logging out during subtitle authoring http://bugzilla.pculture.org/show_bug.cgi?id=12961
 
+
 h2. Morgan's Design / XHTML /CSS list.
 
 
@@ -62,6 +63,7 @@ to show loading thing here.  HW: Let's use the first spinner (from the first wid
 # Make video player (see email from Holmes)
 # We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
 # Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.
+# Fix autopause or "Smart Pause" checkbox style (see current widget http://mswidgetstaging.8planes.com/widget-demo.rb?video_url=http://videos.mozilla.org/firefox3/switch/switch.ogg&null for how it looks right now)
 # make a "+" button (this could just be a small white "+" or it could have a circle around it) somewhere near the center corner where the video, the instructions, and the list of subtitles meet.  This should change to "minus" when timeline view appears.  Send Adam and Holmes a note that it's there, and should hide / remove.
 # "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
 # The rotating logo isn't visible enough as a loading indicator.  One possible solution: replace it with a spinner that sits on the metal tab and temporarily replaces the green logo
