@@ -12,9 +12,11 @@ h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
 # New round of HTML fixes from Morgan.  Hopefully down to #12 (IE testing, fixes)
 
+
 h3. Iterative projects
 # 2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110
 # First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
+# Make Atul's jetpack extension work
 # Revisioning aka Wikimode
 # Send email to Michael Dale about widget API and him using it (ask Nick first where this is at)
 
