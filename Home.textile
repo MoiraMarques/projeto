@@ -19,10 +19,12 @@ These are the two big important ones:
 
 Important but slightly lower priority:
 
-# Make a transparent PNG so that the truncated edge of subtitles (always much longer than their box) fade nicely out and they reach the edge.   
+# Make a transparent PNG so that the truncated edge of timeline subtitles (always much longer than their box) fade nicely out and they reach the edge.   
+# Style a nice way for empty in the vertical subtitle list to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
+
 # -Timestamps in subtitle stack appear on the right margin with "left right" buttons to their left.-   
 # -Currently to the left of the zero marker in timeline there's a difference of a pixel or two between the marked area and the blank area.-
-# Style a nice way for empty subs to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
+
 # (Mini project: try to get widget down to 551 pixels (or as close as possible) 
 * Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down or somewhere else.
 * Reduce height of subtitle list in sync mode to shorten the page.  As long as 4 long subtitles fit that's okay.
