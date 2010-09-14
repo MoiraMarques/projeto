@@ -12,7 +12,7 @@ Finishing a ticket:
 Release:
 
 * Developer starts testing cycle (always same person, say, adam).  
-* creates new milestone in bugzilla
+* creates new milestone in bugzilla so that any subsequent stuff will not get added to current milestone (since all developers are attaching finished work to most recent milestone).
 * pushes master to staging server
 * starts testing process (email to holmes, janet, testers with change list, and selenium)
 * holmes (and maybe janet) processes feedback (from email and eventually user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
