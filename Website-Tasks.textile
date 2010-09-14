@@ -6,7 +6,7 @@ Project Mgr: Holmes Wilson, ''.join(['hwilson', '@gmail.com'])
 
 h2. The Tasks
 
-* - Please merge your code into master and delete the branch -
+- Please merge your code into master and delete the branch -
 * - I noticed you're using this code: 
 
 bc.    def translation_count(self):
