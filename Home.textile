@@ -48,6 +48,7 @@ h2. Morgan's Design / XHTML /CSS list.
 # -The subtitle text must be centered in the div and not in the video, so it sometimes gets too close to the left margin.-
 # -There's a band of white down the right side of the box, not covered by the subtitling image.-
 # -Nick made a few tweaks to the dropdown CSS here (see email).  He changed the font, the positioning (left instead of right) and the menu color.  Can you incorporate these?-
+# -In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.-
 # -White outline of widget is transparent.  It shouldn't be.-
 # -dropdown: make the "choose language" tab with the divider and down arrow (see layer in PSD nick sent).-
 # -Need green box "To begin, press TAB to play and start typing!" in the Transcribe view (see mockups)-
@@ -62,7 +63,6 @@ to show loading thing here.  HW: Let's use the first spinner (from the first wid
 # We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
 # Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.
 # make a "+" button (this could just be a small white "+" or it could have a circle around it) somewhere near the center corner where the video, the instructions, and the list of subtitles meet.  This should change to "minus" when timeline view appears.  Send Adam and Holmes a note that it's there, and should hide / remove.
-# In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.
 # "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
 # The rotating logo isn't visible enough as a loading indicator.  One possible solution: replace it with a spinner that sits on the metal tab and temporarily replaces the green logo
 # When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
