@@ -8,7 +8,7 @@ h2. Current ticket priority ordering
 # -Autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
 # -Hold spacebar functionality (the easy way): https://pybrew.codebasehq.com/mirosubs/tickets/23-  one small problem (subtitles in overlay still advance when holding spacebar) see ticket.
 # Atul firefox extension "fast" ticket http://github.com/8planes/mirosubs/issues#issue/2
-# Set up server at universalsubtitles.com
+# -Set up server at universalsubtitles.com-
 # Send email to Michael Dale about widget API
 # increase CTRL skip back interval from 4 to 8 seconds (so minor I didn't bother creating a ticket)
 # size videos (e.g. youtube videos) to match width of interface
