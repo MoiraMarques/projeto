@@ -18,7 +18,6 @@ Here are some tickets that might be good for newcomers to the project!
 # "Machine translation in widget dropdown menu":http://bugzilla.pculture.org/show_bug.cgi?id=13443
 # "Error when youtube link is broken/removed":http://bugzilla.pculture.org/show_bug.cgi?id=13363
 # "youtube player sometimes starts playing again when pause is called and playhead time is set to 0":http://bugzilla.pculture.org/show_bug.cgi?id=13022 -- 
-# "blip.tv support":http://bugzilla.pculture.org/show_bug.cgi?id=13444
 
 **Ideas** 
 This is a list of things we'd like to do
