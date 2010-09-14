@@ -14,7 +14,6 @@ h2. Current ticket priority ordering
 # Fix small problem (subtitles in overlay still advance when holding spacebar): https://pybrew.codebasehq.com/mirosubs/tickets/23
 # New HTML
 # "embed code" displayed on final "thanks for submitting" page of widget is not an embed code, it's just a link.  This field should include embed code, as shown on site (something that can be pasted into html to load video).
-# On site: "recent activity" working or removed
 # Open ID login works https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89
 # let users Create account (in widget in dropdown menu, and in login button) http://bugzilla.pculture.org/show_bug.cgi?id=13079
 and then move it back to universalsubtitles.org/  ... right now at universalsubtitles.org/front/ (l: universal pw: subtitles) all links are broken.
@@ -22,6 +21,7 @@ and then move it back to universalsubtitles.org/  ... right now at universalsubt
 # Editing on timestamp: https://pybrew.codebasehq.com/mirosubs/tickets/78
 
 === Critical things on the website === 
+# "Recent activity" list of recently touched video on front page working or removed
 # On website: We need a place where we can test the site before making it public.   universalsubtitles.org/front/  (but with all links working) 
 # On site: All Videos" tab remove from nav or make it work / useful
 * make lists sortable (with up/down arrows)
