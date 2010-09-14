@@ -24,9 +24,9 @@ h2. Second round of tasks
 
 # (mark done tasks above as finished using the "-" strikethrough notation)
 # Make a universalsubtitles.org/demo page where we display different content based on browser detection.  Comment the page so that it's obvious how to fill in different content for different browsers.  The different browsers (and fallback order) are:
-* HTML5 Ogg capable browsers (Chrome, Firefox post 3.5)
-* HTML5 h.264 capable browsers that can't play Ogg (Safari, iPhone, iPad)
-* Browsers with Flash (IE)
+#* HTML5 Ogg capable browsers (Chrome, Firefox post 3.5)
+#* HTML5 h.264 capable browsers that can't play Ogg (Safari, iPhone, iPad)
+#* Browsers with Flash (IE)
 # Make an "email a friend" page that lets users email a link to a video to friends.  From: (email address) To: (multiple emails separated by commas or line breaks) and a box pre-filled with a default message.  The default message can be passed to this page, so that we can easily create a button that fills in an arbitrary default message like "Please help me translate this video" or "Watch this awesome video with Spanish subtitles" etc.
 
 
