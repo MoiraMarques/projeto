@@ -31,3 +31,4 @@ h2. Current ticket priority ordering
 # shortcut sidebar style: http://bugzilla.pculture.org/show_bug.cgi?id=12966
 # better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
 # Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
+# Remove the grey border around the blue instructions box (not the one on the side, the one "inside" the widget).
