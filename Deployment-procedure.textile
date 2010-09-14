@@ -9,6 +9,12 @@ Finishing a ticket:
 * Mark the ticket as done, note the revision number (maybe not necessary)
 * Target it to most recent milestone (if the one on the live site is 1.5, 1.6) <---- we need a list of all changes on testing site / when the release is pushed what's in it... for testing purposes).
 
+  * Notes from Janet for finishing a ticket
+      1. Finished ticket gets mark Resolved  Fixed in Bugzilla when change is checked into Master
+      2. Tickets should already be targeted for the milestone, that way developers can see priority list, you can see the work left for a particular milestone,  plus it's conceivable that a ticket may be desired for a future (known release not the current one.
+      3.  For fixed tickets checked into master, there's a known way to determine that it is available for testing (always on mirosubsdev, or whatever)
+     4.  Once a ticket is fixed, it gets tested and marked as Verified.
+
 Release:
 
 * Developer starts testing cycle (always same person, say, adam).  
@@ -20,6 +26,9 @@ Release:
 * holmes or janet gives goahead to deploy.
 * developer deploys
 
+  * Notes from Janet for Release:
+   1. from comment above, on second item, I think the milestone should already be created
+
 Testing process:
 * Automated testing using selenium.  Ideally, developers need to be able to activate and interpret, but discuss with Janet.  
 * Automated testing needs to get updated with new features changes... at least, developers, morgan need to give janet notes on changing the test.  A bugzilla search for list of tickets solved since last deploy.
@@ -30,8 +39,18 @@ Testing process:
 * Includes testing workflow document (can we autogenerate based on selenium??) ask janet for a good way to track how many people have gone through testing workflow (visit a page, click a box) and make sure we get a certain number of these.
 * we try to get an intern or a hardcore volunteer to maintain selenium tests?
 
+   * Notes for Janet for Testing process
+    1. We have automated testing using selenium.  These tests should be located on a pcf server and run nightly w/ a cron job, results posted and accessible by all via web.
+   2. Tests are updated after bug fixed in bugzilla.  Can use the needs testing flag (or make custom flag) to indicate that a particular test requires a new test generated or a test to be updated.  Each automated test should have a manual test case in Litmus. Results can be entered in litmus for automated test runs too.
+  3. Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  Hardcore volunteers are pretty rare, but we get regular interns from Hitek who can be relied upon to run tests when required.
+  4. I think the testing workflow document is the test results that you can view in litmus that would show the breakdown of #testers, tests run, browser / os, and pass/fail results.
+
 After deploy: 
 * Deploy at the beginning of the day for developer availability if there are problems.
 * Look for error messages (any automated messages we get from the widget, from django??  any more we can get that are useful?) feedback form, this should go straight to developers, what's the best way to get this, what's the best threshhold for listening?
 * Feedback form should have a release number / timestamp.
 * Possibly, do a blog post.
+
+
+General Notes from Janet:
+ * Overall, I think our process among PCF projects should be consistent.   Development for a web project moves faster and deploys more readily, but the general organization and use of bugzilla should the same.  In terms of testing, automated and manual, I think it's ideal to continue to track the testing in Litmus.  Consistency in tools will also make it simpler for interns and other volunteers to contribute to multiple PCF projects.
