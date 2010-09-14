@@ -17,15 +17,16 @@ Finishing a ticket:
 Release:
 
 * Completion of the last ticket in the milestone starts the Release Process.
-* Dev pushes last commit to staging server, and sends email to SubtitleDev mailing list
+* Dev pushes last commit to staging server, and sends email to SubtitleDev and SubtitleTesting, and pculture (testers@pculture.org) mailing list
 * Start human testing process (email to holmes, janet, testers with change list, blog post)
    * holmes (and maybe janet) processes feedback (from email and user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
 * developers submit fix to same milestone, notify janet or holmes and retest (with possible additional email to humans)
-* holmes or janet gives goahead to deploy.
-* developer deploys
+* Janet gives go-ahead to deploy based on test coverage.
+* Developer deploys
 
 Testing process:
-* Automated regression testing using selenium.  Ideally, developers need to be able to activate and interpret, but discuss with Janet.  
+* Automated regression testing using selenium.  
+* Developers need to be able to activate and interpret, but discuss with Janet.  
 * Automated testing needs to get updated with new features changes... at least, developers, morgan need to give janet notes on changing the test.  A bugzilla search for list of tickets solved since last deploy.
 * Possibly get an intern or elancer to do this
 * Automated testing runs again after changes made to testing process.  (Janet runs it this time)
