@@ -1,89 +1,45 @@
-h2. Priority ordering (milestone: nail down rough edges in widget as it exists)
+h3. Holmes: Make sure these are in bugzilla
 
-# -Add "Please login"/username to widget dialog.-
-# -Clicking on the spinner controls should start playback from that new set point (even if video was paused).   Holding the spinner should pause playback, and then play at the newly set point on release.-  
-# -Restart is not working in the review stage.  In all stages, restart should stop the video and set playhead to 0.-
-# -Try ctrl/tab with nightly build from Mozilla.-
-# -Expand widget when you submit video on universalsubtitles site: https://pybrew.codebasehq.com/mirosubs/tickets/95 (might be done already?)-
-# -When the widget displays a video in a page (user has not clicked subtitle me to open dialog) don't change the size of the video.-
-# -When browser can't play HTML5 video show an error message "Sorry, your browser can't play HTML5/Ogg video.  <a>Try Firefox</a>"  in video playback area.-
-# -2nd try at autopause: https://pybrew.codebasehq.com/mirosubs/tickets/110-
-# Allow multiple widgets to run on same page: http://subtesting.com/universal-subtitles-demo/ (this should be lower priority if it's going to take more than an hour or two) **[Adam] I have a plan for changing embed style to resemble Twitter's. Will take about 2 hours of intense labor**
-# -Disable sharing and embed-
-# First run at timeline view: https://pybrew.codebasehq.com/mirosubs/tickets/73
-# Show good error message in video playback area using the "alert" icon that we use for "you need to login" when video link is broken / video removed from yt: https://pybrew.codebasehq.com/mirosubs/tickets/9
+
 # Can users go back in and edit "finished" subtitles that they "own"?  If not, make it so
 # Add copyright Participatory Culture Foundation and AGPL license information to everywhere necessary, listing license info for other packages we use as necessary. http://www.gnu.org/licenses/gpl-howto.html .  For javascript files, perhaps include license information using this convention.  http://www.gnu.org/philosophy/javascript-trap.html   Any questions not easily resolved by googling, email licensing@fsf.org
-# 
 
-h3. Iterative projects
+h3. Future JS / widget projects
 
-# Make Atul's jetpack extension work
-# Revisioning aka Wikimode
-# Send email to Michael Dale about widget API and him using it (ask Nick first where this is at)
+h3. Future Django projects
+
+# Make Google accounts work using openID.
 # Incentives, points (for users), leaderboard, gaming
-
-
-h4. Future stuff
-
 # Mechanical turk
 # Experience for organizations, access controlled wiki or moderation/appoval of community work
 
 h3. Medium priority, nice to have, maybe we don't care:
 
-# Empty subs display "silence": https://pybrew.codebasehq.com/mirosubs/tickets/84
+
 # Single click to edit titles: http://bugzilla.pculture.org/show_bug.cgi?id=13208
-# BUG: When I'm holding down the spacebar and I let go briefly and hold down again,  the subtitle on the video overlay does not advance, even though the subtitle in the list (and as far as I can tell, the transition being recorded) does advance.  Subtitle on the screen should advance with the subtitles in the list.  
-# If user is holding down spacebar and lifts up and pushes down again "immediately" (in less than 0.1 or 0.2 seconds?) then no previously recorded transition should happen in that time (talk to holmes about this). 
 # Subtitle onscreen should change when user edits title https://pybrew.codebasehq.com/mirosubs/tickets/106
-# Make Google accounts work using openID.
+# Make Atul's jetpack extension work
 # Adding and deleting lines: http://bugzilla.pculture.org/show_bug.cgi?id=12975
 # Machine translation: https://pybrew.codebasehq.com/mirosubs/tickets/109
 # Behavior for user logging out during subtitle authoring http://bugzilla.pculture.org/show_bug.cgi?id=12961
+# BUG: When I'm holding down the spacebar and I let go briefly and hold down again,  the subtitle on the video overlay does not advance, even though the subtitle in the list (and as far as I can tell, the transition being recorded) does advance.  Subtitle on the screen should advance with the subtitles in the list.  
+# If user is holding down spacebar and lifts up and pushes down again "immediately" (in less than 0.1 or 0.2 seconds?) then no previously recorded transition should happen in that time (talk to holmes about this). 
 
 
-h2. Morgan's Design / XHTML /CSS list.
+h2. Morgan's design list (top ones first!):
 
-These first:
-# -Send Adam the HTML for the login window- 
-# -FOLLOW UP WITH ADAM ABOUT THIS ON IM: Got the real widget up and running on IE at mswidgetdev, e.g. http://mswidgetdev.8planes.com/widget-demo.rb?youtube_videoid=tfd5p1JqUsw&null .  *There appear to be some minor styling issues* around the input box for typing in new subs. Morgan, do you have any insight into this? It appears that IE interprets the selector ".mirosubs-transcribeControls input.trans" differently here for some weird reason. Please check it out using IE Developer Tools and let me know what you think.- 
-# -Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.-
-# Follow up on this with Adam and Dean: Fix styling of widget button in page.  It is a block element. It's floated left, which might be what you're talking about. If you apply clear:both to the next paragraph then yoU might get the effect you're after.  ////   "Ok, we should do that after each video automatically—most people won't expect that an embedded video is going to cause content to float:left."s
-# -add the label "embed code" to the embed code on the finished / sharing screen-
-# -Checkin pause button .mirosubs-playPause.pause span-
-# -Checkin volume control.-
-# -Style progress time (right now in adam's demo it's high and a bit off center.)-
-# -We want some branding in the widget. ("Universal Subtitles" and "universalsubtitles.org")  Try these two things: 1) In the "Press TAB to begin" green box, and 2) as a watermark, maybe below the widget or to the right on the grey background.  Not sure about a nice way to do this.-  
+Note, if the item refers to a screenshot, search email for some string from the item...  The email will include a screenshot.   or IM with holmes to resend screenshot.
 
-
-Website todos:
-# -Login page styling: http://mirosubsstaging.8planes.com/auth/login/-
-* -Login and create account are side by side with nice big buttons.-  
-* -Nice big buttons for Twitter and openID.-  
-* OpenID login screen also needs to be styled.  You can use the tabbed login screen if you want (different tabs for twitter, * openID, normal, etc) if you want, but the twitter one will just have a button in the middle.
-# -Video page should show sharing links, Just like the light blue box in the "Finished" page in the widget, to the right next to video.  This can replace the other embed code.-
-# -Videos in pages should be sized to match the height of this sharing box, more or less.-
-# -Feedback form at bottom of page should be styled.  Like:  We need your feedback!
-This site is a work in progress.  Please let us know if you have any issues, questions, or suggestions!.
-The send feedback button should be big.  There should be some divider that separates this from the rest of the page.-  
-# -Recent changes (on front page here: http://mirosubsstaging.8planes.com/) needs some basic styling.  Just needs to be a bit prettier I think.  Maybe some colors and bolding of the username or video instead of the underline.  Twitter is probably an okay model.  If you don't have ideas for this, skip it.-
-# -Make a page for "email a friend".  NOTE: one of these exists already, I'll ping adam and try to find out what/where (no link is visible on the site as far as I know).To: (email address) From: (email address) Note:- 
-Hey, I thought you should check out this video on universalsubtitles.org.  You can add subtitles, watch the video with subtitles that others have made, or translate the subtitles into a new language. ****adam will need to add this value in 
-# -Video page shd show stats on video.   This should be to the right
- Views, Subtitles fetched, Translations, Transcribed?  Yes / No-
-# -All videos page heading.  "All submitted videos".-  
+# Make HTML for pages 2 and 3 of revision history mockup (sent via email).
+# Fix style in the translation page in widget.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  # Choose language in translation page in widget.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
+# The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)  
 # Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
 # Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
-# -Work out subtitle position on video with adam.  See note:In the new html, you're forcing the mirosubs-captionDiv to have a top of 220px in the css. Any reason for this? I'm also setting the value in js code, but . Anyway, for now I've added the top style to mirosubs-captionDivBg, which has to end up behind the caption div for them to be visible on flash videos in FF/Linux and possibly FF/Windows and IE.-
-# -Work out dynamic changes to subtitle size based on video size with Adam.- 
-# The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)  
-# -Style the user profile page, including the photo (when uploaded) and the photo form and the "holmes's activity" section.  Note, the activity list can read like the one on the front page.  Also style it for when its somebody else's page (not yours) for example: http://mirosubsstaging.8planes.com/profiles/17/ (including photo and activity).-
-# -Style the front page.  Starting a thread now with Dean and Nick, I'll take a pass and digest this for you, follow up with me if I haven't yet when you get to this item.-
+# Do a 1 hour round on style niceness for the timeline view (see email, and IM with Holmes when you get to this).  There will be lots of ideas here, so take a first stab at some of those top items while it's fresh in your head.
+# OpenID login screen needs to be styled.  Morgan-- let me know if there is any hold up on this.
 # Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.  
-# -Don't use underline in recent activity list.-  -Get rid of 3D bubbles in recent activity list.-  Show user image thumbnail in recent activity list (on left side next to name, small)
-# Fix style in the translation page.  The instruction text is weirdly warped, the "choose language" area is unstyled.  The choose language box should be at the top of the subtitle list within the scrollable area.  This page should be the same height as other widget pages.  The label should be "Choose language: [ --- ]" and then "Choose Language: [Spanish]" when selected (send note to adam CC HW about what change needs to be made when you're done with style).
-# Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot.
-# Make HTML for pages 2 and 3 of revision history mockup (sent via email).
+# Make HTML for this warning message in widget.  Should appear when user clicks and opens dropdown menu.  It can be wider than the video if necessary or it can wrap (maybe centered?).  Just make something and try it with different video sizes to make sure it doesn't look totally f'ed.  See attached screenshot (search email for the text of this todo)
+# Style a nice way for empty subs to display "silence" or (silence) in a smaller but readable font, and email adam and holmes when done.  Should be implemented like this: https://pybrew.codebasehq.com/mirosubs/tickets/84
 
 Other design wishlist (low priority):
 
@@ -91,14 +47,3 @@ Other design wishlist (low priority):
 # When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
 # Fix funny white line below youtube video between youtube video and the rest of the widget.  
 # We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
-
-
-h2. Non acted-upon suggestions from first round of user testing
-
-(I wanted to leave these somewhere as a reference)
-
-* It would be useful to be able to change the subtitle text and color before completing the project; and also to be able to import a text file in the event the video had been transcribed earlier.  
-* Adding a transcript: if somebody pastes a ton of text with linebreaks into the transcription box, we should treat those as separate lines and fill them in.  Two linebreaks is "silence".  Let somebody upload SRT.
-* Make backspace (when not editing) work like "undo" for transcribe and sync, and show in key controls list.
-* The "Start Over" link should be available on every tab.   In review, it should ask the user "do you want to delete all syncing information and start over?  Yes, delete all  /  No, just rewind to beginning" with No as default.  On the transcribe page it should say "do you really want to delete everything and start over? Yes, delete everything. /  No, don't delete" with no as default
-* For morgan: restore start over button visibility.  Somebody thought it was too faint.
