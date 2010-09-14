@@ -14,6 +14,7 @@ h2. Critical Stuff for next round of development
 # -Make sure youtube video is not covering subtitles on mac osx/ff-
 # -Fix small problem (subtitles in overlay still advance when holding spacebar): https://pybrew.codebasehq.com/mirosubs/tickets/23-
 # New HTML
+# Add an item to the dropdown menu "Download .SRT (ES)" that appears when a subtitle track is active
 # -"embed code" displayed on final "thanks for submitting" page of widget is not an embed code, it's just a link.  This field should include embed code, as shown on site (something that can be pasted into html to load video).-
 # -Open ID login works https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89-
 # let users Create account (in widget in dropdown menu, and in login button) http://bugzilla.pculture.org/show_bug.cgi?id=13079
