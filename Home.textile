@@ -15,7 +15,7 @@ h2. Current ticket priority ordering
 # -increase CTRL skip back interval from 4 to 8 seconds (so minor I didn't bother creating a ticket)-
 # size videos (e.g. youtube videos) to match width of interface
 # Add numbers to the bottom tabs to indicate the progression (i.e., 1. Transcribe, 2. Sync, 3. Review). 
-# Dropdown menu: https://pybrew.codebasehq.com/mirosubs/tickets/115 AND Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
+# -Dropdown menu: https://pybrew.codebasehq.com/mirosubs/tickets/115- AND Add "turn off subtitles" to dropdown: https://pybrew.codebasehq.com/mirosubs/tickets/88
 # OpenID: https://pybrew.codebasehq.com/mirosubs/tickets/4 https://pybrew.codebasehq.com/mirosubs/tickets/89
 # Login flow (not everything, but some stuff): https://pybrew.codebasehq.com/mirosubs/tickets/83
 # Add start over button to sync: https://pybrew.codebasehq.com/mirosubs/tickets/99
