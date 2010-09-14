@@ -54,3 +54,6 @@ After deploy:
 
 General Notes from Janet:
  * Overall, I think our process among PCF projects should be consistent.   Development for a web project moves faster and deploys more readily, but the general organization and use of bugzilla should the same.  In terms of testing, automated and manual, I think it's ideal to continue to track the testing in Litmus.  Consistency in tools will also make it simpler for interns and other volunteers to contribute to multiple PCF projects.
+
+ * Is the staging area only going to be used for the pre-Deployment testing phase, some short pre-Release time period?
+ * In general, what is the target time period for each dev cycle?
