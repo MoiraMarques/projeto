@@ -45,6 +45,7 @@ h2. Morgan's Design / XHTML /CSS list.
 
 These first:
 # Got the real widget up and running on IE at mswidgetdev, e.g. http://mswidgetdev.8planes.com/widget-demo.rb?youtube_videoid=tfd5p1JqUsw&null .  There appear to be some minor styling issues around the input box for typing in new subs. Morgan, do you have any insight into this? It appears that IE interprets the selector ".mirosubs-transcribeControls input.trans" differently here for some weird reason. Please check it out using IE Developer Tools and let me know what you think.
+##What's the problem here, exactly?
 # Make video player (see email from Holmes)
 # Make HTML for timestamp buttons that are left/right (not up/down).  Left should decrease time, right should increase.  Send to Adam.
 
