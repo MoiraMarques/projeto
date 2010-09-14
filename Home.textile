@@ -84,6 +84,9 @@ problem might be that they are too wide for the dialog structure.  Morgan--can y
 12. Nick made a few tweaks to the dropdown CSS here (see email).  He changed the font, the positioning (left instead of right) and the menu color.  Can you incorporate these?
 13. We're thinking the green color on the button and the logo looks way too pukey.   Can you make it brighter?
 14. The rotating logo isn't visible enough as a loading indicator.  Can you replace it with a spinner that sits on the metal tab and temporarily replaces the green logo?
+15. Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.
+16. Another Safari issue: I think the subtitles may be appearing too high in the video compared to the Firefox ones.  Not sure.
+17. "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
 
 h2. Non acted-upon suggestions from first round of user testing
 
