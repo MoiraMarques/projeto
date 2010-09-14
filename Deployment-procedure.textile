@@ -25,21 +25,15 @@ Release:
 * Developer deploys
 
 Testing process:
-* Automated regression testing using selenium.  
-* Developers need to be able to activate and interpret, but discuss with Janet.  
-* Automated testing needs to get updated with new features changes... at least, developers, morgan need to give janet notes on changing the test.  A bugzilla search for list of tickets solved since last deploy.
-* Possibly get an intern or elancer to do this
-* Automated testing runs again after changes made to testing process.  (Janet runs it this time)
-* Email to testers and janet with changelog, whatever.  Includes list of changes.  They test new stuff and core functionality to make sure we didn't break anything tragically.
-* Look for error messages (any automated messages we get from the widget, from django??  any more we can get that are useful?) feedback form, this should go straight to developers, what's the best way to get this, what's the best threshhold for listening?
-* Includes testing workflow document (can we autogenerate based on selenium??) ask janet for a good way to track how many people have gone through testing workflow (visit a page, click a box) and make sure we get a certain number of these.
-* we try to get an intern or a hardcore volunteer to maintain selenium tests?
+* Automated regression testing using selenium.  These tests should be located on a pcf server and run nightly  results posted and accessible by all via web.
+* Developers can checkout selenium tests to run whereever
+* Automated testing needs to get updated with new features changes.
+  * Tester manually tests Resolved Fixed ticket, marks as verified
+  * Notes existing manual litmus test that covers functionality or makes new test
+  * Create seleium test that maps to manual test case.
 
-   * Notes for Janet for Testing process
-    1. We have automated testing using selenium.  These tests should be located on a pcf server and run nightly  results posted and accessible by all via web.
-   2. Tests are updated after bug fixed in bugzilla.  Can use the needs testing flag (or make custom flag) to indicate that a particular test requires a new test generated or a test to be updated.  Each automated test should have a manual test case in Litmus. Results can be entered in litmus for automated test runs too.
-  3. Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  We get regular interns from Hitek who can be relied upon to run tests when required.
-  4. Test results are available in Litmus to show the breakdown of #testers, tests run, browser / os, and pass/fail results.
+ * Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  We get regular interns from Hitek who can be relied upon to run tests when required.
+ * Prerelease Automated and Manual Test results are available in Litmus to show the breakdown of #testers, tests run, browser / os, and pass/fail results.
 
 After deploy: 
 * Deploy at the beginning of the day for developer availability if there are problems.
