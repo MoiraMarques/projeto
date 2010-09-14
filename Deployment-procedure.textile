@@ -31,7 +31,6 @@ Testing process:
   * Tester manually tests Resolved Fixed ticket, marks as verified
   * Notes existing manual litmus test that covers functionality or makes new test
   * Create seleium test that maps to manual test case.
-
  * Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  We get regular interns from Hitek who can be relied upon to run tests when required.
  * Prerelease Automated and Manual Test results are available in Litmus to show the breakdown of #testers, tests run, browser / os, and pass/fail results.
 
