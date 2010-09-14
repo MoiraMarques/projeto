@@ -1,0 +1,37 @@
+* Deployment happens when there is finished work (that is, no functionality with missing design or vice versa)
+* Understand finished work so we can deploy it.
+* See the list of tickets being deployed.
+
+Finishing a ticket:
+
+* Developer or morgan finishes ticket (finished = it doesn't need any other work to be complete, they don't need to assign to anyone else to complete it)
+* Checks their changes into master when they finish it
+* Mark the ticket as done, note the revision number (maybe not necessary)
+* Target it to most recent milestone (if the one on the live site is 1.5, 1.6) <---- we need a list of all changes on testing site / when the release is pushed what's in it... for testing purposes).
+
+Release:
+
+* Developer starts testing cycle (always same person, say, adam).  
+* creates new milestone in bugzilla
+* pushes master to staging server
+* starts testing process (email to holmes, janet, testers with change list, and selenium)
+* holmes (and maybe janet) processes feedback (from email and eventually user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
+* developers submit fix to same milestone, notify janet or holmes and rerun selenium (or rerun whole testing process if they are worried)
+* holmes or janet gives goahead to deploy.
+* developer deploys
+
+Testing process:
+* Automated testing using selenium.  Ideally, developers need to be able to activate and interpret, but discuss with Janet.  
+* Automated testing needs to get updated with new features changes... at least, developers, morgan need to give janet notes on changing the test.  A bugzilla search for list of tickets solved since last deploy.
+* Possibly get an intern or elancer to do this
+* Automated testing runs again after changes made to testing process.  (Janet runs it this time)
+* Email to testers and janet with changelog, whatever.  Includes list of changes.  They test new stuff and core functionality to make sure we didn't break anything tragically.
+* Look for error messages (any automated messages we get from the widget, from django??  any more we can get that are useful?) feedback form, this should go straight to developers, what's the best way to get this, what's the best threshhold for listening?
+* Includes testing workflow document (can we autogenerate based on selenium??) ask janet for a good way to track how many people have gone through testing workflow (visit a page, click a box) and make sure we get a certain number of these.
+* we try to get an intern or a hardcore volunteer to maintain selenium tests?
+
+After deploy: 
+* Deploy at the beginning of the day for developer availability if there are problems.
+* Look for error messages (any automated messages we get from the widget, from django??  any more we can get that are useful?) feedback form, this should go straight to developers, what's the best way to get this, what's the best threshhold for listening?
+* Feedback form should have a release number / timestamp.
+* Possibly, do a blog post.
