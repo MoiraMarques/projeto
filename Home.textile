@@ -11,16 +11,17 @@ h3. Future Django projects
 h2. Morgan's design list (top ones first!):
 
 Note, if the item refers to a screenshot, search email for some string from the item...  The email will include a screenshot.   or IM with holmes to resend screenshot.
-
-# Do a 1 hour round on style niceness for the timeline view (see email, and IM with Holmes when you get to this).  There will be lots of ideas here, so take a first stab at some of those top items while it's fresh in your head.  Main points:
-* fix text padding on subtitles
-* make video player black or dark, remove dividers btw play and volume and playback slider, build in to timeline marker bar with some nice subtle division (grey line?), reduce number of lines in marker to 4 and numbers to minute.seconds  like 4:20 for 4 minutes 20 seconds or 20 for 20 seconds. (see holmes mockup).
-* highlight active subtitle blue (same as in list)
-* abutting subtitles should be divided by a single thing line
-* subtitles should display in bottom part of video (position moved up again)
-# See email "Youtube sizing issue" this one?? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
-# Get rid of "shadow" on subtitles in video.  
 # HTML of revision history page (see email subject "Revision history page")
+# fix text padding on subtitles in timeline.
+# make video player black or dark, remove dividers btw play and volume and playback slider, build in to timeline marker bar with some nice subtle division (grey line?), reduce number of lines in marker to 4 and numbers to minute.seconds  like 4:20 for 4 minutes 20 seconds or 20 for 20 seconds. (see holmes mockup).
+# subtitles that touch should be divided by a single thing line (no rounding)
+# subtitles should display in bottom part of video (position moved up again)
+# Get rid of "shadow" on subtitles in video.  
+# make active subtitle light blue (same as in list)
+
+# See email "Youtube sizing issue" this one?? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
+
+
 # Make window as short as possible.  
 * Change widget border style so that it appears like a "drawer" coming down from the top of the screen.  Video and top title almost flush with top of browser window (as close as it can without looking ugly).  Move close button down or somewhere else.
 * Reduce height of subtitle list in sync mode to shorten the page.  As long as 4 long subtitles fit that's okay.
