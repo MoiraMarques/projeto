@@ -10,17 +10,16 @@ h3. Future Django projects
 
 h2. Morgan's design list (top ones first!):
 
-Note, if the item refers to a screenshot, search email for some string from the item...  The email will include a screenshot.   or IM with holmes to resend screenshot.
-# We need a loading state for the login dialog. After the site/twitter/openid popup disappears, it tries to contact the server. This leaves the user thinking "wtf?" while the login dialog just hangs there, apparently doing nothing.
-# HTML of revision history page (see email subject "Revision history page")
-# Make ">" into small play buttons (that say "PLAY" and appear on hover over that item) in the "view" and "diff" revision history pages.
-# fix text padding on subtitles in timeline.
-# make video player black or dark, remove dividers btw play and volume and playback slider, build in to timeline marker bar with some nice subtle division (grey line?), reduce number of lines in marker to 4 and numbers to minute.seconds  like 4:20 for 4 minutes 20 seconds or 20 for 20 seconds. (see holmes mockup).
+# -We need a loading state for the login dialog. After the site/twitter/openid popup disappears, it tries to contact the server. This leaves the user thinking "wtf?" while the login dialog just hangs there, apparently doing nothing.-
+# -HTML of revision history page (see email subject "Revision history page")-
+# -Make ">" into small play buttons (that say "PLAY" and appear on hover over that item) in the "view" and "diff" revision history pages.-
+# -fix text padding on subtitles in timeline.-
+# -make video player black or dark, remove dividers btw play and volume and playback slider, build in to timeline marker bar with some nice subtle division (grey line?), reduce number of lines in marker to 4 and numbers to minute.seconds  like 4:20 for 4 minutes 20 seconds or 20 for 20 seconds. (see holmes mockup).-
 # subtitles that touch should be divided by a single thin line (no rounding of corners or shadow of one on top of the other)
 # subtitles should display in bottom part of video (position moved up again)
-# Get rid of "shadow" on subtitles in video.  
+# -Get rid of "shadow" on subtitles in video.-  
 # make active subtitle light blue (same as in list)
-# See email "Youtube sizing issue".  Was this done already and just not deployed? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- 
+# See email "Youtube sizing issue".  Was this done already and just not deployed? # -The youtube video isn't getting sized properly here (see screenshot in email of me translating one of our testing videos)- this should be working 
 # when you click on the tab and select something in the menu like 'add subtitles' the text doesn't turn white when you hover
 # -OpenID login screen needs to be styled.  Morgan-- let me know if there is any hold up on this.-
 # -Add "Note this site is in early testing stages..." image from frontpage mockup to all internal pages.-  
