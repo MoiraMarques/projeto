@@ -1,0 +1,37 @@
+h1. Required in JS API
+
+* A method that returns the current state of the player -- whether it's playing or paused or if the video has finished playing.
+* A method that plays the video.
+* A method that pauses the video.
+* A method that returns playhead time, and another that sets playhead time.
+* A method that returns the video's duration.
+* A method that returns the byte range of the video that is currently buffered in the player.
+* A method that returns volume, and another that sets volume.
+* A method that stops the video media from further loading, and another that recommences loading.
+* The video player should issue an event when the video starts playing, and another event when it pauses. 
+
+h1. Players
+
+h2. Vimeo
+
+http://vimeo.com/api/docs/moogaloop
+
+Vimeo has no method that returns the current state of the player, but we can probably fake this in the class, since we have access to their events. They don't return the byte range information, so we can't make that part of the progress bar for them in the dialog player -- but this is arguably superfluous. They don't have a method that returns volume either, but we can fake this by setting the volume ourselves and then keeping track of any volume setting. These are the only things missing from Vimeo. It is also possible that we'll have to create a swf wrapper around it to show without their controls, but this is unclear -- there is no online example.
+
+h2. Dailymotion
+
+http://www.dailymotion.com/us/doc/api/player/javascript_api
+
+Dailymotion appears to support the entire API we need! Good job, Dailymotion!
+
+h2. Metacafe
+
+http://help.metacafe.com/?page_id=200
+
+Metacafe has an embeddable player, but doesn't seem to expose an API. I could hack around and see if they have an undocumented API.
+
+h2. Facebook
+
+http://forum.developers.facebook.net/viewtopic.php?pid=194054
+
+It looks like one can't even embed the FB player. Maybe we can scrape flv urls for FB?
