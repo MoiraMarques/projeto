@@ -30,3 +30,11 @@
 
 Waiting on Morgan:
 # https://pybrew.codebasehq.com/mirosubs/tickets/48
+
+Focus should go to text-entry on TAB press: http://bugzilla.pculture.org/show_bug.cgi?id=12969
+Remove "Type subtitle" after the first time: http://bugzilla.pculture.org/show_bug.cgi?id=12974    
+Deleting a blank line during transcribe step: http://bugzilla.pculture.org/show_bug.cgi?id=12975
+for morgan:
+shortcut sidebar style: http://bugzilla.pculture.org/show_bug.cgi?id=12966
+better instructions: http://bugzilla.pculture.org/show_bug.cgi?id=12967
+Pushable, animated shortcut buttons: http://bugzilla.pculture.org/show_bug.cgi?id=12973
