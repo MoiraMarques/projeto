@@ -42,36 +42,42 @@ h3. Medium priority, nice to have, maybe we don't care:
 
 h2. Morgan's Design / XHTML /CSS list.
 
-
-
-# -Without timeline, dialog is too short in sync & review modes. Elements on right overlap.-
-# -HTML of new "back" and "restart" buttons for sync / review / transcribe / edit (see email "Mockup of new "back" and "restart" buttons for sync / review / transcribe / edit")-
-# -grey dotted outline when you click in the widget dialog, this isn't a firefox extension, is it?  (see screenshot below)-
-# -The subtitle text must be centered in the div and not in the video, so it sometimes gets too close to the left margin.-
-# -There's a band of white down the right side of the box, not covered by the subtitling image.-
-# -Nick made a few tweaks to the dropdown CSS here (see email).  He changed the font, the positioning (left instead of right) and the menu color.  Can you incorporate these?-
-# -In Sync or Review, try double-clicking on sub. The elements overlap a bit, so we need some design help here.-
-# -White outline of widget is transparent.  It shouldn't be.-
-# -Another Safari issue: I think the subtitles may be appearing too high in the video compared to the Firefox ones.  Not sure.-
-# -dropdown: make the "choose language" tab with the divider and down arrow (see layer in PSD nick sent).-
-# -Need green box "To begin, press TAB to play and start typing!" in the Transcribe view (see mockups)-
-# -Make HTML based on mockups for FINISHED screen (see email "tweaked post subtitles page")-
-# -Make HTML based on "how-to video" mockup that Holmes sent.-
-# -Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.- this is fine when working in static html, there must be some JS making this happen
-# -Waiting on Adam: Test the widget in IE 7 / IE 8 and fix any CSS issues.-  
-# -When clicking "Done" in Review state, we contact the server. Need
-to show loading thing here.  HW: Let's use the first spinner (from the first widget, or something similar) right on the metal button in the space to the left of "Done"-
 # Make video player (see email from Holmes)
-# We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
-# -Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.-
-# Fix autopause or "Smart Pause" checkbox style (see current widget http://mswidgetstaging.8planes.com/widget-demo.rb?video_url=http://videos.mozilla.org/firefox3/switch/switch.ogg&null for how it looks right now)
-# -make a "+" button (this could just be a small white "+" or it could have a circle around it) somewhere near the center corner where the video, the instructions, and the list of subtitles meet.  This should change to "minus" when timeline view appears.  Send Adam and Holmes a note that it's there, and should hide / remove.-
-# -"Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)-
+
+Website todos:
+
+# Video page should show sharing links, Just like the light blue box in the "Finished" page in the widget, to the right next to video.  This can replace the other embed code.
+# Videos in pages should be sized to match the height of this sharing box, more or less.
+# Feedback form at bottom of page should be styled.  Like:  We need your feedback!
+This site is a work in progress.  Please let us know if you have any issues, questions, or suggestions!.
+The send feedback button should be big.  There should be some divider that separates this from the rest of the page.  
+# Video page shd show stats on video.   This should be to the right
+* Views
+* Subtitles fetched
+* Translations
+* Transcribed?  Yes / No
+# All videos page heading.  "All submitted videos"
+# Recent changes needs some basic styling.  Just needs to be a bit prettier I think.  Maybe some colors and bolding of the username or video instead of the underline.  Twitter is probably an okay model.  If you don't have ideas for this, skip it.
+# Login page styling: http://mirosubsstaging.8planes.com/auth/login/
+* Login and create account are side by side with nice big buttons.  
+* Nice big buttons for Twitter and openID.  
+* OpenID login screen also needs to be styled.  You can use the tabbed login screen if you want (different tabs for twitter, * openID, normal, etc) if you want, but the twitter one will just have a button in the middle.
+# Make a page for "email a friend".  
+To: (email address)
+From: (email address)
+Note: 
+Hey, I thought you should check out this video on universalsubtitles.org.  You can add subtitles, watch the video with subtitles that others have made, or translate the subtitles into a new language.
+# Make a demo page for testers where we detect browser.  Holmes will send a mockup
+# Make a basic "about" page with a Header and Lorem Ipsum / subheaders, etc etc for us to fill in.  Don't spend any time on this, just get something reasonably real.  If this already exists, just create an example page at /about 
+# Make a basic FAQ page with a list of jump links at the top to Questions and answer text.  Don't spend any time on this, just get something reasonably real at /faq
+
+Other design wishlist (low priority):
+
 # The rotating logo isn't visible enough as a loading indicator.  One possible solution: replace it with a spinner that sits on the metal tab and temporarily replaces the green logo
 # When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
-# -Morgan can you make a design that uses / sizes youtube videos and HTML5 of different aspect ratios to not look f'ed?  If you do it by making the bottom left quadrant variable height, make sure the "press TAB to play" button looks good".-
-# -Related: when video is a different height / aspect ratio than the area we've provided, make sure it looks nice.-
 # Fix funny white line below youtube video between youtube video and the rest of the widget.  
+# We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
+
 
 h2. Non acted-upon suggestions from first round of user testing
 
