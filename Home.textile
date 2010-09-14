@@ -56,19 +56,19 @@ h2. Morgan's Design / XHTML /CSS list.
 # -Need green box "To begin, press TAB to play and start typing!" in the Transcribe view (see mockups)-
 # -Make HTML based on mockups for FINISHED screen (see email "tweaked post subtitles page")-
 # Make HTML based on "how-to video" mockup that Holmes sent.
-# Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.
-# Waiting on Adam: Test the widget in IE 7 / IE 8 and fix any CSS issues.  
+# -Safari video player and titles alignment bug (see two emails for screenshots) The video player in the widget view displays in the wrong place, even though the video displays in the correct place.  If this is some weird and hard to fix safari bug, let it stay broken.- this is fine when working in static html, there must be some JS making this happen
+# -Waiting on Adam: Test the widget in IE 7 / IE 8 and fix any CSS issues.-  
 # When clicking "Done" in Review state, we contact the server. Need
 to show loading thing here.  HW: Let's use the first spinner (from the first widget, or something similar) right on the metal button in the space to the left of "Done"
 # Make video player (see email from Holmes)
 # We're thinking the green color on the "Subtitle Me" button and the logo looks way too pukey.   Can you make it brighter?
-# Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.
+# -Make HTML of transcribe/review with no 3D styling, edge around timestamps, just the text on the background, and make timestamp spinner buttons larger.  This can be a graphical draft to discuss, or HTML.  Let us know as soon as this is done so we can discuss.-
 # Fix autopause or "Smart Pause" checkbox style (see current widget http://mswidgetstaging.8planes.com/widget-demo.rb?video_url=http://videos.mozilla.org/firefox3/switch/switch.ogg&null for how it looks right now)
 # make a "+" button (this could just be a small white "+" or it could have a circle around it) somewhere near the center corner where the video, the instructions, and the list of subtitles meet.  This should change to "minus" when timeline view appears.  Send Adam and Holmes a note that it's there, and should hide / remove.
 # "Download SRT" shouldn't be styled as a link... it should look like any other button (see email screenshot)
 # The rotating logo isn't visible enough as a loading indicator.  One possible solution: replace it with a spinner that sits on the metal tab and temporarily replaces the green logo
 # When the bottom left of an HTML5 video is very white, the button is sort of floating.  Perhaps the button should include an edge in the bottom left hand corner that goes up and right just enough to define that bottom corner, and fades from grey to white, one pixel wide?
-# -Morgan--can you make a design that uses / sizes youtube videos and HTML5 of different aspect ratios to not look f'ed?  If you do it by making the bottom left quadrant variable height, make sure the "press TAB to play" button looks good".-
+# -Morgan can you make a design that uses / sizes youtube videos and HTML5 of different aspect ratios to not look f'ed?  If you do it by making the bottom left quadrant variable height, make sure the "press TAB to play" button looks good".-
 # -Related: when video is a different height / aspect ratio than the area we've provided, make sure it looks nice.-
 # Fix funny white line below youtube video between youtube video and the rest of the widget.  
 
