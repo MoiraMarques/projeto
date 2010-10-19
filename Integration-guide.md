@@ -7,7 +7,7 @@ This small bit of javascript can be added to the <header> of your template and t
 
 **To use it:** add the following code just above \</header\> in your CMS template. We also have a plugin that can do this automatically for wordpress sites.
 
-<code><script type="text/javascript" src="http://s3.www.universalsubtitles.org/js/mirosubs-widgetizer.js"></script></code>
+<code>\<script type="text/javascript" src="http://s3.www.universalsubtitles.org/js/mirosubs-widgetizer.js">\</script>\</code>
 
 **Demo:** http://universalsubtitles.org/widget/widgetize_demo.html
 
