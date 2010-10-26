@@ -12,7 +12,7 @@ you would need the addon to have all of the universal subtitles javascript files
 
 ///////////script start
 //things written with these"//" infront of them aren't code but instead are comments on my code that will not affect the code.
-
+<code>
 function LoadUS(){
   $('#movie_player').after('<a href="#" class="mirosubs-subtitleMeLink"><img src="http://s3.www.universalsubtitles.org/images/small_logo.png" alt="small logo"><span class="mirosubs-tabTextchoose">Original Language</span></a><a style="display: none;" href="#"><span class="mirosubs-tabTextfinish">NUDGE TEXT</span></a>');
 }
@@ -26,7 +26,7 @@ function onloadhookcustom() {
 if (window.addEventListener){window.addEventListener("load",onloadhookcustom,false);}
 else if (window.attachEvent) {window.attachEvent("onload",onloadhookcustom);}
 //these two lines just check to see when a webpage is loaded then triggers the "onloadhookcustom()" function.
-
+</code>
 /////////script end
 
 that should work as far as making the subtitles button appear, then after that a the normal US javascript/css files should kick in and function as normal.  that is my presumption anyway. 
