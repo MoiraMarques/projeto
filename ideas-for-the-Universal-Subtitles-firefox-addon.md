@@ -2,7 +2,7 @@ I was thinking that it should be possible to create a firefox addon that when yo
 
 So far I have an idea for the start of the code. 
 
-$('#movie_player').after('<a href="#" class="mirosubs-subtitleMeLink"><img src="http://s3.www.universalsubtitles.org/images/small_logo.png" alt="small logo"><span class="mirosubs-tabTextchoose">Original Language</span></a><a style="display: none;" href="#"><span class="mirosubs-tabTextfinish">NUDGE TEXT</span></a>');
+<code>$('#movie_player').after('<a href="#" class="mirosubs-subtitleMeLink"><img src="http://s3.www.universalsubtitles.org/images/small_logo.png" alt="small logo"><span class="mirosubs-tabTextchoose">Original Language</span></a><a style="display: none;" href="#"><span class="mirosubs-tabTextfinish">NUDGE TEXT</span></a>');</code>
 
 that should add the universal subtitles button to all youtube videos.
 
