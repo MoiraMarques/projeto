@@ -8,6 +8,6 @@ Start here:
 
 **[[Universal Subtitles Development Info|dev-center]]**
 
-"Testing and staging servers":http://wiki.github.com/8planes/mirosubs/testing-and-staging-servers
+[[Testing and staging servers|testing-and-staging-servers]]
 
-"Support for video sites":http://wiki.github.com/8planes/mirosubs/other-video-players
+[[Support for video sites|other-video-players]]
