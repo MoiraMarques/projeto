@@ -1,4 +1,4 @@
-h2. HTML 5 Videos
+## HTML 5 Videos
 
 Example:
 
@@ -20,7 +20,7 @@ For HTML 5 videos you can include any attributes for the `video` element using t
       })
     </script>
 
-h2. Youtube Videos
+## Youtube Videos
 
 The youtube video embed code should include the video url. The optional video_config parameter can include any of the [[YouTube Embedded Player Parameters|http://code.google.com/apis/youtube/player_parameters.html]], as well as width and height:
 
