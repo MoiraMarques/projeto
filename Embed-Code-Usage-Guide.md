@@ -34,3 +34,15 @@ The youtube video embed code should include the video url. The optional video_co
            }
       })
     </script>
+
+## Adding alternate video URLs
+
+The embed code can include alternate video URLs. The widget will choose the URL that is "most preferred" for the browser, where ogg > h264 > flash.
+
+    <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
+      ({
+           video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
+           alternate_video_urls: ["http://example.com/examplevideo.ogg", "http://example.com/examplevideo.mp4"]
+      })
+    </script>
+
