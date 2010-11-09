@@ -42,8 +42,7 @@ The embed code can include alternate video URLs. The widget will choose the URL 
     <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
       ({
            video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
-           alternate_video_urls: [{url: "http://example.com/examplevideo.ogg", 
-config: {poster: "http://www.mysite.com/link_to_poster.jpg"}}, "http://example.com/examplevideo.mp4"]
+           alternate_video_urls: ["http://example.com/examplevideo.ogg", "http://example.com/examplevideo.mp4"]
       })
     </script>
 
