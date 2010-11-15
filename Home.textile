@@ -11,3 +11,7 @@ Start here:
 [[Testing and staging servers|testing-and-staging-servers]]
 
 [[Support for video sites|other-video-players]]
+
+h2. Deployment Notes
+
+[[Deployment Notes]]
