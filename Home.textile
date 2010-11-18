@@ -2,6 +2,8 @@ h2. Interested in using Universal Subtitles?
 
 [[Embed Code Usage Guide]]
 
+[[Widgetizer Script Usage Guide]]
+
 h2. Interested in contributing to Universal Subtitles?  
 
 Start here:
