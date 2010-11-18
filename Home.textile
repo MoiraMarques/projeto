@@ -1,8 +1,8 @@
 h2. Interested in using Universal Subtitles?
 
-[[Embed Code Usage Guide]]
+[[Embed Code Usage Guide]] (Individually embedded videos)
 
-[[Widgetizer Script Usage Guide]]
+[[Widgetizer Script Usage Guide]] (Script for auto-enabling usubs on site videos)
 
 h2. Interested in contributing to Universal Subtitles?  
 
