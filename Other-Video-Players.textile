@@ -41,6 +41,10 @@ http://forum.developers.facebook.net/viewtopic.php?pid=194054
 
 It looks like one can't even embed the FB player. Maybe we can scrape flv urls for FB?
 
+h2. Yahoo
+
+See http://developer.yahoo.com/music/api_guide/VideoPlayerMethods.html and http://developer.yahoo.com/music/api_guide/VideoPlayerCallbacks.html . Missing several methods we need, e.g. one that returns current playhead time.
+
 h1. vidscraper supported sites: 
 
 * blip
