@@ -6,8 +6,8 @@ This small bit of javascript can be added to the <header> of your template and t
 
 **Demo:** http://universalsubtitles.org/widget/widgetize_demo.html
 
+**Important note I** the widgetizer only works with YouTube and html5 videos. We'll be adding support for more formats and services in the very near future
+
+**Important note II** IE visitors will require youtube videos be direct descendants of the <body/>
+
 *Caveat: certain formats that we support must use the flowplayer skin, in order to give us necessary timing data so that we can sync the subtitles to the video.*
-
-**Important note I** the widgetizer only works with YouTube and html5 videos. We'll be adding support for more formats and services in the very near future.**
-
-**Important note II** for IE visitors, the widgetizer requires that youtube videos are direct descendants of <body/>
