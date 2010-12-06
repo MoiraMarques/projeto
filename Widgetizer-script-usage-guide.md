@@ -1,4 +1,4 @@
-This small bit of javascript can be added to the <header> of your template and then every video on the site (that Universal Subtitles supports) will have the subtitle tab attached below.
+This small bit of javascript can be added to the <header> of your template and then every YouTube or html5 video on the site will have the subtitle tab attached below.
 
 **To use it:** add the following code just above \</header\> in your CMS template. We also have a plugin that can do this automatically for wordpress sites.
 
