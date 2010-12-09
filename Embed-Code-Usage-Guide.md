@@ -2,7 +2,7 @@
 
 Example:
 
-    <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
       ({
            video_url: "http://www.mysite.com/link_to_video.ogg"
       })
@@ -10,7 +10,7 @@ Example:
 
 For HTML 5 videos you can include any attributes for the `video` element using the `video_config` parameter. The `video_config` parameter can also include the property `click_to_play`:
 
-    <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
       ({
            video_url: "http://www.mysite.com/link_to_video.ogg",
            video_config: {
@@ -24,7 +24,7 @@ For HTML 5 videos you can include any attributes for the `video` element using t
 
 The youtube video embed code should include the video url. The optional video_config parameter can include any of the [[YouTube Embedded Player Parameters|http://code.google.com/apis/youtube/player_parameters.html]], as well as width and height:
 
-    <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
       ({
            video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
            video_config: {
@@ -39,7 +39,7 @@ The youtube video embed code should include the video url. The optional video_co
 
 The embed code can include alternate video URLs. The widget will choose the URL that is "most preferred" for the browser, where ogg > h264 > flash.
 
-    <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
       ({
            video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
            alternate_video_urls: ["http://example.com/examplevideo.ogg", "http://example.com/examplevideo.mp4"]
@@ -48,7 +48,7 @@ The embed code can include alternate video URLs. The widget will choose the URL 
 
 You can also add appropriate video_config parameters to the alternate video URLs:
 
-    <script type="text/javascript" src="http://www.s3.universalsubtitles.org/embed.js">
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
       ({
            video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
            alternate_video_urls: [
