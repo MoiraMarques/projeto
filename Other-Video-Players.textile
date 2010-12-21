@@ -14,7 +14,9 @@ h1. Players
 
 h2. Brightcove
 
-Needs research.
+http://docs.brightcove.com/en/player/
+
+It looks like everything is supported except for the stopping/restarting of video loading.
 
 
 h2. Vimeo
