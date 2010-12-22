@@ -16,8 +16,8 @@ Here are some tickets that might be good for newcomers to the project!
 # "Awesome bookmarklet and code for site templates":http://bugzilla.pculture.org/show_bug.cgi?id=13431 -- 
 # "Getting good titles for html5 videos":http://bugzilla.pculture.org/show_bug.cgi?id=13392
 # "Machine translation in widget dropdown menu":http://bugzilla.pculture.org/show_bug.cgi?id=13443
-# "Error when youtube link is broken/removed":http://bugzilla.pculture.org/show_bug.cgi?id=13363
-# "youtube player sometimes starts playing again when pause is called and playhead time is set to 0":http://bugzilla.pculture.org/show_bug.cgi?id=13022 -- 
+# "Error when YouTube link is broken/removed":http://bugzilla.pculture.org/show_bug.cgi?id=13593
+# "YouTube player sometimes starts playing again when pause is called and playhead time is set to 0":http://bugzilla.pculture.org/show_bug.cgi?id=13022 -- 
 # add "Support for video sites":http://wiki.github.com/8planes/mirosubs/other-video-players
 
 **Ideas** 
