@@ -41,7 +41,7 @@ For raw FLV files, the widget uses [[FlowPlayer|http://flowplayer.org/]]. The op
 
     <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
       ({
-           video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
+           video_url: "http://mysite.com/myvideofile.flv",
            video_config: {
                width: 640,
                height: 480,
