@@ -35,6 +35,30 @@ The youtube video embed code should include the video url. The optional video_co
       })
     </script>
 
+## FLV Files
+
+For raw FLV files, the widget uses [[FlowPlayer|http://flowplayer.org/]]. The optional video_config parameter can include any of the [[FlowPlayer plugins|http://flowplayer.org/documentation/configuration/plugins.html]], as well as width and height:
+
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+      ({
+           video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
+           video_config: {
+               width: 640,
+               height: 480,
+               content: {
+                   url: 'flowplayer.content-3.2.0.swf',
+                   height: 220,
+                   padding:30,
+                   backgroundColor: '#112233',
+                   opacity: 0.7,
+                   backgroundGradient: [0.1, 0.1, 1.0],
+                   html: '<p>This big overlay is a content plugin</p>',
+                   style: {p: {fontSize: 40}}			
+               }
+           }
+      })
+    </script>
+
 ## Adding alternate video URLs
 
 The embed code can include alternate video URLs. The widget will choose the URL that is "most preferred" for the browser, where ogg > h264 > flash.
