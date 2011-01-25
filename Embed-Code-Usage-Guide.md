@@ -20,6 +20,21 @@ For HTML 5 videos you can include any attributes for the `video` element using t
       })
     </script>
 
+## Vimeo Videos
+
+The Vimeo video embed code should include the video url. The optional video_config parameter can include any of the [[Vimeo Moogaloop Player Arguments|http://vimeo.com/api/docs/moogaloop]]. E.g.:
+
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+      ({
+           video_url: "http://vimeo.com/15308050",
+           video_config: {
+               color: 'FF0000',
+               width: 640,
+               height: 480
+           }
+      })
+    </script>
+
 ## Youtube Videos
 
 The youtube video embed code should include the video url. The optional video_config parameter can include any of the [[YouTube Embedded Player Parameters|http://code.google.com/apis/youtube/player_parameters.html]], as well as width and height:
