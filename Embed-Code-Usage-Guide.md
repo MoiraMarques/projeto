@@ -28,7 +28,7 @@ The youtube video embed code should include the video url. The optional video_co
       ({
            video_url: "http://www.youtube.com/watch?v=I6Rg1i743o4",
            video_config: {
-               color1: FF0000,
+               color1: '0xFF0000',
                width: 640,
                height: 480
            }
