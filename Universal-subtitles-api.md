@@ -1,6 +1,10 @@
-## Fetching a list of languages for a video url
+## Fetching subtitle languages for a video url
 
-The url for doing fetching is `http://universalsubtitles.org/en/api/subtitles/`. Query string parameters are:
+The url for fetching subtitles is `http://universalsubtitles.org/en/api/subtitle_existence/?video_url=<VIDEO_URL>`, where `<VIDEO_URL>` is the url for the video.
+
+## Fetching subtitles for a video url
+
+The url for fetching subtitles is `http://universalsubtitles.org/en/api/subtitles/`. Query string parameters are:
 
 <table>
   <tr>
