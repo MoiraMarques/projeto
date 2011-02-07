@@ -15,7 +15,7 @@ The url for doing fetching is `http://universalsubtitles.org/en/api/subtitles/`.
   </tr>
   <tr>
     <td>format</td>
-    <td>Return text format. Valid values are "json", "srt", </td>
+    <td>Return text format. Valid values are "json", "srt", "sbv", "ssa", and "xml"</td>
     <td>Optional: defaults to json</td>
   </tr>
   <tr>
