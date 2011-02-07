@@ -4,6 +4,8 @@ h2. Interested in using Universal Subtitles?
 
 [[Widgetizer Script Usage Guide]] (Script for auto-enabling usubs on site videos)
 
+[[Universal Subtitles API]]
+
 h2. Interested in contributing to Universal Subtitles?  
 
 Start here:
