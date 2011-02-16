@@ -23,7 +23,7 @@ h2. Vimeo
 
 http://vimeo.com/api/docs/moogaloop
 
-Vimeo has no method that returns the current state of the player, but we can probably fake this in the class, since we have access to their events. They don't return the byte range information, so we can't make that part of the progress bar for them in the dialog player -- but this is arguably superfluous. They don't have a method that returns volume either, but we can fake this by setting the volume ourselves and then keeping track of any volume setting. These are the only things missing from Vimeo. It is also possible that we'll have to create a swf wrapper around it to show without their controls, but this is unclear -- there is no online example.
+Vimeo appears to support the entire API we need! Nice one, Vimeo!
 
 h2. Dailymotion
 
