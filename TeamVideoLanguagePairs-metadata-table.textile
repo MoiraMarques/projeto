@@ -1,0 +1,29 @@
+Keep a metadata table called TeamVideoLanguagePairs that has each language pair for every video, along with percent_complete. So for m languages and n team videos we have nm(m-1) rows. Yay! Here is the definition of this table:
+
+<code>
+team_video = ForeignKey(TeamVideo)
+language_0 = CharField()
+language_1 = CharField()
+language_pair = CharField() # contains L0Code_L1Code, where the codes are iso codes or whatever we use.
+percent_complete = IntegerField()
+</code>
+
+Here the percent_complete field for language pair L0, L1 and a given TeamVideo is calculated as follows:
+
+* If the SubtitleLanguage L1 doesn't exist or has 0 subtitles or 0 percent complete, then:
+** If the SubtitleLanguage L0 is original or forked and marked is_complete, or if the SubtitleLanguage L0 is dependent and has SubtitleLanguage.percent_complete greater than 10, percent_complete for (L0, L1) is 0.
+** Otherwise, percent_complete for (L0, L1) is -1.
+* If the SubtitleLanguage L1 is original or forked and has at least 1 subtitle, then percent_complete for (L0, L1) is -1.
+* If the SubtitleLanguage L1 is not original and not forked but has more than 0 in SubtitleLanguage.percent_complete then:
+** If L1 is dependent on L0 and the SubtitleLanguage for L0 has is_complete = True, then percent_complete is equal to percent_complete for the L1 SubtitleLanguage. If L1 is dependent on L0 and the SubtitleLanguage for L0 has is_complete = False, then percent_complete is -1.
+** If L1 is dependent on some other language -- call it L_Dep -- and L0 is also dependent on L_Dep, then:
+*** If L_Dep has is_complete=True and the SubtitleLanguage for L0 has percent_complete greater than 10, then percent_complete is equal to the percent_complete for the L1 SubtitleLanguage.
+*** Otherwise, percent_complete is -1.
+
+Please make an instance method on TeamVideoLanguagePairs to update it -- this method should include the outlined logic.
+
+To keep the metadata table fresh:
+
+1. Use a Signal to listen for TeamVideo addition. Whenever a TeamVideo is added, queue an asynchronous task to create the m(m-1) rows in TeamVideoLanguagePairs for the new TeamVideo.
+2. Whenever a new language is added to settings.py, queue an asynchronous job to add it to the TeamVideoLanguagePairs table for every video. In other words, it will add n(2m-1) rows.
+3. Use a Signal to listen for SubtitleLanguage being saved. When saved, queue an asynchronous job to update the p(2m-1) TeamVideoLanguagePairs rows for the languages for all p TeamVideos for the SubtitleLanguage.video.
