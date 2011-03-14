@@ -1,12 +1,12 @@
 Keep a metadata table called TeamVideoLanguagePairs that has each language pair for every video, along with percent_complete. So for m languages and n team videos we have nm(m-1) rows. Yay! Here is the definition of this table:
 
-<code>
+<code><pre>
 team_video = ForeignKey(TeamVideo)
 language_0 = CharField()
 language_1 = CharField()
 language_pair = CharField() # contains L0Code_L1Code, where the codes are iso codes or whatever we use.
 percent_complete = IntegerField()
-</code>
+</pre></code>
 
 Here the percent_complete field for language pair L0, L1 and a given TeamVideo is calculated as follows:
 
