@@ -1,6 +1,30 @@
+h2. Create TeamVideoLanguage metadata table
+
+bc. team_video = ForeignKey(TeamVideo)
+team = ForeignKey(Team) # or just team_id, if you want.
+video = ForeignKey(Video) # or just video_id, if you want.
+language = CharField() # contains language code
+is_original = BooleanField(default=False)
+forked = BooleanField(default=True) # False if and only if the corresponding SubtitleLanguage exists and is dependent
+is_complete = BooleanField(default=False) # only meaningful for original or forked
+percent_done = IntegerField(default=0) # only meaningful for not (original or forked)
+
+There is a row for every single teamvideo-language combination. That means if there are m TeamVideos in the system and n languages in settings.py, there are m*n rows in this table.
+
+To keep the metadata table fresh:
+
+* Please make a migration to fill the table.
+* Please add a signal for TeamVideo save. If created, queue an asynchronous job to add n rows to TeamVideo, one for each language.
+* Please make an admin command that we can run whenever we modify languages in settings.py. It will add the new languages to the table.
+* Whenever a SubtitleVersion is saved, queue an asynchronous job to update the rows in TeamVideoLanguage for the Video.
+
+h2. Create TeamVideoLanguagePairs metadata table
+
 Keep a metadata table called TeamVideoLanguagePairs that has each language pair for every video, along with percent_complete. So for m languages and n team videos we have nm(m-1) rows. Yay! Here is the definition of this table:
 
 bc. team_video = ForeignKey(TeamVideo)
+team = ForeignKey(Team) # or just team_id, if you want
+video = ForeignKey(Video) # or just video_id, if you want
 language_0 = CharField()
 language_1 = CharField()
 language_pair = CharField() # contains L0Code_L1Code, where the codes are iso codes or whatever we use.
