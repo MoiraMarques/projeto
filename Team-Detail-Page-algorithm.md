@@ -1,4 +1,4 @@
-Keep a metadata table called VideoLanguagePairs that has each language pair for every video, along with percent_complete. So for k languages and n videos we have nk(k-1) rows. This table is indexed on video_id, team_id, language_0, language_1, and (language_0, language_1) pair.
+Keep a metadata table called VideoLanguagePairs that has each language pair for every video, along with percent_complete. So for m languages and n videos we have nm(m-1) rows. This table is indexed on video_id, team_id, language_0, language_1, and (language_0, language_1) pair.
 
 Whenever someone requests the team detail page k:
 
@@ -18,8 +18,8 @@ Note this runs in `O(log(n))` time.
 
 To keep the metadata table fresh:
 
-1. Whenever a new Video is added or a Video is associated with a Team, queue an asynchronous job to add it to the VideoLanguagePairs table.
-2. Whenever a new language is added to settings.py, queue an asynchronous job to add it to the VideoLanguagePairs table for every video.
-3. Whenever a SubtitleLanguage is saved, queue an asynchronous job to update the 2k-1 VideoLanguagePairs rows for that language/video combination.
+1. Whenever a new Video is added or a Video is associated with a Team, queue an asynchronous job to add it to the VideoLanguagePairs table. It will add m(m-1) rows.
+2. Whenever a new language is added to settings.py, queue an asynchronous job to add it to the VideoLanguagePairs table for every video. In other words, it will add n(2m-1) rows.
+3. Whenever a SubtitleLanguage is saved, queue an asynchronous job to update the 2m-1 VideoLanguagePairs rows for that language/video combination.
 
 Remember, the metadata table doesn't have to be totally up-to-date all the time. Worst-case scenario is that it's a minute or two out-of-date.
