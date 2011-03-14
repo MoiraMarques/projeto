@@ -11,6 +11,8 @@ percent_done = IntegerField(default=0) # only meaningful for not (original or fo
 
 There is a row for every single teamvideo-language combination. That means if there are m TeamVideos in the system and n languages in settings.py, there are m*n rows in this table.
 
+This table must be indexed on: team_id, is_original, forked, and is_complete.
+
 To keep the metadata table fresh:
 
 * Please make a migration to fill the table.
@@ -29,6 +31,8 @@ language_0 = CharField()
 language_1 = CharField()
 language_pair = CharField() # contains L0Code_L1Code, where the codes are iso codes or whatever we use.
 percent_complete = IntegerField()
+
+This table must be indexed on: team_id, percent_complete, and language_pair.
 
 Here the percent_complete field for language pair L0, L1 and a given TeamVideo is calculated as follows:
 
@@ -50,3 +54,27 @@ To keep the metadata table fresh:
 * Use a Signal to listen for TeamVideo addition. Whenever a TeamVideo is added, queue an asynchronous task to create the m(m-1) rows in TeamVideoLanguagePairs for the new TeamVideo.
 * Whenever a new language is added to settings.py, queue an asynchronous job to add it to the TeamVideoLanguagePairs table for every video. In other words, it will add n(2m-1) rows.
 * Use a Signal to listen for SubtitleLanguage being saved. When saved, queue an asynchronous job to update the p(2m-1) TeamVideoLanguagePairs rows for the languages for all p TeamVideos for the SubtitleLanguage.video.
+
+h2. Team Detail Page algorithm
+
+First make a list of QuerySets. Each QuerySet should exclude rows from TeamVideoLanguage and TeamVideoLanguage based on team_id (indexed, so this is an O(log(n)) operation). Here are the QuerySets you need to worry about, in order:
+
+# For each language pair (l0, l1) in the user's languages, make a QuerySet that has the TeamVideoLanguagePair for the language pair with percent_complete > 0 and percent_complete < 100 (O(log(n)) each).
+# For each language pair (l0, l1) in the user's languages, make a QuerySet that has the TeamVideoLanguagePair for the language pair with percent_complete = 0 (O(log(n)) each).
+# Make a QuerySet of video_id from TeamVideoLanguage that has is_original=True and is_complete=False (O(log(n)) each)
+# Make a QuerySet of video_id from TeamVideoLanguage that has is_original=False and forked=True and is_complete=False (O(log(n)) each)
+
+Now you have a list of QuerySets query_sets = (qs0, qs1, ..., qsN). This is what you do to get results for page k, assuming that each page must contain n records:
+
+bc. records = []
+first_record = k * n
+num_records = 0
+for query_set in query_sets:
+    count = query_set.count()
+    if num_records + count > first_record:
+        records.append(query_set[max(0, first_record - num_records) : min(count, first_record + n - num_records)]
+    if len(records) >= n:
+        break
+if len(records) = 0:
+    # TODO: just add first n videos for team indiscriminately :)
+    pass
