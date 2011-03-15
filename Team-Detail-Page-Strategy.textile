@@ -19,6 +19,7 @@ To keep the metadata table fresh:
 * Please add a signal for TeamVideo save. If created, queue an asynchronous job to add n rows to TeamVideo, one for each language.
 * Please make an admin command that we can run whenever we modify languages in settings.py. It will add the new languages to the table.
 * Whenever a SubtitleVersion is saved, queue an asynchronous job to update the rows in TeamVideoLanguage for the Video.
+* (Optional) Make a cron job that reviews the contents of the table once per day. It fixes any problems and sends the devs an email about them.
 
 h2. Create TeamVideoLanguagePairs metadata table
 
@@ -54,6 +55,7 @@ To keep the metadata table fresh:
 * Use a Signal to listen for TeamVideo addition. Whenever a TeamVideo is added, queue an asynchronous task to create the maximum of m(m-1) rows in TeamVideoLanguagePairs for the new TeamVideo. Rows with percent_complete = -1 don't have to be added.
 * Whenever a new language is added to settings.py, queue an asynchronous job to add it to the TeamVideoLanguagePairs table for every video. In other words, it will add n(2m-1) rows. Rows with percent_complete = -1 don't have to be added.
 * Use a Signal to listen for SubtitleLanguage being saved. When saved, queue an asynchronous job to update the p(2m-1) TeamVideoLanguagePairs rows for the languages for all p TeamVideos for the SubtitleLanguage.video. It can delete rows with percent_complete = -1 and add any missing rows that have percent_complete > -1.
+* (Optional) Make a cron job that reviews the contents of the table once per day. It fixes any problems and sends the devs an email about them.
 
 h2. Team Detail Page algorithm
 
