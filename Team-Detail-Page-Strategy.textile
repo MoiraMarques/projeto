@@ -32,7 +32,7 @@ language_1 = CharField()
 language_pair = CharField() # contains L0Code_L1Code, where the codes are iso codes or whatever we use.
 percent_complete = IntegerField()
 
-This table must be indexed on: team_id, percent_complete, and language_pair.
+This table must be indexed on: team_id, percent_complete, language_0, language_1, and language_pair.
 
 Here the percent_complete field for language pair L0, L1 and a given TeamVideo is calculated as follows:
 
