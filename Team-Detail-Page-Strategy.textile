@@ -64,7 +64,7 @@ First make a list of QuerySets. Each QuerySet should exclude rows from TeamVideo
 # Make a QuerySet of video_id from TeamVideoLanguage that has is_original=True and is_complete=False (O(log(n)) each)
 # Make a QuerySet of video_id from TeamVideoLanguage that has is_original=False and forked=True and is_complete=False (O(log(n)) each)
 
-Now you have a list of QuerySets query_sets = (qs0, qs1, ..., qsN). This is what you do to get results for page k, assuming that each page must contain n records:
+Now you have a list of QuerySets query_sets = (qs0, qs1, ..., qsN). This is pseudocode to get results for page k, assuming that each page must contain n records:
 
 bc. records = []
 first_record = k * n
@@ -78,3 +78,5 @@ for query_set in query_sets:
 if len(records) = 0:
     # TODO: just add first n videos for team indiscriminately :)
     pass
+videos = _unique_videos_from_record_list(records)
+context['videos_list'] = [_view_data(v) for v in videos] # TODO: update _view_data to use cache.
