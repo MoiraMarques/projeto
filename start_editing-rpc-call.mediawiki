@@ -1,7 +1,7 @@
 # We are editing an existing SubtitleLanguage
 ## The existing SubtitleLanguage is not dependent
-### No base language is specified: In this case, edit existing
-### Base language specified: In this case, create a new empty SubtitleLanguage.
+### No base language is specified: Edit existing
+### Base language specified: Create a new empty SubtitleLanguage.
 ## The existing SubtitleLanguage is dependent
 ### No base language is specified: In this case, fork existing and edit.
 ### Base language is specified and consistent: Edit existing.
