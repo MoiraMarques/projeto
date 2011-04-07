@@ -1,3 +1,17 @@
+h2. Goal of Team Detail Page
+
+The goal of the team detail page is to provide anyone who arrives at the team with videos that have tasks they can work on, given their stated language capabilities, such that when tons of people land on this page, the most needed work is listed first.
+
+h2. How we've decided to achieve this
+
+We achieve this goal by asking the user what languages they speak (if they have not already told us) and showing them four lists of videos, presented as one list.  (These lists correspond to the queries in "Team Detail Page Algorithm").
+
+# For each language pair (l0, l1) in the user's languages, make a QuerySet that has the TeamVideoLanguagePair for the language pair with percent_complete > 0 and percent_complete < 100 (O(log(n)) each).
+# Videos with incomplete translations in the user's languages.
+# Videos with not yet started translations in the user's languages. (it is better for creating complete work that they help complete an existing work instead of starting a new one)
+# Any incomplete original “direct from video” transcriptions in the user's language (a translator is more valuable than a transcriber because there will always be more English speakers than speakers of both English and French)
+# All other videos (I don't think this query is reflected below).
+
 h2. Create TeamVideoLanguage metadata table
 
 bc. team_video = ForeignKey(TeamVideo)
