@@ -10,7 +10,7 @@ We achieve this goal by asking the user what languages they speak (if they have 
 # Videos with incomplete translations in the user's languages.
 # Videos with not yet started translations in the user's languages. (it is better for creating complete work that they help complete an existing work instead of starting a new one)
 # Any incomplete original “direct from video” transcriptions in the user's language (a translator is more valuable than a transcriber because there will always be more English speakers than speakers of both English and French)
-# All other videos (I don't think this query is reflected below).
+# All other videos, possibly allowing for duplication if there's something difficult about the query (I don't think this final category is reflected below).
 
 h2. Create TeamVideoLanguage metadata table
 
