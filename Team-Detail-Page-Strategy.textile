@@ -4,7 +4,7 @@ The goal of the team detail page is to provide anyone who arrives at the team wi
 
 h3. Section 1
 
-This should contain videos that have a translation of another language, where I speak both languages. The independent language (the one that is being translated) should have at least 90% completion. The dependent language (the language of the translation) should have a level of completion greater than 0 but less than 100.
+This should contain any videos with translations of language A into B, where I speak both languages A and B. The independent language (the one that is being translated) should have at least 90% completion. The dependent language (the language of the translation) should have a level of completion greater than 0 but less than 100.
 
 h3. Section 2
 
