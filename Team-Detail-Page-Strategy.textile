@@ -1,6 +1,26 @@
 h2. Goal of Team Detail Page
 
-The goal of the team detail page is to provide anyone who arrives at the team with videos that have tasks they can work on, given their stated language capabilities, such that when tons of people land on this page, the most needed work is listed first.
+The goal of the team detail page is to provide anyone who arrives at the team with videos that have tasks they can work on, given their stated language capabilities, such that when tons of people land on this page, the most needed work is listed first. Here is the order in which videos should be presented in the page:
+
+h3. Section 1
+
+This should contain videos that have a translation of another language, where I speak both languages. The independent language (the one that is being translated) should have at least 90% completion. The dependent language (the language of the translation) should have a level of completion greater than 0 but less than 100.
+
+h3. Section 2
+
+This should contain the same as Section 1, except include videos where the dependent language has a level of completion equal to 0.
+
+h3. Section 3
+
+This should contain any videos that have an original language that I speak that has not yet been subtitled completely.
+
+h3. Section 4
+
+This should contain any videos have a forked translation that I speak that has not been completed.
+
+h3. Section 5
+
+This should contain all other videos for the team. It is okay for now if it repeats videos from sections 1-4.
 
 h2. How we've decided to achieve this
 
