@@ -16,7 +16,7 @@ This should contain any videos that have an original language that I speak that 
 
 h3. Section 4
 
-This should contain any videos have a forked translation that I speak that has not been completed.
+This should contain any videos have a forked translation that I speak that has not yet been subtitled completely.
 
 h3. Section 5
 
