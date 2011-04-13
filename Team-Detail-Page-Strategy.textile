@@ -1,4 +1,4 @@
-h1. Spec
+h1. Team Detail Page Strategy Spec
 
 The goal of the team detail page is to provide anyone who arrives at the team with videos that have tasks they can work on, given their stated language capabilities, such that when tons of people land on this page, the most needed work is listed first. Here is the order in which videos should be presented in the page:
 
