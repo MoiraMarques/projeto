@@ -4,7 +4,7 @@ The goal of the team detail page is to provide anyone who arrives at the team wi
 
 h3. Section 1
 
-This should contain any videos with translations of language A into B, where I speak both languages A and B. The independent language (the one that is being translated) should have at least 90% completion. The dependent language (the language of the translation) should have a level of completion greater than 0 but less than 100.
+This should contain any videos with translations of language A into B, where I speak both languages A and B. The independent language (the one that is being translated) should have at least 90% completion. The dependent language (the language of the translation) should have a level of completion greater than 0 but less than 100. We should exclude videos where language B is the original video's language ( since it's useless to translate it back to the original one).
 
 h3. Section 2
 
@@ -12,7 +12,7 @@ This should contain the same as Section 1, except include videos where the depen
 
 h3. Section 3
 
-This should contain any videos that have an original language that I speak that has not yet been subtitled completely.
+This should contain any videos that have an original language that I speak that has not yet been subtitled completely. They will be display by less common languages first, then the languages we defined as very prevalent (lingua franca -- currently English and English, Britain).
 
 h3. Section 4
 
