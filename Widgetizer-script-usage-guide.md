@@ -8,6 +8,6 @@ This small bit of javascript can be added to the <header> of your template and t
 
 **Important note I** the widgetizer only works with YouTube and html5 videos. We'll be adding support for more formats and services in the very near future
 
-**Important note II** IE visitors will require youtube videos be direct descendants of the <body/> tag. We're looking for a workaround to this issue.
+**Important note II** IE visitors will require youtube videos be direct descendants of the `<body/>` tag. We're looking for a workaround to this issue.
 
 *Caveat: certain formats that we support must use the flowplayer skin, in order to give us necessary timing data so that we can sync the subtitles to the video.*
