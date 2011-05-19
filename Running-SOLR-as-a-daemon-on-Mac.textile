@@ -1,0 +1,37 @@
+bc. wget http://mirror.metrocast.net/apache//lucene/solr/1.4.1/apache-solr-1.4.1.tgz
+tar xvzf apache-solr-1.4.1.tgz
+sudo mv apache-solr-1.4.1 /usr/lib/apache-solr/
+sudo mkdir -p /var/log/apache-solr/
+sudo chmod a+w /var/log/apache-solr/
+
+Then add plist file ~/Library/LaunchAgents/org.apache.Solr.plist:
+
+bc. <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Label</key>
+        <string>org.apache.Solr</string>
+        <key>OnDemand</key>
+        <true/>
+        <key>WorkingDirectory</key>
+        <string>/usr/lib/apache-solr/example/</string>
+        <key>ProgramArguments</key>
+        <array>
+                <string>/usr/bin/java</string>
+                <string>-jar</string>
+                <string>start.jar</string>
+        </array>
+        <key>ServiceDescription</key>
+        <string>Apache Solr Server</string>
+        <key>StandardErrorPath</key>
+        <string>/var/log/apache-solr/solr-error.log</string>
+        <key>StandardOutPath</key>
+        <string>/var/log/apache-solr/solr-output.log</string>
+</dict>
+</plist>
+
+Finally, start the daemon:
+
+bc. launchctl load ~/Library/LaunchAgents/org.apache.Solr.plist
+launchctl start org.apache.Solr
