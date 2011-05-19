@@ -4,7 +4,7 @@ sudo mv apache-solr-1.4.1 /usr/lib/apache-solr/
 sudo mkdir -p /var/log/apache-solr/
 sudo chmod a+w /var/log/apache-solr/
 
-Then add plist file ~/Library/LaunchAgents/org.apache.Solr.plist:
+Then add plist file @~/Library/LaunchAgents/org.apache.Solr.plist@:
 
 bc. <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
