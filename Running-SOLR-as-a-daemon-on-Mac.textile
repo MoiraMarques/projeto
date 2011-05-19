@@ -31,7 +31,11 @@ bc. <?xml version="1.0" encoding="UTF-8"?>
 </dict>
 </plist>
 
-Finally, start the daemon:
+Start the daemon:
 
 bc. launchctl load ~/Library/LaunchAgents/org.apache.Solr.plist
 launchctl start org.apache.Solr
+
+You can check your work by visiting http://127.0.0.1:8983/solr/ in your web browser. Finally, you'll need to add a symlink relative to the unisubs project directory (aka mirosubs directory):
+
+bc. ln -s /usr/lib/apache-solr/example/ ../buildout/parts/solr/example
