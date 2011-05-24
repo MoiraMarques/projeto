@@ -19,6 +19,7 @@ bc. <?xml version="1.0" encoding="UTF-8"?>
         <key>ProgramArguments</key>
         <array>
                 <string>/usr/bin/java</string>
+                <string>-Dsolr.solr.home=multicore</string>
                 <string>-jar</string>
                 <string>start.jar</string>
         </array>
