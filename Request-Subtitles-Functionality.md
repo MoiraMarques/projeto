@@ -5,7 +5,7 @@ Functionality providing interface to users for publishing requirements of subtit
 
 ###User sees
 
-[Video]
+[Video]  
 [Subtitle me][**Request Subtitles**][Share]
 
 Other possible texts:
