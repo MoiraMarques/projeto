@@ -1,4 +1,7 @@
-Functionality providing interface to users for publishing requirements of subtitles.
+Functionality providing interface to users for publishing requirements of
+subtitles.
+
+Google summer of code project of [Rohan Jain]( http://www.google-melange.com/gsoc/project/google/gsoc2011/crodjer/10001 )
 
 ##Functionality
 (Discussion: <http://piratepad.net/tVDSnTpZ0W>)
@@ -71,5 +74,3 @@ Other possible texts:
 
  - > N requests sends out N notifications
  - Send users N notifications per week, with requests batched OR top request.
-
-
