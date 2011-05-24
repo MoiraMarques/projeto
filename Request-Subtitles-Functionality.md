@@ -8,7 +8,7 @@ Google summer of code project of [Rohan Jain]( http://www.google-melange.com/gso
 
 ###User sees
 
-[Video]
+[Video]  
 [Subtitle me][**Request Subtitles**][Share]
 
 Other possible texts:
