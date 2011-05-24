@@ -3,8 +3,8 @@ tar xvzf apache-solr-1.4.1.tgz
 sudo mv apache-solr-1.4.1 /usr/lib/apache-solr/
 sudo mkdir -p /var/log/apache-solr/
 sudo chmod a+w /var/log/apache-solr/
-
-Copy all @*.txt@ files from @example/solr/conf@ to @multicore/core0/conf@ and @multicore/core1/conf@ in @/usr/lib/apache-solr/@.
+cp /usr/lib/apache-solr/example/solr/conf/*.txt /usr/lib/apache-solr/example/multicore/core0/conf/
+cp /usr/lib/apache-solr/example/solr/conf/*.txt /usr/lib/apache-solr/example/multicore/core1/conf/
 
 Then add plist file @~/Library/LaunchAgents/org.apache.Solr.plist@:
 
