@@ -31,8 +31,8 @@ Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
 
 ##Notifying potential volunteers
 
- - Any time user recieves any notification, **footer of notification**
-   email tells them other videos they can work on.
+ - Any time user recieves any notification, **footer of notification
+   email** tells them other videos they can work on.
  - Asking multi lingual users if they want to be notified for subtitle
    requests in their languages.
  - If there is a very low number of users ( < 100) who speak a language,
@@ -85,7 +85,7 @@ Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
 #Technical Design
 
 ###Requesting interface
-(Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>)
+(<https://cacoo.com/diagrams/n8OuAAItVnbzm70K>)
 
  - If a video does not have at least one subtitle language already created
    the *Request Subtitles* button will be rendered.
@@ -96,7 +96,32 @@ Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
 
 ###Notifications
 
- - TODO
+As soon as a request is created select users to be notified in these ways:
+
+ - Provide user an option to set the list of languages for which they 
+   follow the requests.
+   All the users who have language list containing the request languages.  
+   Set the above option `True` for users who are *heavy contributors*, the
+   ones who have contributed more than a specific amount of *subtitles* and
+   also for all the users who speak a language with low popularity
+   ( < 100)  
+ - Users who are following a video for requests filtered based on their
+   known language.
+
+Other notification ways:
+
+ - From any random three requests for footer of the notification emails.
+ - Video page bottom like action rendering.
+ - A volunteer page, with the haystack search implemented here and sticky
+   pagination (for featured videos).
+
+##Notifying requesters
+
+ - For subtitling start: Cron based, as for instantaneous every action will
+   have to be checked for being a possible response.
+ - For end: Notify right away.
+ - As soon as the request form is submitted, user follows the requested
+   languages + all other ones if the *keep me posted* option is checked.
 
 #Definitions
 
@@ -107,9 +132,10 @@ Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
  - Users (M2M through Request-User below)
  - Video
  - Language
- - Sub Responses
+ - Subtitle Responses
    This can be based on `Action` (`ADD_VERSION`) or `Subtitle` (Doesn't
-   have a datetime field). Also can be a denormalized M2M or just a method.
+   have a datetime field).  
+   Maybe a denormalized M2M or just a method.
 
 ###Request-User M2M
 
@@ -117,3 +143,16 @@ Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
  - User
  - Request
  - Description
+
+###Existing Action model
+(Alternative to the above)
+
+ - Add another type: `Request`
+
+###User Profile
+
+ - A list of languages to follow requests.
+
+###Video
+
+ - Featured boolean.
