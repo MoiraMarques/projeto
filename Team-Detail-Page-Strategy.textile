@@ -12,7 +12,7 @@ This should contain the same as Section 1, except include videos where the depen
 
 h3. Section 3
 
-This should contain any videos that have an original language that I speak that has not yet been subtitled completely. They will be display by less common languages first, then the languages we defined as very prevalent (lingua franca -- currently English and English, Britain).
+This should contain any videos that have an original language that I speak that has not yet been subtitled completely. Videos that have no complete subtitles in a lingua franca should display first, followed by videos that have complete subtitles in a lingua franca. Lingua francas are currently English and British English.
 
 h3. Section 4
 
