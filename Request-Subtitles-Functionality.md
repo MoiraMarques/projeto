@@ -8,6 +8,7 @@ Google summer of code project of [Rohan Jain]
 (Discussion: <http://piratepad.net/tVDSnTpZ0W>)
 
 ##User sees
+(If video does not has at least one subtitle language created)
 
 [Video]  
 [Subtitle me][**Request Subtitles**][Share]
@@ -16,6 +17,8 @@ Other possible texts:
 
  - I want subtitles
  - Request subs
+
+Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
 
 ##On click, user
 
@@ -81,14 +84,36 @@ Other possible texts:
 
 #Technical Design
 
-##A `Requset` (Model)
+###Requesting interface
+(Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>)
 
- - Users
+ - If a video does not have at least one subtitle language already created
+   the *Request Subtitles* button will be rendered.
+ - A click pops up the language selection dialogue with user known
+   languages already selected.
+ - Ajax (rpc?) based submission. For each language the requesting user is
+   appended to the getted or newly created requests for the language.
+
+###Notifications
+
+ - TODO
+
+#Definitions
+
+##Model
+
+###Requset
+
+ - Users (M2M through Request-User below)
  - Video
  - Language
+ - Sub Responses
+   This can be based on `Action` (`ADD_VERSION`) or `Subtitle` (Doesn't
+   have a datetime field). Also can be a denormalized M2M or just a method.
 
-##Request-User M2M
+###Request-User M2M
 
  - Time
  - User
  - Request
+ - Description
