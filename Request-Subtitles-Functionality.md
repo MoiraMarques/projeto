@@ -125,7 +125,7 @@ Other notification ways:
 
 #Definitions
 
-##Models
+##Model
 
 ###Requset
 
@@ -156,15 +156,3 @@ Other notification ways:
 ###Video
 
  - Featured boolean.
-
-##Forms
-
-###Request Form
-
- - A language selection formset (for multiple lanuages) + a form for the
-   general fields.
-
-###Follow requests form
-
- - On the volunteer page, to select languages for which user wants to
-   follow requests.
