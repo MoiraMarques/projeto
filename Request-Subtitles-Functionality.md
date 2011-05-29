@@ -1,8 +1,7 @@
 Functionality providing interface to users for publishing requirements of
 subtitles.
 
-Google summer of code project of [Rohan Jain]
-(http://www.google-melange.com/gsoc/project/google/gsoc2011/crodjer/10001)
+Google summer of code project of [Rohan Jain](http://www.google-melange.com/gsoc/project/google/gsoc2011/crodjer/10001)
 
 #Functionality Required
 (Discussion: <http://piratepad.net/tVDSnTpZ0W>)
@@ -163,8 +162,3 @@ Other notification ways:
 
  - A language selection formset (for multiple lanuages) + a form for the
    general fields.
-
-###Follow requests form
-
- - On the volunteer page, to select languages for which user wants to
-   follow requests.
