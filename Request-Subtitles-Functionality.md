@@ -143,10 +143,16 @@ Other notification ways:
  - Request
  - Description
 
+**OR**
+
 ###Existing Action model
 (Alternative to the above)
 
  - Add another type: `Request`
+
+**OR**
+
+###A combination of both above
 
 ###User Profile
 
