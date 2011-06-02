@@ -1,1 +1,1 @@
-Relocated to <a href="http://www.universalsubtitles.org/api/1.0/documentation/">http://www.universalsubtitles.org/api/1.0/documentation/</a>
+Relocated to http://www.universalsubtitles.org/api/1.0/documentation/
