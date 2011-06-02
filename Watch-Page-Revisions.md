@@ -16,4 +16,4 @@ Here is the current visual documentation of the project:
 [Watch Page Concept](http://d.pr/gQWv) (with Advanced Search Options opened)  
 [Search Results](http://d.pr/wU1R)
 
-Please email [Sunil](mailto:sunil@doshimedia.com) if you have any questions.
+Please [email Sunil](mailto:sunil@doshimedia.com) if you have any questions.
