@@ -17,3 +17,26 @@ Here is the current visual documentation of the project:
 [Search Results](http://d.pr/wU1R)
 
 Please [email Sunil](mailto:sunil@doshimedia.com) if you have any questions.
+
+### Instructions for Dmitriy
+
+Dmitriy, this should be a fun task. You're going to create this page using Solr with Haystack. The "Advanced Search" will be done using Faceting, which is built into Solr and Haystack.
+
+We're going to add a bunch of fields to the Video SearchIndex to support the spec. Here are the fields I think we should add:
+
+`featured_date = DateTimeField(indexed=True)` -- this is not filled in yet. but we'll create an admin page for interns to make videos "featured". The top part of the Browse Videos page will be sorted in descending order by this date.
+
+`daily_views = IntegerField(indexed=True)`
+`weekly_views = IntegerField(indexed=True)`
+`monthly_views = IntegerField(indexed=True)`
+`yearly_views = IntegerField(indexed=True)`
+
+`daily_views`, `weekly_views`, `monthly_views`, and `yearly_views` are filled in by the same process that moves redis views data to mysql.
+
+`latest_subtitle_date = DateTimeField(indexed=True)` -- This should be the latest SubtitleVersion date for the video.
+
+`language_count = IntegerField(indexed=True)` -- this is the number of SubtitleLanguages with is_complete_and_synced() == True
+
+`activity_score` -- I'm not sure how we'll compute this yet, but we'll probably have to update it with a daily cron job.
+
+We need to be able to facet and search on "Subtitled into" and "Team" (See the final page in wireframes). I'm not sure how to do this yet. Let's discuss it. It might be best to use a MultiValueField, but I don't know.
