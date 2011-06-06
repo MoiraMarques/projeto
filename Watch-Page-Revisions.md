@@ -26,10 +26,10 @@ We're going to add a bunch of fields to the Video SearchIndex to support the spe
 
 `featured_date = DateTimeField(indexed=True)` -- this is not filled in yet. but we'll create an admin page for interns to make videos "featured". The top part of the Browse Videos page will be sorted in descending order by this date.
 
-`daily_views = IntegerField(indexed=True)`
-`weekly_views = IntegerField(indexed=True)`
-`monthly_views = IntegerField(indexed=True)`
-`yearly_views = IntegerField(indexed=True)`
+`daily_views = IntegerField(indexed=True)`  
+`weekly_views = IntegerField(indexed=True)`  
+`monthly_views = IntegerField(indexed=True)`  
+`yearly_views = IntegerField(indexed=True)`  
 
 `daily_views`, `weekly_views`, `monthly_views`, and `yearly_views` are filled in by the same process that moves redis views data to mysql.
 
