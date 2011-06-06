@@ -61,17 +61,10 @@ Wireframe: <https://cacoo.com/diagrams/n8OuAAItVnbzm70K>
    requests for Catalan") and let them choose "My languages", let  them
    follow all requests.
 
-##Notifying the requesters
+ I
 
- - When somebody starts on a request you made
- - When somebody completes a request you made, also ask to work on further
-   translation.
- - Requester follows:
-
-    - video?
-    - all languages (even ones that don't exist)
-    - for further subtitling requests
- - They can unfollow specific languages that don't matter to them.
+ - When somebody starts on a request you made (Include bullets: • View existing work (may not be visible yet) • Send USERNAME a personal message • Leave an encouraging comment)   
+ - When somebody completes a request you made (this asks them to proofread the subtitles, and translate them into another language.  Include in bullets: "Now its your turn: • Say "Thanks" in the comments • Review these subtitles for spelling and grammar errors • Translate them into other languages") 
  - Unbatched emails are okay for this.
 
 ##Admin settings:
