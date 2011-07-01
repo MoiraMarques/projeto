@@ -16,6 +16,8 @@ Start here:
 
 [[Support for sites providing videos like YouTube|other-video-players]]
 
+[[Rights Assignment Agreement|Rights-Assignment-Agreement]]
+
 h2. Deployment Notes
 
 [[Deployment Notes]]
