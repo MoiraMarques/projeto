@@ -11,16 +11,16 @@
  2. Create a file solr.xml which will have info about your multicore setup.  
     File `solr.xml` `MIROSUBS_DIR../buildout/parts/solr/example/solr/solr.xml`:
 
-    <solr persistent="true" sharedLib="lib">
-        <cores adminPath="/admin/cores">
-            <core name="core0" instanceDir="." >
-                <property name="dataDir" value="/data/core0" />
-            </core>
-            <core name="core1" instanceDir="." >
-                <property name="dataDir" value="/data/core1" />
-            </core>
-        </cores>
-    </solr>
+        <solr persistent="true" sharedLib="lib">
+            <cores adminPath="/admin/cores">
+                <core name="core0" instanceDir="." >
+                    <property name="dataDir" value="/data/core0" />
+                </core>
+                <core name="core1" instanceDir="." >
+                    <property name="dataDir" value="/data/core1" />
+                </core>
+            </cores>
+        </solr>
 
 ###Running as a daemon
 
@@ -31,47 +31,47 @@
  2. Create this shell script and place it in some directory (say ~/bin)
     File `solr` `$HOME/bin/solr`:
 
-    #!/bin/bash
+        #!/bin/bash
 
-    # The root directory in which mirosubs django project exists
-    MIROSUBS_ROOT=/home/rohan/workspace/python/mirosubs/mirosubs/
+        # The root directory in which mirosubs django project exists
+        MIROSUBS_ROOT=/home/rohan/workspace/python/mirosubs/mirosubs/
 
-    SOLR_DIR=$MIROSUBS_ROOT../buildout/parts/solr/example
+        SOLR_DIR=$MIROSUBS_ROOT../buildout/parts/solr/example
 
-    PROCESS_NAME='mirosubs-solr'
+        PROCESS_NAME='mirosubs-solr'
 
 
-    start () {
-        echo "Starting the solr daemon..."
-        daemon -n $PROCESS_NAME -D $SOLR_DIR -X 'java -jar start.jar'
-    }
+        start () {
+            echo "Starting the solr daemon..."
+            daemon -n $PROCESS_NAME -D $SOLR_DIR -X 'java -jar start.jar'
+        }
 
-    stop () {
-        # stop daemon
-        echo "Stopping the solr daemon..."
-        daemon -n $PROCESS_NAME --stop
-    }
+        stop () {
+            # stop daemon
+            echo "Stopping the solr daemon..."
+            daemon -n $PROCESS_NAME --stop
+        }
 
-    restart() {
-        stop
-        start
-    }
-
-    case $1 in
-        start)
-            start
-            ;;
-        stop)
+        restart() {
             stop
-            ;;
-        restart)
-            restart
-            ;;
+            start
+        }
 
-        *)
-        echo "Usage: solr {start|restart|stop}"
-        exit 3
-    esac
+        case $1 in
+            start)
+                start
+                ;;
+            stop)
+                stop
+                ;;
+            restart)
+                restart
+                ;;
+
+            *)
+            echo "Usage: solr {start|restart|stop}"
+            exit 3
+        esac
 
  3. Mark file `solr` as executable and add directory containing it to the path
 
