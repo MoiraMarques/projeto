@@ -1,15 +1,16 @@
 
 ###Getting solr and extracting
 
- Download solr from apache.org and extract it (relative to the mirosubs
- project directory) at ../buildout/parts/solr.
+ Download solr from [apache.org](http://www.apache.org/dyn/closer.cgi/lucene/solr/)
+ and extract it (relative to the mirosubs  project directory) at 
+ `../buildout/parts/solr`.
 
 ###Multi core setup
 
  1. Go to directory ../buildout/parts/solr/example/solr/
 
  2. Create a file solr.xml which will have info about your multicore setup.  
-    File `solr.xml` `MIROSUBS_DIR../buildout/parts/solr/example/solr/solr.xml`:
+    File `MIROSUBS_DIR../buildout/parts/solr/example/solr/solr.xml`:
 
         <solr persistent="true" sharedLib="lib">
             <cores adminPath="/admin/cores">
@@ -26,10 +27,10 @@
 
 
  1. Install the program [daemon](http://www.libslack.org/daemon/)
-   ([Present](http://packages.debian.org/sid/daemon) in debian repositories)
+   ([available](http://packages.debian.org/sid/daemon) in debian repositories)
 
- 2. Create this shell script and place it in some directory (say ~/bin)
-    File `solr` `$HOME/bin/solr`:
+ 2. Create this shell script and place it in some directory (say ~/bin)  
+    File `$HOME/bin/solr`:
 
         #!/bin/bash
 
