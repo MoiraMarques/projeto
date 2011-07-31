@@ -1,7 +1,7 @@
 
-###For single core processors
+###Getting solr and extracting
 
- Download solr from apache.org and unzip it at (relative to the mirosubs
+ Download solr from apache.org and extract it (relative to the mirosubs
  project directory) at ../buildout/parts/solr.
 
 ###Multi core setup
