@@ -32,6 +32,7 @@
  2. Create this shell script and place it in some directory (say ~/bin)  
     File `$HOME/bin/solr`:
 
+
         #!/bin/bash
 
         # The root directory in which mirosubs django project exists
@@ -45,12 +46,18 @@
         start () {
             echo "Starting the solr daemon..."
             daemon -n $PROCESS_NAME -D $SOLR_DIR -X 'java -jar start.jar'
+            ## Wait a bit as it takse some time befor solr server starts
+            sleep 2
+            echo "Done."
         }
 
         stop () {
             # stop daemon
             echo "Stopping the solr daemon..."
             daemon -n $PROCESS_NAME --stop
+            ## Wait a bit as it takse some time befor solr server stop
+            sleep 1
+            echo "Done."
         }
 
         restart() {
