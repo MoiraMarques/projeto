@@ -47,7 +47,6 @@
             echo "Starting the solr daemon..."
             daemon -n $PROCESS_NAME -D $SOLR_DIR -X 'java -jar start.jar'
             ## Wait a bit as it takse some time befor solr server starts
-            sleep 2
             echo "Done."
         }
 
@@ -56,12 +55,12 @@
             echo "Stopping the solr daemon..."
             daemon -n $PROCESS_NAME --stop
             ## Wait a bit as it takse some time befor solr server stop
-            sleep 1
             echo "Done."
         }
 
         restart() {
             stop
+            sleep 2
             start
         }
 
