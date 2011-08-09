@@ -1,4 +1,3 @@
-
 ## Install Homebrew
 
 Don't have homebrew installed yet? See http://mxcl.github.com/homebrew/
@@ -20,50 +19,52 @@ Replace /usr/local/etc/nginx/nginx.conf with the following.
 
     #user  nobody;
     worker_processes  1;
-
+    
     #error_log  logs/error.log;
     #error_log  logs/error.log  notice;
     #error_log  logs/error.log  info;
     
     #pid        logs/nginx.pid;
     
-    
     events {
         worker_connections  1024;
     }
     
-    
-    http  {
+    http {
         include       mime.types;
         default_type  application/octet-stream;
+    
+        #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+        #                  '$status $body_bytes_sent "$http_referer" '
+        #                  '"$http_user_agent" "$http_x_forwarded_for"';
     
         #access_log  logs/access.log  main;
     
         sendfile        on;
         #tcp_nopush     on;
-
+    
         #keepalive_timeout  0;
         keepalive_timeout  65;
-
+    
         #gzip  on;
-
-        include /Users/oconnor/Sites/configs/nginx/sites-enabled/*;
-
-     }
-
-On the site-enabled/mirosubs.conf, something like:
-
-
-
-    server {
-     listen  8080;
-     server_name mirosubsmedia.example.com;
-
-      location /{
-            root /Users/arthur/Documents/projects/unisubs/mirosubs/media;
-    		autoindex on;
-      }
-
+    
+        server {
+            listen       8888;
+            server_name  mirosubsmedia.example.com;
+    
+            location / {
+                root   /Users/adamduston/dev/mirosubs/media
+                autoindex on;
+            }
+        }
     }
 
-Of course, add mirosubsmedia to your hosts, restart nginx
+## Alter /etc/conf/hosts
+
+Add mirosubsmedia.example.com to your hosts, restart nginx
+
+## Alter your settings_local file
+
+Add to settings_local.py:
+
+    MEDIA_URL = 'http://mirosubsmedia.example.com'
