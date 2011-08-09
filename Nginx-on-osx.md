@@ -15,7 +15,7 @@ Backup the original nginx config file.
     cd /usr/local/etc/nginx
     cp nginx.conf nginx.conf.orig
 
-Replace /usr/local/etc/nginx/nginx.conf with the following.
+Replace /usr/local/etc/nginx/nginx.conf with the following. Swap out `/Users/adamduston/dev/mirosubs/media` with your local directory.
 
     #user  nobody;
     worker_processes  1;
