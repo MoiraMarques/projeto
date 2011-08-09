@@ -59,7 +59,7 @@ Replace /usr/local/etc/nginx/nginx.conf with the following. Swap out `/Users/ada
         }
     }
 
-## Alter /etc/conf/hosts
+## Alter /etc/hosts
 
 Add mirosubsmedia.example.com to your hosts, restart nginx
 
