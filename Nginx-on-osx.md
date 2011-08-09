@@ -1,4 +1,8 @@
-Install NGINX
+# Install Homebrew
+
+Don't have homebrew installed yet? See http://mxcl.github.com/homebrew/
+
+# Install NGINX
 
 Install nginx using homebrew.
 
