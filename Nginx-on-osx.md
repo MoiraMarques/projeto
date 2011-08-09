@@ -53,7 +53,7 @@ Replace /usr/local/etc/nginx/nginx.conf with the following. Swap out `/Users/ada
             server_name  mirosubsmedia.example.com;
     
             location / {
-                root   /Users/adamduston/dev/mirosubs/media
+                root   /Users/adamduston/dev/mirosubs/media;
                 autoindex on;
             }
         }
