@@ -1,0 +1,8 @@
+Ideas for live db updates:
+
+1. One way to tackle this is to create a 'read only' mode on the website. We could decorate views with @read_only or @writes_data and disallow the later calls when in read only mode. Modifying templates wisely (rewriting a custom 'url' tag) can also not render data writing urls, making them invisible to a normal user. We can then launch a cloned db, switch to readonly mode, point to the cloned db, and run migrations + deployment on the other one. When the migrations are done, we point  to the migrated db, together with the latest code.
+2. We could keep all schema migrations in south. Whenever there's a data migration, we could call the migration function from two places: the data migration, as well as a custom Manager. The custom Manager would apply the migration to any model coming out of the database that doesn't have the migration applied yet. Then, when we run a deployment, we run all schema migrations and code updates while the site is live. All data migrations get run afterward in the background, while the site is still live. After the data migrations run, we can remove the custom Manager.
+
+I've just seen Simon Willison's [slides](http://www.slideshare.net/simon/tricks-challenges-developing-a-large-django-application). Simon is one of Django's creator and runs Lanyrd (which is a large django site), slides 44 onwards present one idea of a read only mode.
+
+- Facebook open source has this [page](http://www.facebook.com/notes/mysql-at-facebook/online-schema-change-for-mysql/430801045932) , and it seems that Mysql has a [fast index creation.](http://dev.mysql.com/doc/innodb-plugin/1.0/en/innodb-create-index-overview.html) option.

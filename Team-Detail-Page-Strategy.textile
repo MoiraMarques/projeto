@@ -1,0 +1,110 @@
+h1. Team Detail Page Strategy Spec
+
+The goal of the team detail page is to provide anyone who arrives at the team with videos that have tasks they can work on, given their stated language capabilities, such that when tons of people land on this page, the most needed work is listed first. Here is the order in which videos should be presented in the page:
+
+h3. Section 1
+
+This should contain any videos with translations of language A into B, where I speak both languages A and B. The independent language (the one that is being translated) should have at least 90% completion. The dependent language (the language of the translation) should have a level of completion greater than 0 but less than 100. We should exclude videos where language B is the original video's language ( since it's useless to translate it back to the original one).
+
+h3. Section 2
+
+This should contain the same as Section 1, except include videos where the dependent language has a level of completion equal to 0.
+
+h3. Section 3
+
+This should contain any videos that have an original language that I speak that has not yet been subtitled completely. Videos that have no complete subtitles in a lingua franca should display first, followed by videos that have complete subtitles in a lingua franca. Lingua francas are currently English and British English.
+
+h3. Section 4
+
+This should contain any videos have a forked translation that I speak that has not yet been subtitled completely.
+
+h3. Section 5
+
+This should contain all other videos for the team. It is okay for now if it repeats videos from sections 1-4.
+
+h1. Technical Spec
+
+h2. Create TeamVideoLanguage metadata table
+
+bc. team_video = ForeignKey(TeamVideo)
+team = ForeignKey(Team) # or just team_id, if you want.
+video = ForeignKey(Video) # or just video_id, if you want.
+language = CharField() # contains language code
+is_original = BooleanField(default=False)
+forked = BooleanField(default=True) # False if and only if the corresponding SubtitleLanguage exists and is dependent
+is_complete = BooleanField(default=False) # only meaningful for original or forked
+percent_done = IntegerField(default=0) # only meaningful for not (original or forked)
+
+There is a row for every single teamvideo-language combination. That means if there are m TeamVideos in the system and n languages in settings.py, there are m*n rows in this table.
+
+This table must be indexed on: team_id, is_original, forked, and is_complete.
+
+To keep the metadata table fresh:
+
+* Please make a migration to fill the table.
+* Please add a signal for TeamVideo save. If created, queue an asynchronous job to add n rows to TeamVideo, one for each language.
+* Please make an admin command that we can run whenever we modify languages in settings.py. It will add the new languages to the table.
+* Whenever a SubtitleVersion is saved, queue an asynchronous job to update the rows in TeamVideoLanguage for the Video.
+* (Optional) Make a cron job that reviews the contents of the table once per day. It fixes any problems and sends the devs an email about them.
+
+h2. Create TeamVideoLanguagePairs metadata table
+
+Keep a metadata table called TeamVideoLanguagePairs that has each language pair for every video, along with percent_complete. So for m languages and n team videos we have nm(m-1) rows. Yay! Here is the definition of this table:
+
+bc. team_video = ForeignKey(TeamVideo)
+team = ForeignKey(Team) # or just team_id, if you want
+video = ForeignKey(Video) # or just video_id, if you want
+language_0 = CharField()
+language_1 = CharField()
+language_pair = CharField() # contains L0Code_L1Code, where the codes are iso codes or whatever we use.
+percent_complete = IntegerField()
+
+This table must be indexed on: team_id, percent_complete, language_0, language_1, and language_pair.
+
+Here the percent_complete field for language pair L0, L1 and a given TeamVideo is calculated as follows:
+
+* If the SubtitleLanguage L1 doesn't exist or has 0 subtitles or 0 percent complete, then:
+** If the SubtitleLanguage L0 is original or forked and marked is_complete, or if the SubtitleLanguage L0 is dependent and has SubtitleLanguage.percent_complete greater than 10, percent_complete for (L0, L1) is 0.
+** Otherwise, percent_complete for (L0, L1) is -1.
+* If the SubtitleLanguage L1 is original or forked and has at least 1 subtitle, then percent_complete for (L0, L1) is -1.
+* If the SubtitleLanguage L1 is not original and not forked but has more than 0 in SubtitleLanguage.percent_complete then:
+** If L1 is dependent on L0 and the SubtitleLanguage for L0 has is_complete = True, then percent_complete is equal to percent_complete for the L1 SubtitleLanguage. If L1 is dependent on L0 and the SubtitleLanguage for L0 has is_complete = False, then percent_complete is -1.
+** If L1 is dependent on some other language -- call it L_Dep -- and L0 is also dependent on L_Dep, then:
+*** If L_Dep has is_complete=True and the SubtitleLanguage for L0 has percent_complete greater than 10, then percent_complete is equal to the percent_complete for the L1 SubtitleLanguage.
+*** Otherwise, percent_complete is -1.
+
+Please make an instance method on TeamVideoLanguagePairs to update it -- this method should include the outlined logic.
+
+To keep the metadata table fresh:
+
+* Create a migration to fill the initial table. It actually doesn't have to insert rows with percent_complete = -1! This will reduce total number of rows.
+* Use a Signal to listen for TeamVideo addition. Whenever a TeamVideo is added, queue an asynchronous task to create the maximum of m(m-1) rows in TeamVideoLanguagePairs for the new TeamVideo. Rows with percent_complete = -1 don't have to be added.
+* Whenever a new language is added to settings.py, queue an asynchronous job to add it to the TeamVideoLanguagePairs table for every video. In other words, it will add n(2m-1) rows. Rows with percent_complete = -1 don't have to be added.
+* Use a Signal to listen for SubtitleLanguage being saved. When saved, queue an asynchronous job to update the p(2m-1) TeamVideoLanguagePairs rows for the languages for all p TeamVideos for the SubtitleLanguage.video. It can delete rows with percent_complete = -1 and add any missing rows that have percent_complete > -1.
+* (Optional) Make a cron job that reviews the contents of the table once per day. It fixes any problems and sends the devs an email about them.
+
+h2. Team Detail Page algorithm
+
+First make a list of QuerySets. Each QuerySet should exclude rows from TeamVideoLanguage and TeamVideoLanguage based on team_id (indexed, so this is an O(log(n)) operation). Here are the QuerySets you need to worry about, in order:
+
+# For each language pair (l0, l1) in the user's languages, make a QuerySet that has the TeamVideoLanguagePair for the language pair with percent_complete > 0 and percent_complete < 100 (O(log(n)) each).
+# For each language pair (l0, l1) in the user's languages, make a QuerySet that has the TeamVideoLanguagePair for the language pair with percent_complete = 0 (O(log(n)) each).
+# Make a QuerySet of video_id from TeamVideoLanguage that has is_original=True and is_complete=False (O(log(n)) each)
+# Make a QuerySet of video_id from TeamVideoLanguage that has is_original=False and forked=True and is_complete=False (O(log(n)) each)
+
+Now you have a list of QuerySets query_sets = (qs0, qs1, ..., qsN). This is pseudocode to get results for page k, assuming that each page must contain n records:
+
+bc. records = []
+first_record = k * n
+num_records = 0
+for query_set in query_sets:
+    count = query_set.count()
+    if num_records + count > first_record:
+        records.append(query_set[max(0, first_record - num_records) : min(count, first_record + n - num_records)]
+    if len(records) >= n:
+        break
+if len(records) = 0:
+    # TODO: just add first n videos for team indiscriminately :)
+    pass
+videos = _unique_videos_from_record_list(records)
+context['videos_list'] = [_view_data(v) for v in videos] # TODO: update _view_data to use cache.

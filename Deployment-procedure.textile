@@ -1,0 +1,42 @@
+Milestones:
+
+* Holmes will manage milestone list, based on conversation with Dean and Nick.
+
+
+Finishing a ticket:
+
+* Developers prioritize tickets from the most recent milestone.
+* Developer or morgan finishes ticket (finished = it doesn't need any other work to be complete, they don't need to assign to anyone else to complete it)
+* Checks their changes into master when they finish it
+* Mark the ticket Resolved Fixed and note the commit in the ticket.
+* Push changes to the Dev site.
+* Each Night at x hours, all changes on dev site pushed to the staging server
+* On staging server, selenium regressions tests are automatically run.
+* Tester manually tests fixed bugs and marks as verified.
+* Tester checks daily results of selenium test run.
+
+Release:
+
+* Completion of the last ticket in the milestone starts the Release Process.
+* Dev pushes last commit to staging server, and sends email to SubtitleDev and SubtitleTesting, and pculture (testers@pculture.org) mailing list
+* holmes drafts a script for usertesting.com based on tickets in milestone... includes any new user facing stuff, and perhaps a basic runthrough.  This can happen before milestone is complete and embargoed.
+* Start human testing process (email to holmes, janet, testers with change list, blog post)
+   * holmes (and maybe janet) processes feedback (from email and user submitted bugs in bugzilla) assigns stuff that meets threshold (should be rare) as bug for that milestone, notifies developers or gives goahead to deploy.
+* developers submit fix to same milestone, notify janet or holmes and retest (with possible additional email to humans)
+* Janet gives go-ahead to deploy based on test coverage.
+* Developer deploys (or developers can give janet a command to deploy)
+
+Testing process:
+* Automated regression testing using selenium.  These tests should be located on a pcf server and run nightly  results posted and accessible by all via web.
+* Developers can checkout selenium tests to run whereever
+* Automated testing needs to get updated with new features changes.
+  * Tester manually tests Resolved Fixed ticket, marks as verified
+  * Notes existing manual litmus test that covers functionality or makes new test
+  * Create seleium test that maps to manual test case.
+ * Community testing should be a simple suite of manual tests that are tracked in Litmus so that we can see the coverage, os and browsers used.  We get regular interns from Hitek who can be relied upon to run tests when required.
+ * Prerelease Automated and Manual Test results are available in Litmus to show the breakdown of #testers, tests run, browser / os, and pass/fail results.
+
+After deploy: 
+* Deploy at the beginning of lead developer's day for availability if there are problems.
+* After a release lead developer payß particular attention to any errors generated.
+* Possibly, do a blog post.

@@ -1,0 +1,6 @@
+The site, obviously, is at <a href="http://universalsubtitles.org">universalsubtitles.org</a>. To get to the "off-site" widget, try:
+<a href="http://www.universalsubtitles.org/widget_demo/">http://www.universalsubtitles.org/widget_demo/</a>
+
+Dev site (latest version): <a href="http://dev.universalsubtitles.org">http://dev.universalsubtitles.org</a>
+
+Staging site (preparing for release): <a href="http://staging.universalsubtitles.org">http://staging.universalsubtitles.org</a>

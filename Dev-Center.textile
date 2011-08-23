@@ -1,0 +1,28 @@
+Welcome to the Universal Subtitles project.  We have so much that we're trying to build and we'd love to have you join us!
+
+<h3>Source Code, Mailing List, and Bug Tracker</h3>
+<ul>
+<li>"*Source Code*":http://github.com/8planes/mirosubs/ (see the "README":http://github.com/8planes/mirosubs/blob/master/README to get started)</li>
+<li>"*Development mailing list*":http://groups.google.com/group/universal-subtitles-development</li>
+<li>"*Bug Tracker*":https://www.pivotaltracker.com/projects/224127</li>
+<li>"*Testing mailing list*":http://groups.google.com/group/universal-subtitles-testing/ (for anyone helping us test)</li> 
+</ul>
+
+<h3>Starter Projects</h3>
+**Bite-sized tickets**
+Here are some tickets that might be good for newcomers to the project!
+# "Awesome bookmarklet and code for site templates":http://bugzilla.pculture.org/show_bug.cgi?id=13431 -- 
+# "Getting good titles for html5 videos":http://bugzilla.pculture.org/show_bug.cgi?id=13392
+# "Machine translation in widget dropdown menu":http://bugzilla.pculture.org/show_bug.cgi?id=13443
+# "Error when YouTube link is broken/removed":http://bugzilla.pculture.org/show_bug.cgi?id=13593
+# "YouTube player sometimes starts playing again when pause is called and playhead time is set to 0":http://bugzilla.pculture.org/show_bug.cgi?id=13022 -- 
+# add "Support for video sites":http://wiki.github.com/8planes/mirosubs/other-video-players
+
+**Ideas** 
+This is a list of things we'd like to do
+# different websites / arbitrary flv or mp4 using our own flash player
+# optimization and speedups
+# login using facebook id
+# export to other subtitle formats (substation, ttml)
+
+Contact us if you'd like to be involved!  universalsubtitles@pculture.org

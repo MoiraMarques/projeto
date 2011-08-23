@@ -1,0 +1,12 @@
+# We are editing an existing SubtitleLanguage
+## The existing SubtitleLanguage is not dependent
+### No base language is specified: Edit existing
+### Base language specified: Create a new empty SubtitleLanguage.
+## The existing SubtitleLanguage is dependent
+### No base language is specified: In this case, fork existing and edit.
+### Base language is specified and consistent: Edit existing.
+### Base language is specified and inconsistent: Create a new empty SubtitleLanguage
+# We are creating a new SubtitleLanguage
+## A SubtitleLanguage exists with the language code specified: In this case, some other user started subtitling since we got the language listing to the browser. Should be a rare case, but possible. What message should we show the user?
+## Base language is specified: New dependent
+## Base language is specified: New not dependent

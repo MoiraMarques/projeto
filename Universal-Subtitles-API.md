@@ -1,0 +1,1 @@
+Relocated to http://www.universalsubtitles.org/api/1.0/documentation/

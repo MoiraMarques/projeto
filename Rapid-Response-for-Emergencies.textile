@@ -1,0 +1,33 @@
+CONTACT INFO:
+
+Adam (lead dev)
+Email/IM: aduston at gmale 
+SMS: send an email to threeonetwo3759879 AT txt.att.net (all numbers not words)
+
+Rob (sysadmin):
+Email: rchekaluk a t pculture.org
+SMS: send an email to fourzeroone6448747 AT vtext.com (all numbers not words)
+
+GOALS (for rapid response to emergencies)
+
+1) respond very quickly (ASAP) to emergencies (site down, major things broken)
+2) respond pretty quickly (24 hours) to any bug that creates the feeling of "broken-ness" on any part of the site (by fixing or adding a friendly error message or pulling that functionality)
+3) respond pretty quickly and very reliably (within a workday, ideally within a few hours to salvage somebody's workday) to anything that blocks the development process (dev site down, litmus down, somebody's dev environment broken, etc).
+
+PROCEDURES (to meet these goals)
+
+Emergencies:
+
+* Adam and Rob will get an SMS when the site goes down (basicstate.com uptime monitor)
+* Anybody in the process (including Janet and testers) who finds something majorly broken should send an email and SMS to Adam and Rob.   If Adam and Rob can reproduce and the problem is obviously major, they should go for it and fix.
+* Adam and Rob should both be obligated and fully empowered to get in touch, figure out the problem, and fix it 
+
+"Broken-ness" bugs on live site:
+
+* Janet and testers and anybody should email Adam about any ticket that where something is broken enough to reflects badly on the site.
+* If Adam agrees that it's broken enough to reflect really badly on the site (subjective, I know, but we can develop a sense of this over time and I think we already have one) then Adam is empowered to get it back to a non-badly-broken state without checking with anyone, and should do it as soon as is reasonable.
+
+Things that block development:
+
+* Whenever something is screwed up in a way that blocks somebody's ability to do work necessary for the next release (including testing e.g. dev site or litmus or their personal dev environment) they should SMS Adam or Rob (see contact info).
+* Adam or Rob should fix it soon enough to salvage that workday (if possible) or within 24 hours.

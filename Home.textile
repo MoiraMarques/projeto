@@ -1,0 +1,23 @@
+h2. Interested in using Universal Subtitles?
+
+[[Embed Code Usage Guide]] (Individually embedded videos)
+
+[[Widgetizer Script Usage Guide]] (Script for auto-enabling usubs on site videos)
+
+[[Universal Subtitles API]]
+
+h2. Interested in contributing to Universal Subtitles?  
+
+Start here:
+
+**[[Universal Subtitles Development Info|dev-center]]**
+
+[[Testing and staging servers|testing-and-staging-servers]]
+
+[[Support for sites providing videos like YouTube|other-video-players]]
+
+[[Rights Assignment Agreement|Rights-Assignment-Agreement]]
+
+h2. Deployment Notes
+
+[[Deployment Notes]]
