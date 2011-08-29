@@ -97,3 +97,15 @@ You can also add appropriate video_config parameters to the alternate video URLs
       })
     </script>
 
+## Choosing a default language
+
+You can make sure the embedded widget shows with a language of your choosing by default. To do so, use the language code as the `language` property on the base_estate, like this
+
+    <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+      ({
+            "video_url": "http://blip.tv/file/get/Miropcf-AboutUniversalSubtitles847.ogv",
+            "base_state": {"language": "ja"}
+      })
+    </script>
+
+In the example above, the embeded video will show up Japanese subtitles. The language codes are ISO-639-3.
