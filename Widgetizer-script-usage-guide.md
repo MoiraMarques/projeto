@@ -4,7 +4,7 @@ This small bit of javascript can be added to your html and then every YouTube or
 
 Just add the following bit of javascript to the `<head/>` element of your page:
 
-`<script type="text/javascript" src="http://s3.www.universalsubtitles.org/js/mirosubs-widgetizer.js"></script>`
+`<script type="text/javascript" src="http://s3.www.universalsubtitles.org/js/unisubs-widgetizer.js"></script>`
 
 **Demo:** http://www.universalsubtitles.org/widget/widgetize_demo/youtube_js
 
@@ -13,7 +13,7 @@ Just add the following bit of javascript to the `<head/>` element of your page:
 If you're concerned with the widgetizer script load slowing down your page, then place it at the bottom of your page's `body` element:
 
 
-        <script type="text/javascript" src="http://s3.www.universalsubtitles.org/js/mirosubs-widgetizer.js"></script>
+        <script type="text/javascript" src="http://s3.www.universalsubtitles.org/js/unisubs-widgetizer.js"></script>
     </body>
 
 However, for youtube videos, you'll need a very tiny bit of javascript in the `head`:
