@@ -61,7 +61,10 @@ Replace /usr/local/etc/nginx/nginx.conf with the following. Swap out `/Users/ada
 
 ## Alter /etc/hosts
 
-Add mirosubsmedia.example.com to your hosts, restart nginx
+Add mirosubsmedia.example.com to your hosts, restart nginx:
+
+    launchctl stop org.nginx.nginx
+    launchctl start org.nginx.nginx
 
 ## Alter your settings_local file
 
