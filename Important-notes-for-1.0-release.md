@@ -1,0 +1,2 @@
+1. SECRET_KEY has to be added to server_settings_local.py on every server
+2. After disabling site, run `fab unisubs:adam run_command:fix_language_codes` (replace adam with your username if you are not adam). This is essentially a data migration, but wasn't included as a data migration because then it would be out of order.
