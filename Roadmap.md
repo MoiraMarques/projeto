@@ -1,3 +1,5 @@
+_ In progress. Last updated 7 November 2011_
+
 ## By 11 Nov 2011
 
 ### Team management
@@ -8,6 +10,7 @@
 - Can remove projects
 
 ### Team videos
+- ~~Can view videos~~ (`/teams/:slug/`)
 - ~~Can add single video to team~~
 - Can add multiple videos to team
 - ~~Can edit video~~
@@ -15,9 +18,12 @@
 - ~~Can filter videos view by project~~
 
 ### Team members
+- ~~Can view members~~ (`/teams/:slug/members/`)
+- ~~Can join team~~
 - ~~Can apply to team~~
 - ~~Can approve applications~~
-- Can filter members view by role
+- ~~Can leave team~~ 
+- ~~Can filter members view by role~~
 - Can invite members
 
 ### API
@@ -27,18 +33,35 @@
 
 ## By 18 Nov 2011
 
+### Team management
 - Can adjust permissions
 - Can specify workflow options
+- Can block languages
+
+### Team members
 - Can edit member roles
 - Can edit role restrictions
+- Can block/remove member
 
-- Have protected server setup for testing
+### Team tasks
+- Can view tasks
+- Can create tasks
+- Can view existing tasks
+- Can assign tasks
+- Can accept/reject tasks
+- Can filter tasks by language
+
+### Infrastructure
+- Non-public staging server for testing
 
 ## By 25 Nov 2011
 
-- Can move videos among projects
+### Team management
 - Can save custom messages and guidelines
 - Can adjust notification settings
+
+### Team videos
+- Can move videos among projects
 
 ## By 2 December
 
@@ -55,3 +78,6 @@
 - Can filter activity view by type
 - Can filter activity view by language
 - Can search activity view
+
+### Team tasks
+- Can filter tasks by type
