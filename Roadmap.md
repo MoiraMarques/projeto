@@ -5,14 +5,14 @@ _In progress. Last updated 7 November 2011_
 ### Team management
 - ~~Can create new team~~ (`/teams/create/` — must be super user)
 - Can adjust/save basic settings
-- Can create projects
-- Can edit projects
-- Can remove projects
+- Can create projects (awaiting [#284][284])
+- Can edit projects (awaiting [#284][284])
+- Can remove projects (awaiting [#284][284])
 
 ### Team videos
 - ~~Can view videos~~ (`/teams/:slug/`)
 - ~~Can add single video to team~~ (`/teams/add/video/:slug/`)
-- Can add multiple videos to team (awaiting [#282][1])
+- Can add multiple videos to team (awaiting [#282][282])
 - ~~Can edit video~~ (`/teams/edit/video/:team_video_id`)
 - Can remove videos
 - ~~Can filter videos view by project~~ (`/teams/:slug/p/:project_slug`)
@@ -83,4 +83,5 @@ _In progress. Last updated 7 November 2011_
 - Can filter tasks by type
 
 
-[1]: https://unisubs.sifterapp.com/projects/12298/issues/469162/comments
+[282]: https://unisubs.sifterapp.com/projects/12298/issues/469162/comments
+[284]: https://unisubs.sifterapp.com/projects/12298/issues/470739/comments
