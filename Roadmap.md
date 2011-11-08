@@ -30,6 +30,9 @@ _In progress. Last updated 7 November 2011_
 - Partner can create users via the API
 - Partner can add videos for created users via the API
 - Partner can upload subtitles for users via the API
+- Partner can list videos
+- Partner can list languages for video
+- Partner can list subtitles for a language
 
 ## By 18 Nov 2011
 
