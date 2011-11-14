@@ -2,7 +2,7 @@ Collection of new teams specs for QA and testing
 
 ## Videos
 
-### [Videos, all][Teams-Videos] `/teams/:slug`
+### [[Videos, all|Team-Videos]]`/teams/:slug`
 
 ### Videos, by project `/teams/:slug/p/:project_slug`
 
