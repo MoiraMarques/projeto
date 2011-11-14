@@ -4,15 +4,15 @@ Collection of new teams specs for QA and testing
 
 ### [[Videos, all|Teams-Videos]] `/teams/:slug`
 
-### Videos, by project `/teams/:slug/p/:project_slug`
+### [[Videos, by project|Teams-Videos]] `/teams/:slug/p/:project_slug`
 
-### Videos, by language
+### [[Videos, by language|Teams-Videos]]
 
-### Add video, single
+### [[Add video, single|Teams-Add-Video]]
 
-### Add video, multiple
+### [[Add video, multiple|Teams-Add-Video]]
 
-### Edit video
+### [[Edit video|Teams-Edit-Video]]
 
 
 ## Members
