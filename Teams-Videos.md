@@ -1,16 +1,15 @@
 [[← All Specs|Teams-Spec]]
 
-* **Access:** Visible to all (public, users, and team members)
-* Page displays a paginated list of a team's videos, optionally filtered by project and/or language.
-* Videos are sorted reverse-chronologically by date added, from most to least recent
-* Each page displays 10 videos
+## Video listing
 
-## Functionality
+* **Displays:** list of videos, sorted from newest to oldest by date added to team, 10 per page
+* **Visible to:** everyone (public, users, and team members)
 
-### Filter by project
+## Project Filtering
 
-* **Access:** Available to all
-* **Description:** Clicking the name of a project in the right sidebar (`div.controls`) filters the list of videos so that only videos in that project are shown.
+* **Displays:** linked list of projects in right sidebar (`div.controls`)
+* **Visible to:** everyone
+* **Behavior:** clicking the name of a project filters the list of videos so that only videos in that project are shown.
 
 **Use Cases**
 
