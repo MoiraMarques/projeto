@@ -2,8 +2,17 @@
 
 ## Video listing
 
-* **Displays:** list of videos, sorted from newest to oldest by date added to team, 10 per page
+* **Displays:**
+    * list of videos (`ul.listing.videos`)
+    * items sorted from newest to oldest by date added to team
+    * 10 items per page
 * **Visible to:** everyone (public, users, and team members)
+
+### Use Cases
+
+* WHEN there are no video results
+    * `ul.listing.videos` is not displayed
+    * `p.empty` displayed containing the text "Sorry, no videos here..."
 
 
 ## Project filtering
@@ -15,7 +24,13 @@
 ### Use cases
 
 * WHEN projects are not enabled
-    * `ul` should not exist in (`div.controls`)
+    * `ul` contains only one item, "All videos"
+    * WHEN user is admin or owner
+        * Message is displayed below menu (see below)
+
+### Message text
+
+Projects allow you to organize your team's videos. [Create a project now](#)
 
 
 ## Filter by language
@@ -87,6 +102,33 @@ Are you sure you want to remove this video from your team? The video will remain
     * user is shown message confirming that video has been removed
 * WHEN user click 'cancel' during confirmation
     * confirmation is dismissed, video is not removed
+
+
+## Manage membership
+
+* **Displays:** A button in the right sidebar allowing user to manage her/his membership
+* **Visible to:** everyone
+
+* WHEN user is logged in AND is a team member
+    * "Leave team" button is displayed
+* WHEN user is logged in AND is not a team member
+    * WHEN team membership is open
+        * "Join this team now!" button is displayed
+        * **Behavior:** 
+            * clicking button makes user a member of the team
+            * user is given the role of contributor
+            * page is reloaded
+    * WHEN team membership is by application
+        * "Apply to join" button is displayed
+        * **Behavior:**
+            * clicking button loads application form in modal dialog
+            * submitting application form creates new application
+            * team admins and owners receive site notification (not yet implemented)
+    * WHEN team membership is by invitation
+        * `p.action-replacement` is displayed containing the text "Membership by invitation only"
+* WHEN user is not logged in
+    * "Sign in to join team" button is displayed
+    * **Behavior:** clicking button loads the sign in page
 
 
 ## Bulk edit videos (incomplete)
