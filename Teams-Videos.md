@@ -12,7 +12,7 @@
 * **Visible to:** everyone
 * **Behavior:** clicking the name of a project filters the list of videos so that only videos in that project are shown
 
-**Use cases**
+### Use cases
 
 * WHEN projects are not enabled
     * `ul` should not exist in (`div.controls`)
@@ -24,7 +24,7 @@
 * **Visible to:** everyone
 * **Behavior:** selecting a language filters the list of videos so that only videos with subtitles in that language are shown
 
-**Use cases**
+### Use cases
 
 * WHEN user is logged in AND has specified language preferences
     * preferred languages should be at top of list
@@ -36,7 +36,7 @@
 * **Visible to:** role specified in team settings
 * **Behavior:** appears when hovering over a video listing
 
-**Use cases**
+### Use cases
 
 * WHEN team member has 'add/remove videos' privileges
     * admin menu displays 'Edit' and Remove' buttons
@@ -50,7 +50,7 @@
 * **Visible to:** role specified in team settings
 * **Behavior:** clicking loads the [[Add Video]] form
 
-**Use cases**
+### Use cases
 
 * WHEN team member does not have 'add/remove' videos privileges
     * button is not displayed
@@ -62,7 +62,7 @@
 * **Visible to:** role specified in team settings
 * **Behavior:** clicking loads the [[Create Task]] form
 
-**Use cases**
+### Use cases
 
 * WHEN team member does not have 'assign tasks' videos privileges
     * button is not displayed
@@ -74,11 +74,11 @@
 * **Visible to:** role specified in team settings
 * **Behavior:** clicking prompts user for confirmation; user may confirm or cancel removal
 
-** Confirmation text**
+###  Confirmation text
 
 Are you sure you want to remove this video from your team? The video will remain on Universal Subtitles, and existing subtitles will not be affected, but you will no longer be able to manage the video.
 
-**Use cases**
+### Use cases
 
 * WHEN team member does not have 'add/remove' videos privileges
     * button is not displayed
