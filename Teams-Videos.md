@@ -18,7 +18,7 @@
     * `ul` should not exist in (`div.controls`)
 
 
-#### Filter by language
+## Filter by language
 
 * **Displays:** dropdown of languages above the video listing
 * **Visible to:** everyone
@@ -30,7 +30,7 @@
     * preferred languages should be at top of list
 
 
-### Manage videos
+## Manage videos
 
 * **Displays:** an admin menu (`ul.admin-controls`)
 * **Visible to:** role specified in team settings
@@ -44,7 +44,7 @@
     * admin menu displays 'Create Task' button (see below)
 
 
-### Add videos
+## Add videos
 
 * **Displays:** an 'add videos' button above the video listing
 * **Visible to:** role specified in team settings
@@ -56,7 +56,7 @@
     * button is not displayed
 
 
-### Create a task
+## Create a task
 
 * **Displays:** 'Create Task' button in the admin menu
 * **Visible to:** role specified in team settings
@@ -68,7 +68,7 @@
     * button is not displayed
 
 
-### Remove a video
+## Remove a video
 
 * **Displays:** 'Remove' button in the admin menu
 * **Visible to:** role specified in team settings
@@ -89,7 +89,7 @@ Are you sure you want to remove this video from your team? The video will remain
     * confirmation is dismissed, video is not removed
 
 
-### Bulk edit videos (incomplete)
+## Bulk edit videos (incomplete)
 
 * **Displays:** checkbox in the admin menu
 * **Visible to:** role specified in team settings
