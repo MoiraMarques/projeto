@@ -111,6 +111,10 @@ Are you sure you want to remove this video from your team? The video will remain
 
 * WHEN user is logged in AND is a team member
     * "Leave team" button is displayed
+    * **Behavior:** 
+        * clicking button displays confirmation alert
+        * clicking "Confirm" removes member from team
+        * clicking cancel dismissed the alert
 * WHEN user is logged in AND is not a team member
     * WHEN team membership is open
         * "Join this team now!" button is displayed
