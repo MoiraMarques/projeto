@@ -23,8 +23,10 @@
 
 ### Use cases
 
-* WHEN projects are not enabled
-    * `ul` contains only one item, "All videos"
+* WHEN a team has only one project
+    * `ul` contains only one item
+        * WHEN the default project has not been renamed, the item reads "All videos"
+        * WHEN the default project has been renamed, the item shows the project name
     * WHEN user is admin or owner
         * Message is displayed below menu (see below)
 
