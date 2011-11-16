@@ -54,4 +54,4 @@
 
 ## Manage membership
 
-See description on [[Videos|Team-Videos]] spec
+See description on [[Videos|Teams-Videos]] spec
