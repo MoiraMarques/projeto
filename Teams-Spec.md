@@ -22,14 +22,14 @@ Collection of new teams specs for QA and testing
 
 ## Tasks
 
-* Tasks, all
-* Tasks, by type
-* Tasks, by language
-* Create Task
+* [[Tasks, all|Teams-Tasks]]
+* [[Tasks, by type|Teams-Tasks]]
+* [[Tasks, by language|Teams-Tasks]]
+* [[Create Task|Teams-Create-Task]]
 
 ## Settings
 
-* Settings, basic
-* Settings, guidelines and messages
-* Settings, permissions
-* Settings, projects
+* [[Settings, basic|Teams-Settings]]
+* [[Settings, guidelines and messages|Teams-Settings]]
+* [[Settings, permissions|Teams-Settings]]
+* [[Settings, projects|Teams-Settings]]
