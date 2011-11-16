@@ -2,52 +2,34 @@ Collection of new teams specs for QA and testing
 
 ## Videos
 
-### [[Videos, all|Teams-Videos]] `/teams/:slug`
-
-### [[Videos, by project|Teams-Videos]] `/teams/:slug/p/:project_slug`
-
-### [[Videos, by language|Teams-Videos]]
-
-### [[Add video, single|Teams-Add-Video]]
-
-### [[Add video, multiple|Teams-Add-Video]]
-
-### [[Edit video|Teams-Edit-Video]]
-
+* [[Videos, all|Teams-Videos]] - `/teams/:slug`
+* [[Videos, by project|Teams-Videos]] - `/teams/:slug/p/:project_slug`
+* [[Videos, by language|Teams-Videos]]
+* [[Add video, single|Teams-Add-Video]] - `/teams/add/video/:slug`
+* [[Add video, multiple|Teams-Add-Video]] - `/teams/add/videos/:slug`
+* [[Edit video|Teams-Edit-Video]] = `/teams/edit/video/:id`
 
 ## Members
 
-### Members `/teams/:slug/members`
-
-### Members, by role `/teams/:slug/members/:role`
-
-### Members, by language `/teams/:slug/members/?lang=:language`
-
-### Invite members `/teams/:slug/members/invite`
-
+* [[Members, all|Teams-Members]] `/teams/:slug/members`
+* [[Members, by role|Teams-Members]] `/teams/:slug/members/:role`
+* [[Members, by language|Teams-Members]] `/teams/:slug/members/?lang=:language`
+* [[Invite members|Teams-Invite-Members]] `/teams/:slug/members/invite`
 
 ## Activity
 
-### Activity, all
-
+* [[Activity, all|Teams-Activity]] - `/teams/:slug/activity`
 
 ## Tasks
 
-### Tasks, all
-
-### Tasks, by type
-
-### Tasks, by language
-
-### Create Task
-
+* Tasks, all
+* Tasks, by type
+* Tasks, by language
+* Create Task
 
 ## Settings
 
-### Settings, basic
-
-### Settings, guidelines and messages
-
-### Settings, permissions
-
-### Settings, projects
+* Settings, basic
+* Settings, guidelines and messages
+* Settings, permissions
+* Settings, projects
