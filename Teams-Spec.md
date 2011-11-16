@@ -4,7 +4,7 @@ Collection of new teams specs for QA and testing
 
 * [[Videos, all|Teams-Videos]] - `/teams/:slug`
 * [[Videos, by project|Teams-Videos]] - `/teams/:slug/p/:project_slug`
-* [[Videos, by language|Teams-Videos]]
+* [[Videos, by language|Teams-Videos]] - `/teams/:slug/?lang=:language`
 * [[Add video, single|Teams-Add-Video]] - `/teams/add/video/:slug`
 * [[Add video, multiple|Teams-Add-Video]] - `/teams/add/videos/:slug`
 * [[Edit video|Teams-Edit-Video]] = `/teams/edit/video/:id`
