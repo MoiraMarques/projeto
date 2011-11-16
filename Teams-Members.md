@@ -41,7 +41,7 @@
 
 * **Displays:** an 'add videos' button above the video listing
 * **Visible to:** role specified in team settings
-* **Behavior:** clicking loads the [[Add Video]] form
+* **Behavior:** clicking loads a popover form
 
 ### Use cases
 
