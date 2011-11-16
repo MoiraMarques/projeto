@@ -71,7 +71,7 @@
 
 ## Create a task
 
-* **Displays:** 'Create Task' button in the admin menu
+* **Displays:** 'New Task' button in the admin menu
 * **Visible to:** role specified in team settings
 * **Behavior:** clicking loads the [[Create Task]] form
 
@@ -141,6 +141,11 @@ Are you sure you want to remove this video from your team? The video will remain
     * checking selects and deselects videos
     * selecting a video makes the admin menu persist (i.e. doesn't disappear when the item loses hover)
     * once at least one video is selected, a bulk actions menu is displayed (not yet implemented)
+
+
+## Search videos
+
+Not yet implemented
 
 
 
