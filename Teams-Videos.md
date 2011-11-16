@@ -28,11 +28,7 @@
         * WHEN the default project has not been renamed, the item reads "All videos"
         * WHEN the default project has been renamed, the item shows the project name
     * WHEN user is admin or owner
-        * Message is displayed below menu (see below)
-
-### Message text
-
-Projects allow you to organize your team's videos. [Create a project now](#)
+        * Message is displayed below menu: "Projects allow you to organize your team's videos. [View/create projects](#)."
 
 
 ## Filter by language
