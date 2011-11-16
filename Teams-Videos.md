@@ -23,7 +23,7 @@
 
 ### Use cases
 
-* WHEN a team has only one project
+* WHEN a team has only one project (see [#298][1])
     * `ul` contains only one item
         * WHEN the default project has not been renamed, the item reads "All videos"
         * WHEN the default project has been renamed, the item shows the project name
@@ -145,3 +145,7 @@ Are you sure you want to remove this video from your team? The video will remain
     * checking selects and deselects videos
     * selecting a video makes the admin menu persist (i.e. doesn't disappear when the item loses hover)
     * once at least one video is selected, a bulk actions menu is displayed (not yet implemented)
+
+
+
+[1]: https://unisubs.sifterapp.com/projects/12298/issues/482211/comments
