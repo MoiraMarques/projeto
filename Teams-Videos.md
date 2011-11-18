@@ -97,6 +97,7 @@ Are you sure you want to remove this video from your team? The video will remain
     * button is not displayed
 * WHEN user clicks 'confirm' during confirmation
     * the video is removed from the team
+    * all tasks attached to that video are removed
     * user is shown message confirming that video has been removed
 * WHEN user click 'cancel' during confirmation
     * confirmation is dismissed, video is not removed
