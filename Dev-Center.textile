@@ -2,7 +2,7 @@ Welcome to the Universal Subtitles project.  We have so much that we're trying t
 
 <h3>Source Code, Mailing List, and Bug Tracker</h3>
 <ul>
-<li>"*Source Code*":http://github.com/8planes/mirosubs/ (see the "README":http://github.com/8planes/mirosubs/blob/master/README to get started)</li>
+<li>"*Source Code*":https://github.com/pculture/unisubs (see the "README":https://github.com/pculture/unisubs/blob/dev/README.markdown to get started)</li>
 <li>"*Development mailing list*":http://groups.google.com/group/universal-subtitles-development</li>
 <li>"*Testing mailing list*":http://groups.google.com/group/universal-subtitles-testing/ (for anyone helping us test)</li> 
 </ul>
