@@ -2,7 +2,7 @@ h2. Interested in using Universal Subtitles?
 
 [[Embed Code Usage Guide]] (Individually embedded videos)
 
-[[Widgetizer Script Usage Guide]] (Script for auto-enabling usubs on site videos)
+[[Widgetizer-Script---for-YouTube-and-HTML5]] (Script for auto-enabling usubs on site videos)
 
 [[Universal Subtitles API]]
 
