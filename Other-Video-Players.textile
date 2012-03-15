@@ -3,7 +3,7 @@ h1. Required in JS API
 * A method that returns the current state of the player -- whether it's playing or paused or if the video has finished playing.
 * A method that plays the video.
 * A method that pauses the video.
-* A method that returns playhead time, and another that sets seeks the playhead time. Ideally with precision in the 100 milliseconds range.
+* A method that returns playhead time, and another that seeks the playhead time. Ideally with precision in the 100 milliseconds range.
 * A method that returns the video's duration.
 * A method that returns the byte range of the video that is currently buffered in the player and how many bytes total there are.
 * A method that returns volume, and another that sets volume.
