@@ -3,12 +3,13 @@ h1. Required in JS API
 * A method that returns the current state of the player -- whether it's playing or paused or if the video has finished playing.
 * A method that plays the video.
 * A method that pauses the video.
-* A method that returns playhead time, and another that sets playhead time.
+* A method that returns playhead time, and another that sets seeks the playhead time. Ideally with precision in the 100 milliseconds range.
 * A method that returns the video's duration.
-* A method that returns the byte range of the video that is currently buffered in the player.
+* A method that returns the byte range of the video that is currently buffered in the player and how many bytes total there are.
 * A method that returns volume, and another that sets volume.
 * A method that stops the video media from further loading, and another that recommences loading.
 * The video player should issue an event when the video starts playing, and another event when it pauses. 
+* If possible, to be able to disable going full screen on the player.
 
 h1. Players
 
@@ -16,20 +17,19 @@ h2. Brightcove
 
 http://docs.brightcove.com/en/player/
 
-It looks like everything is supported except for the stopping/restarting of video loading.
-
+We have a prototype for it, it has all the features needed.
 
 h2. Vimeo
 
 http://vimeo.com/api/docs/moogaloop
 
-Vimeo appears to support the entire API we need! Nice one, Vimeo!
+Vimeo is fully supported.
 
 h2. Dailymotion
 
 http://www.dailymotion.com/us/doc/api/player/javascript_api
 
-Dailymotion appears to support the entire API we need! Good job, Dailymotion!
+Dailymotion is fully supported.
 
 h2. Metacafe
 
@@ -47,10 +47,3 @@ h2. Yahoo
 
 See http://developer.yahoo.com/music/api_guide/VideoPlayerMethods.html and http://developer.yahoo.com/music/api_guide/VideoPlayerCallbacks.html . Missing several methods we need, e.g. one that returns current playhead time.
 
-h1. vidscraper supported sites: 
-
-* blip
-* fora
-* google video
-* ustream
-* vimeo (but URLs change)
