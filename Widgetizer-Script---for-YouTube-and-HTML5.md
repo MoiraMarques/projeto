@@ -1,3 +1,9 @@
+## Enterprise Services
+
+If you are interested in API integration, privacy controls, quality control processes, professional services, and building a volunteer community, please see our [enterprise services](http://www.universalsubtitles.org/en/services/).
+
+## Widgetizer for YouTube and HTML5
+
 This small bit of javascript can be added to your html and then every YouTube (it's compatible with the old style YouTube `<object>` embeds only, NOT the newer `<iframe>` embeds) or html5 video on the site will have the subtitle tab attached below.  There are a few ways to add the widgetizer script:
 
 ### To the `<head/>` element
