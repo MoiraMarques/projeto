@@ -1,6 +1,6 @@
 ## Enterprise Services
 
-If you are interested in API integration, privacy controls, quality control processes, professional services, and building a volunteer community, please see our [enterprise services](http://www.universalsubtitles.org/en/services/).
+If you are interested in API integration, privacy controls, quality control processes, professional services, and building a volunteer community, please see our [enterprise services](http://www.universalsubtitles.org/en/enterprise/).
 
 ## Widgetizer for YouTube and HTML5
 
