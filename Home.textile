@@ -4,7 +4,7 @@ h2. Interested in using Universal Subtitles?
 
 [[Widgetizer-Script - for YouTube and HTML5]] (Script for auto-enabling usubs on site videos)
 
-[[Universal Subtitles API]]
+<a href="http://amara.readthedocs.org/en/latest/api.html"?Universal Subtitles API</a>
 
 h2. Interested in contributing to Universal Subtitles?  
 
