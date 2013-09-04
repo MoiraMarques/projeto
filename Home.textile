@@ -1,21 +1,21 @@
-**[[Amara Development Info|dev-center]]**
+Welcome to the Amara project. We have a lot going on and welcome your contribution!
 
+*Not the help you are looking for? See <a href='http://support.amara.org/support/home'> Amara user support site </a> for end-user questions and documentation*
+
+<h3>The Essentials</h3>
+* [[Source Code|https://github.com/pculture/unisubs]] - see the **README**
+* [[Code Documentation|http://amara.readthedocs.org/en/latest/]]
+* [[Development mailing list|http://groups.google.com/group/universal-subtitles-development]]
+* [[Issues tracker|http://github.com/pculture/unisubs/issues]]
+* [[bite-sized tickets for new contributors|https://github.com/pculture/unisubs/issues?labels=type%3A+bite-sized&milestone=&page=1&state=open]]
 * irc: freenode.org #amara
 
+
+<h3>Key Project Docs</h3>
+* [[Issue lifecycle|A-Bug's-Life]]
 * [[Support for sites providing videos like YouTube|other-video-players]]
-
 * [[Rights Assignment Agreement|Rights-Assignment-Agreement]]
+* [[Embed Code Usage Guide]] (Individually embedded videos)
+* [[Widgetizer-Script - for YouTube and HTML5]] (Script for auto-enabling usubs on site videos)
 
-* <a href="http://amara.readthedocs.org/en/latest/">Development Documentation</a>
-
-
-
-**Need Help with Amara?**
-
-<a href='http://support.amara.org/support/home'> Amara user support site</a>
-
-[[Embed Code Usage Guide]] (Individually embedded videos)
-
-[[Widgetizer-Script - for YouTube and HTML5]] (Script for auto-enabling usubs on site videos)
-
-<a href="http://amara.readthedocs.org/en/latest/api.html">Amara API</a>
+[[All the rest of the wiki pages |https://github.com/pculture/unisubs/wiki/_pages]]
