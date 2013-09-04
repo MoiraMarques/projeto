@@ -28,7 +28,7 @@
  * QA notifies Developer either via ticket / irc, email, 
  * Ticket status is set back to in-progress 
  * Dev resumes work on the ticket
-* If additional bugs are found that are minor, a new ticket can be created for that particular issue if it need not block the current issue.  It should be referneced in the original ticket.
+* If additional bugs are found that are minor, a new ticket can be created for that particular issue if it need not block the current issue.  It should be referenced in the original ticket.
 * If everything is good with the ticket:
  * QA creates a pull-request for the branch
  * QA notes in the pull request if a migration is required
