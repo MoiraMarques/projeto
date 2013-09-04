@@ -9,7 +9,7 @@ We have a lot going on and welcome your contribution.
 </ul>
 
 <h3>Starter Projects</h3>
-<a href=https://github.com/pculture/unisubs/issues?labels=type%3A+bite-sized&milestone=&page=1&state=open> bite-sized tickets</a>Dive in and submit a pull request.
+<a href=https://github.com/pculture/unisubs/issues?labels=type%3A+bite-sized&milestone=&page=1&state=open> bite-sized tickets </a>Dive in and submit a pull request.
 
 
 Contact us if you'd like to be involved!  universalsubtitles@pculture.org
