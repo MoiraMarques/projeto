@@ -1,4 +1,3 @@
-
 **[[Amara Development Info|dev-center]]**
 
 * irc: freenode.org #amara
@@ -11,7 +10,9 @@
 
 * <a href="http://amara.readthedocs.org/en/latest/">Development Documentation</a>
 
-** Need Help with Amara?
+
+
+**Need Help with Amara?
 
 <a href='http://support.amara.org/support/home'> Amara user support site</a>
 
