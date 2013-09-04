@@ -1,16 +1,10 @@
-h2. Interested in using Universal Subtitles?
-
-[[Embed Code Usage Guide]] (Individually embedded videos)
-
-[[Widgetizer-Script - for YouTube and HTML5]] (Script for auto-enabling usubs on site videos)
-
-<a href="http://amara.readthedocs.org/en/latest/api.html">Universal Subtitles API</a>
-
 h2. Interested in contributing to Universal Subtitles?  
 
 Start here:
 
-**[[Universal Subtitles Development Info|dev-center]]**
+**[[Amara Development Info|dev-center]]**
+
+irc: freenode.org #amara
 
 [[Testing and staging servers|testing-and-staging-servers]]
 
@@ -18,6 +12,12 @@ Start here:
 
 [[Rights Assignment Agreement|Rights-Assignment-Agreement]]
 
-h2. Deployment Notes
+h2. Interested in using Universal Subtitles?
 
-[[Deployment Notes]]
+<a href='http://support.amara.org/support/home'> Amara user support site</a>
+
+[[Embed Code Usage Guide]] (Individually embedded videos)
+
+[[Widgetizer-Script - for YouTube and HTML5]] (Script for auto-enabling usubs on site videos)
+
+<a href="http://amara.readthedocs.org/en/latest/api.html">Universal Subtitles API</a>
