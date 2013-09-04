@@ -6,7 +6,7 @@ Welcome to the Amara project. We have a lot going on and welcome your contributi
 * [[Source Code|https://github.com/pculture/unisubs]] - see the **README**
 * [[Code Documentation|http://amara.readthedocs.org/en/latest/]]
 * [[Development mailing list|http://groups.google.com/group/universal-subtitles-development]]
-* [[Issues tracker|http://github.com/pculture/unisubs/issues]]
+* [[Issue tracker|http://github.com/pculture/unisubs/issues]]
 * [[bite-sized tickets for new contributors|https://github.com/pculture/unisubs/issues?labels=type%3A+bite-sized&milestone=&page=1&state=open]]
 * irc: freenode.org #amara
 
