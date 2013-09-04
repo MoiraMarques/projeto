@@ -2,8 +2,6 @@
 
 * irc: freenode.org #amara
 
-* [[Test servers|testing-and-staging-servers]]
-
 * [[Support for sites providing videos like YouTube|other-video-players]]
 
 * [[Rights Assignment Agreement|Rights-Assignment-Agreement]]
@@ -12,7 +10,7 @@
 
 
 
-**Need Help with Amara?
+**Need Help with Amara?**
 
 <a href='http://support.amara.org/support/home'> Amara user support site</a>
 
