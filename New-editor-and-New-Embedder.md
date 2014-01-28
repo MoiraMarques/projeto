@@ -7,7 +7,7 @@
   - [#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js
 
 - **Help**
-  - [#514(https://github.com/pculture/unisubs/issues/514) Implement the new instructions design
+  - [#514](https://github.com/pculture/unisubs/issues/514) Implement the new instructions design
 
 - **Support for various embeds**
   - Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125) (almost done)
@@ -28,7 +28,7 @@
     - Dashboard tasks
     - Tasks page tasks
  - Widget embed menu (**Skipable, but see Embedder-specific notes below)
- - Upload subtitles dialog (*I think it relies on old widget menus*) We should implement [#993] https://github.com/pculture/unisubs/issues/993 Upload versions directly to the new editor.
+ - Upload subtitles dialog (*I think it relies on old widget menus*) We should implement [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
 
 - **Create new dialogs for setting the Primary Audio Language and choose language to Translate**
   - [#723](https://github.com/pculture/unisubs/issues/723) Selecting the initial reference language
