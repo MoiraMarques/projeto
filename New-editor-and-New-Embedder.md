@@ -1,4 +1,4 @@
-### To Make the new editor the primary editor, and use the new embedder on amamra.org
+#### Make the new editor the primary editor, and use the new embedder on amara.org
 *(while maintaining the beta editor for fallback.)*
 
 - **Saving issues**
@@ -10,11 +10,10 @@
   - #514 https://github.com/pculture/unisubs/issues/514 Implement the new instructions design
 
 - **Support for various embeds**
-  - Brightcove
+  - Brightcove #1125 https://github.com/pculture/unisubs/issues/1125 (almost done)
   - support flv videos, #1171 https://github.com/pculture/unisubs/issues/1171
-  - Dailymotion (*optional? works in old editor*)
-  - Wistia (*optional? works in old editor*)
-  - mp3 (*optional? works in old editor*)
+  - Dailymotion
+  - Wistia
   - Handling for embeds not supported in new editor #548 https://github.com/pculture/unisubs/issues/548 
 
 - **Implement existing functionality from Old Editor**
@@ -28,7 +27,7 @@
  - Teams pages:
     - Dashboard tasks
     - Tasks page tasks
- - Widget embed menu
+ - Widget embed menu (**Skipable, but see Embedder-specific notes below)
 
 - **Create new dialogs for setting the Primary Audio Language and choose language to Translate**
   - #723 https://github.com/pculture/unisubs/issues/723 Selecting the initial reference language
@@ -37,4 +36,9 @@
 - **Other bugs**
   - #995 https://github.com/pculture/unisubs/issues/995, timestamp rounding error
   - #1141 https://github.com/pculture/unisubs/issues/1141, subs freezing in safari on osx
+
+- **Embedder-specific changes needed**
+  - Currently the *Improve these subtitles* menu item points to the video page. Could either change default to opening the subtitle editor, or have an amara-specific default setting.
+  - Change the default embed code on the Video and video language pages
+  - Verify existing embeds using the old widget are not broken.
 
