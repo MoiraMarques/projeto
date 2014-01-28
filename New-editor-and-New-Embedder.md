@@ -6,6 +6,8 @@
   - #1138 https://github.com/pculture/unisubs/issues/1138, saving a backup copy each minute
   - #751  https://github.com/pculture/unisubs/issues/751, save local copy on server save failure, Filesaver.js
 
+- Help
+  - #514 https://github.com/pculture/unisubs/issues/514 Implement the new instructions design
 - Support for various embeds
   - Brightcove
   - support flv videos, #1171 https://github.com/pculture/unisubs/issues/1171
@@ -15,7 +17,7 @@
   - Handling for embeds not supported in new editor #548 https://github.com/pculture/unisubs/issues/548 
 
 - Implement existing functionality from Old Editor
-  - Shift-tab key for skip back
+  - #785 https://github.com/pculture/unisubs/issues/785 Shift-tab key for skip back
   - #1043 - Reset button (to clear subtitles, or timings)
 
 - Update all the dialogs that open the Old editor
