@@ -22,6 +22,7 @@
   - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
 
 - **Update all the dialogs that open the Old editor**
+ - [#1121]Refactor open edit dialog code
  - Video page links
  - Video language page links
  - Teams pages:
