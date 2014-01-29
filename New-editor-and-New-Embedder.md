@@ -22,7 +22,7 @@
   - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
 
 - **Update all the dialogs that open the Old editor**
- - [#1121]Refactor open edit dialog code
+ - [#1121](https://github.com/pculture/unisubs/issues/1121)Refactor open edit dialog code
  - Video page links
  - Video language page links
  - Teams pages:
@@ -38,6 +38,7 @@
 - **Other bugs**
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error
   - [#1141](https://github.com/pculture/unisubs/issues/1141), subs freezing in safari on osx
+  - [#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped
 
 - **Embedder-specific changes needed**
   - Currently the *Improve these subtitles* menu item points to the video page. Could either change default to opening the subtitle editor, or have an amara-specific default setting.
