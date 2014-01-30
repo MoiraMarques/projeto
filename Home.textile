@@ -18,4 +18,10 @@ Welcome to the Amara project. We have a lot going on and welcome your contributi
 * [[Embed Code Usage Guide]] (Individually embedded videos)
 * [[Widgetizer-Script - for YouTube and HTML5]] (Script for auto-enabling usubs on site videos)
 
+<h3>Current dev docs</h3>
+
+* [[Editor Embedder Switchover|New-editor-and-New-Embedder]]
+* [[Help and Save Changes|New-editor-help-and-save-changes]]
+
+
 [[All the rest of the wiki pages |https://github.com/pculture/unisubs/wiki/_pages]]
