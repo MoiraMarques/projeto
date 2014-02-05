@@ -3,12 +3,7 @@ Using docker if you need to test a specific branch of one of our required reposi
 1. Run the command to open a bash shell to the amara-dev image, adding in the -p argument to pass the port out.
 
 <tt>
-docker run -i -t -h=unisubs.example.com 
--cidfile=/home/jed/unisubs/docker-dev-environment/cidfiles/amara-dev-shell-130a53ea8e 
--p 8000:8000 -e DJANGO_SETTINGS_MODULE=docker_dev_settings 
--v /home/jed/unisubs:/opt/apps/unisubs 
--w /opt/apps/unisubs/ amara-dev /bin/bash  
---init-file /opt/ve/unisubs/bin/activate
+docker run -i -t -h=unisubs.example.com -cidfile=/home/jed/unisubs/docker-dev-environment/cidfiles/amara-dev-shell-130a53ea8e -p 8000:8000 -e DJANGO_SETTINGS_MODULE=docker_dev_settings -v /home/jed/unisubs:/opt/apps/unisubs -w /opt/apps/unisubs/ amara-dev /bin/bash  --init-file /opt/ve/unisubs/bin/activate
 </tt>
 
 2.  <code>cd /opt/ve/unisubs/src/<repo> </code> and check out the correct branch
