@@ -2,7 +2,6 @@
 *(while maintaining the beta editor for fallback.)*
 
 - **Saving issues** (Ben)
-  - [#1147](https://github.com/pculture/unisubs/issues/1147) Refactor saving things
   - [#1138](https://github.com/pculture/unisubs/issues/1138), saving a backup copy each minute
   - [#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js
 
