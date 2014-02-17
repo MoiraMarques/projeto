@@ -31,6 +31,7 @@
     - Dashboard tasks
     - Tasks page tasks
  - Widget embed menu (**Skipable, but see Embedder-specific notes below)
+ - site and email task notifications (perform task link)
  - Upload subtitles dialog (*I think it relies on old widget menus*) We should implement [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
 
 - **Create new dialogs for setting the Primary Audio Language and choose language to Translate** (Ben)
