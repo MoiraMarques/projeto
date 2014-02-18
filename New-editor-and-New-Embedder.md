@@ -41,10 +41,9 @@
 - **Other bugs**
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
   - [#1141](https://github.com/pculture/unisubs/issues/1141), subs freezing in safari on osx (Sylvain)
-  - [#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)
+  - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
 
 - **Embedder-specific changes needed** (Sylvain)
-  - Currently the *Improve these subtitles* menu item points to the video page. Could either change default to opening the subtitle editor, or have an amara-specific default setting.
   - Change the default embed code on the Video and video language pages
   - Verify existing embeds using the old widget are not broken.
 
