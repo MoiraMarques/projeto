@@ -3,7 +3,7 @@
 
 - **Saving issues** (Ben)
   - [#1138](https://github.com/pculture/unisubs/issues/1138), saving a backup copy each minute
-  - [#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js
+  - ~~[#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js~~
 
 - **Help** (Sylvain)
   - [#514](https://github.com/pculture/unisubs/issues/514) Implement the new instructions design
