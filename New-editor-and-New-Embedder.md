@@ -32,18 +32,14 @@
     - Tasks page tasks
  - Widget embed menu (**Skipable, but see Embedder-specific notes below)
  - site and email task notifications (perform task link)
- - Upload subtitles dialog (*I think it relies on old widget menus*) We should implement [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
- - [#807](https://github.com/pculture/unisubs/issues/807) - set base language when opening new editor.
-
-- **Create new dialogs for setting the Primary Audio Language and choose language to Translate** (Ben)
-  - [#723](https://github.com/pculture/unisubs/issues/723) Selecting the initial reference language
-  - [#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor
+ - [#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor (Ben)
 
 - **Other bugs**
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
-
+- **Nice to haves**
+- [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
 - **Embedder-specific changes needed** (Sylvain)
   - Change the default embed code on the Video and video language pages
   - Verify existing embeds using the old widget are not broken.
