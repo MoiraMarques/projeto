@@ -38,6 +38,7 @@
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
+  - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
 - **Nice to haves**
 - [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
 - **Embedder-specific changes needed** (Sylvain)
