@@ -31,7 +31,6 @@
     - Tasks page tasks
  - Widget embed menu (**Skipable, but see Embedder-specific notes below)
  - site and email task notifications (perform task link)
- 
  - [#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor (Ben)
 
 - **Other bugs**
@@ -40,7 +39,8 @@
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
 - **Nice to haves**
-- [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
+  - [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
+
 - **Embedder-specific changes needed** (Sylvain)
   - Change the default embed code on the Video and video language pages
   - Verify existing embeds using the old widget are not broken.
