@@ -9,13 +9,13 @@
   - [#514](https://github.com/pculture/unisubs/issues/514) Implement the new instructions design
 
 - **Support for various embeds** (Sylvain)
-  - Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125) (almost done)
+  - ~~Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125)~~
   - support flv videos, [#1171](https://github.com/pculture/unisubs/issues/1171)
   - Dailymotion
   - Wistia
   - Kaltura (new feature)
-  - mp3 (works)
-  - html5 video (ogg, ogv, webm, mp4) (works)
+  - ~~mp3~~ (works)
+  - ~~html5 video~~ (ogg, ogv, webm, mp4) (works)
   - Handling for embeds not supported in new editor [#548](https://github.com/pculture/unisubs/issues/548)
 
 - **Implement existing functionality from Old Editor** (Sylvain)
