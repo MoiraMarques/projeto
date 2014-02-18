@@ -10,7 +10,7 @@
 
 - **Support for various embeds** (Sylvain)
   - ~~Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125)~~
-  - support flv videos, [#1171](https://github.com/pculture/unisubs/issues/1171)
+  - ~~support flv videos, [#1171](https://github.com/pculture/unisubs/issues/1171)~~
   - Dailymotion
   - Wistia
   - Kaltura (new feature) [#1240](https://github.com/pculture/unisubs/issues/1240)
