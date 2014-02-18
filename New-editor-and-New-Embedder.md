@@ -40,6 +40,7 @@
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
 - **Nice to haves**
   - [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
+  - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
 
 - **Embedder-specific changes needed** (Sylvain)
   - Change the default embed code on the Video and video language pages
