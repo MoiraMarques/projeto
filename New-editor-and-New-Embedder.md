@@ -11,12 +11,11 @@
 - **Support for various embeds** (Sylvain)
   - ~~Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125)~~
   - ~~support flv videos, [#1171](https://github.com/pculture/unisubs/issues/1171)~~
-  - Dailymotion [#1241](https://github.com/pculture/unisubs/issues/1241)
-  - Wistia
-  - Kaltura (new feature) [#1240](https://github.com/pculture/unisubs/issues/1240)
+  - Wistia - not critical if hard, there's an easy way to get mp4 urls for wistia vidoes.
   - ~~mp3~~ (works)
   - ~~html5 video~~ (ogg, ogv, webm, mp4) (works)
   - Handling for embeds not supported in new editor [#548](https://github.com/pculture/unisubs/issues/548)
+    -   - Dailymotion [#1241](https://github.com/pculture/unisubs/issues/1241) moving it down here, there's currently no support in popcorn player, so well want to direct users to the old editor for now.
 
 - **Implement existing functionality from Old Editor** (Sylvain)
   - [#785](https://github.com/pculture/unisubs/issues/785) Shift-tab key for skip back
@@ -39,7 +38,6 @@
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
 - **Nice to haves**
-  - [#993](https://github.com/pculture/unisubs/issues/993) Upload versions directly to the new editor.
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
 
 - **Embedder-specific changes needed** (Sylvain)
