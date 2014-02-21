@@ -33,10 +33,12 @@
  - [#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor (Ben)
 
 - **Other bugs**
-  - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message
+  - ~~[#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message~~ in gh-1121 branch.
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
+  - [#1256](https://github.com/pculture/unisubs/issues/1256) Possible to Approve incomplete subtitles
+  - [#1255](https://github.com/pculture/unisubs/issues/1255) Update wording for the guided step 2 in new editor
 - **Nice to haves**
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
 
