@@ -28,7 +28,7 @@
  - Teams pages:
     - Dashboard tasks
     - Tasks page tasks
- - Widget embed menu (**Skipable, but see Embedder-specific notes below)
+ - Widget embed menu
  - site and email task notifications (perform task link)
  - [#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor (Ben)
 
