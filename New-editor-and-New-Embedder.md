@@ -12,11 +12,11 @@
 - **Support for various embeds** (Sylvain)
   - ~~Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125)~~
   - ~~support flv videos, [#1171](https://github.com/pculture/unisubs/issues/1171)~~
-  - Wistia - not critical if hard, there's an easy way to get mp4 urls for wistia vidoes.
   - ~~mp3~~ (works)
   - ~~html5 video~~ (ogg, ogv, webm, mp4) (works)
   - Handling for embeds not supported in new editor [#548](https://github.com/pculture/unisubs/issues/548)
     -   - Dailymotion [#1241](https://github.com/pculture/unisubs/issues/1241) moving it down here, there's currently no support in popcorn player, so well want to direct users to the old editor for now.
+    - Wistia - not critical if hard, there's an easy way to get mp4 urls for wistia vidoes.
 
 - **Implement existing functionality from Old Editor** (Sylvain)
   - [#785](https://github.com/pculture/unisubs/issues/785) Shift-tab key for skip back
@@ -47,4 +47,3 @@
   - [#1208](https://github.com/pculture/unisubs/issues/1208) - playback issues when same html5 video open in embedder and new editor.
   - Change the default embed code on the Video and video language pages
   - Verify existing embeds using the old widget are not broken.
-
