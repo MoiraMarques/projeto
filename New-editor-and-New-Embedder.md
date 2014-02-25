@@ -21,7 +21,6 @@
 - **Implement existing functionality from Old Editor** (Sylvain)
   - [#785](https://github.com/pculture/unisubs/issues/785) Shift-tab key for skip back
   - [#1043](https://github.com/pculture/unisubs/issues/1043) Reset button (to clear subtitles, or timings)
-  - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
 
 - **Update all the dialogs that open the Old editor** [#1121](https://github.com/pculture/unisubs/issues/1121) Refactor open edit dialog code (Ben) *This is mostly done, but a few tickets in the other bugs sections are also related to this branch.  This is the last thing we want to merge to do the switchover*
  - ~~Video page links~~
@@ -44,6 +43,7 @@
 - **Nice to haves**
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
+  - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
 
 - **Post New-editor switchover**
   - Change the default embed code on the Video and video language pages
