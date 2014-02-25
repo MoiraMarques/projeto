@@ -21,7 +21,8 @@ Welcome to the Amara project. We have a lot going on and welcome your contributi
 <h3>Current dev docs</h3>
 
 * [[Editor Embedder Switchover|New-editor-and-New-Embedder]]
-* [[Help and Save Changes|New-editor-help-and-save-changes]]
+* [[Editor Keyboard Shortcuts|editor-shortcuts]]
+* [[Editor Style Guide Default | Style-Guide-Generic-Text ]]
 
 
 [[All the rest of the wiki pages |https://github.com/pculture/unisubs/wiki/_pages]]
