@@ -2,7 +2,7 @@
 *(while maintaining the beta editor for fallback.)*
 
 - **Saving issues** (Ben)
-  - [#1138](https://github.com/pculture/unisubs/issues/1138), saving a backup copy each minute
+  - ~~[#1138](https://github.com/pculture/unisubs/issues/1138), saving a backup copy each minute~~
   - ~~[#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js~~
 
 - **Help** (Sylvain)
@@ -24,14 +24,14 @@
   - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
 
 - **Update all the dialogs that open the Old editor** [#1121](https://github.com/pculture/unisubs/issues/1121) Refactor open edit dialog code (Ben)
- - Video page links
- - Video language page links
+ - ~~Video page links~~
+ - ~~Video language page links~~
  - Teams pages:
-    - Dashboard tasks
-    - Tasks page tasks
- - Widget embed menu
- - site and email task notifications (perform task link)
- - [#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor (Ben)
+    - ~~Dashboard tasks~~
+    - ~~Tasks page tasks~~
+ - ~~Widget embed menu~~
+ - ~~site and email task notifications (perform task link)~~
+ - ~~[#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor~~ (Ben)
 
 - **Other bugs**
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message (Ben: partially in gh-1121 branch).
