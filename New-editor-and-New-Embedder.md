@@ -44,6 +44,6 @@
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
 
 - **Embedder-specific changes needed** (Sylvain)
-  - [#1208](https://github.com/pculture/unisubs/issues/1208) - playback issues when same html5 video open in embedder and new editor.
+  - ~~[#1208](https://github.com/pculture/unisubs/issues/1208) - playback issues when same html5 video open in embedder and new editor.~~
   - Change the default embed code on the Video and video language pages
   - Verify existing embeds using the old widget are not broken.
