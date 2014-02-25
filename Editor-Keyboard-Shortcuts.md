@@ -1,4 +1,4 @@
-### Keyboard shortcuts
+#### Keyboard shortcuts
 | Actions        | Win / Linux   | OS X  |
 |:---------------------------- |:--------------------------| :--------------------------| 
 | Play / Pause video | Tab | Tab |
@@ -10,14 +10,16 @@
 | Skip forward 4 seconds | Ctrl + Shift + . | CMD + Shift + . |
 | Navigate to the next line | ENTER | ENTER | 
 
-### Browser defaults that should just work
+#### Browser defaults that should just work
 | Actions        | Win / Linux   | OS X  |
 |:---------------------------- |:--------------------------| :--------------------------| 
 | Jump to the next whole word | CTRL + RIGHT Arrow | CMD + RIGHT Arrow | 
 | Jump to the previous whole word | CTRL + LEFT Arrow | CMD + LEFT Arrow |
 | Delete last complete word | CTRL + Backspace | CMD + Backspace |
 
-### Proposed shortcuts see[shortcut forum](http://support.amara.org/categories/6573/forums/74605/topics/78937) to voice your opinion.
+#### Proposed shortcuts 
+see the [shortcut forum](http://support.amara.org/categories/6573/forums/74605/topics/78937) to voice your opinion.
+
 | Actions        | Win / Linux   | OS X  |
 |:---------------------------- |:--------------------------| :--------------------------| 
 | Insert sub (above) | Alt + i | Alt + i | 
