@@ -38,8 +38,10 @@
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
   - [#1256](https://github.com/pculture/unisubs/issues/1256) Possible to Approve incomplete subtitles
   - [#1255](https://github.com/pculture/unisubs/issues/1255) Update wording for the guided step 2 in new editor
+
 - **Embedder-specific changes needed** (Sylvain)
   - ~~[#1208](https://github.com/pculture/unisubs/issues/1208) - playback issues when same html5 video open in embedder and new editor.~~
+
 - **Nice to haves**
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
