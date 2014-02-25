@@ -1,5 +1,5 @@
-## Transcribing and Translating Guidelines 
-(editor default guidelines can be the same for both)
+## Default Subtitle Style guidelines 
+(Displays when it is a non-team video or the team doesn't have specific guidelines configured.)
 
 Here are a few basic styling guidelines that will help make your captions clear, easy to follow and accessible to all users. 
 
@@ -14,10 +14,6 @@ Here are a few basic styling guidelines that will help make your captions clear,
 * **Lyrics**: Wrap relevant lyrics in musical notes. ex ♪ *Tell me dear Billy,* ♪
 * **Speaker identification**: Identify off-screen and unclear speakers in parentheses. ex: (Michael) Wait for me!
 * **Foreign language**: Identify relevant speech in foreign language. ex: (Russian): Thank you.
-
-
-# Reviewing Guidelines
-
 
 
 
