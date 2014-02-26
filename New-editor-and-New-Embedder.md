@@ -43,9 +43,10 @@
   - ~~[#1208](https://github.com/pculture/unisubs/issues/1208) - playback issues when same html5 video open in embedder and new editor.~~
 
 - **Nice to haves**
+  - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
-  - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
+  
 
 - **Post New-editor switchover**
   - Change the default embed code on the Video and video language pages
