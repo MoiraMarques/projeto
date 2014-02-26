@@ -36,8 +36,8 @@
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message (Ben: partially in gh-1121 branch).
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
-  - [#1256](https://github.com/pculture/unisubs/issues/1256) Possible to Approve incomplete subtitles
-  - [#1255](https://github.com/pculture/unisubs/issues/1255) Update wording for the guided step 2 in new editor
+  - ~~[#1256](https://github.com/pculture/unisubs/issues/1256) Possible to Approve incomplete subtitles~~
+  - ~~[#1255](https://github.com/pculture/unisubs/issues/1255) Update wording for the guided step 2 in new~~ editor
 
 - **Embedder-specific changes needed** (Sylvain)
   - ~~[#1208](https://github.com/pculture/unisubs/issues/1208) - playback issues when same html5 video open in embedder and new editor.~~
