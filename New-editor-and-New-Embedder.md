@@ -19,7 +19,7 @@
     - Wistia - not critical if hard, there's an easy way to get mp4 urls for wistia vidoes.
 
 - **Implement existing functionality from Old Editor** (Sylvain)
-  - [#785](https://github.com/pculture/unisubs/issues/785) Shift-tab key for skip back
+  - ~~[#785](https://github.com/pculture/unisubs/issues/785) Shift-tab key for skip back!! in gh-780 branch.
   - [#1043](https://github.com/pculture/unisubs/issues/1043) Reset button (to clear subtitles, or timings)
 
 - **Update all the dialogs that open the Old editor** [#1121](https://github.com/pculture/unisubs/issues/1121) Refactor open edit dialog code (Ben) *This is mostly done, but a few tickets in the other bugs sections are also related to this branch.  This is the last thing we want to merge to do the switchover*
