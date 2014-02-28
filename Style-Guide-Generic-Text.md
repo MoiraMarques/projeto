@@ -15,7 +15,7 @@
 |**Reading speed**|8-25 characters/second is recommended;<br/> 8-16 characters/second for children.|
 |**Sounds**  |Describe meaningful sounds that are relevant to the plot.<br/> ex: (water dripping)|
 |**Music**| Describe relevant music which does not have relevant lyrics. <br/>ex: ♪ (jazz music) ♪|
-
+|**Speaker Identification**| Use parenthesis to indicate when someone is speaking off-screen. <br/>ex: (Michael) Wait for me!
 
 <hr>
 <p align="center"> More advanced guidelines</p>
