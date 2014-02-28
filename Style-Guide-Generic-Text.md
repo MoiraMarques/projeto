@@ -3,9 +3,9 @@
 
 ## Amara Style Guide
 
-####Here are a few basic styling guidelines that will help make your captions clear, easy to follow and accessible to all users. 
+####Try to make your captions clear, easy to follow and accessible to all users. 
 
-*As you type a subtitle, a helper box displays to right providing details about the number of characters, number of lines and the reading rate as characters per second.*
+*As you type a subtitle, a helper box displays to right providing details.  <br/> This includes the number of characters, number of lines and the reading rate as characters per second.*
 
 | Recommendation       | Description   |
 |:-------------------- |:--------------------| 
