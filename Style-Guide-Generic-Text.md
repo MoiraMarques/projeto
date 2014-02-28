@@ -12,19 +12,20 @@
 |**Subtitle line length**|Keep subtitle length to about 42 characters; <br/>avoid more than 2 lines per subtitle.|
 |**Minimum duration**|Subtitles should not be less than 1 second.|
 |**Maximum duration**| Split subtitles lasting more than 7 seconds.|
+|**Reading speed**|8-25 characters/second is recommended;<br/> 8-16 characters/second for children.|
 |**Sounds**  |Describe meaningful sounds that are relevant to the plot.<br/> ex: (water dripping)|
 |**Music**| Describe relevant music which does not have relevant lyrics. <br/>ex: ♪ (jazz music) ♪|
-|**Use meaningful speech**| Exclude things like “um” “ah” and other disfluencies.|
+
 
 <hr>
 <p align="center"> More advanced guidelines</p>
 
 | Recommendation       | Description   |
 |:-------------------- |:-------------------| 
-|**Reading speed**|8-25 characters/second is recommended;<br/> 8-16 characters/second for children.|
 |**Translate the whole idea**| Translations don't need to be word for word. Look at the context.  <br/>Make sure you are using the correct punctuation for the whole unit of text.|
 |**Maximum timing offset**| Subtitles shouldn't start more than 0.5 seconds before or after the audio begins.  |Duration|Subtitles shouldn't stay on screen longer than necessary after the end of the audio.|
 |**On-screen texts**|Translate the texts on the video that are relevant to the plot. |
+|**Use meaningful speech**| Exclude things like “um” “ah” and other disfluencies.|
 |**Indicate inaudible parts**|If the audio is inaudible, it should be marked as [inaudible]. |
 |**Lyrics**|Wrap relevant lyrics in musical notes. <br/>ex ♪ *Tell me dear Billy,* ♪|
 |**Speaker identification**|Identify off-screen and unclear speakers in parentheses. <br/> ex: (Michael) Wait for me!|
