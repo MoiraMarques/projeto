@@ -6,7 +6,7 @@
   - ~~[#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js~~
 
 - **Help** (Sylvain)
-  - [#514](https://github.com/pculture/unisubs/issues/514) Implement the new instructions design
+  - ~~[#514](https://github.com/pculture/unisubs/issues/514) Implement the new instructions design~~
   - [#780](https://github.com/pculture/unisubs/issues/780) (Don't need all the shortcuts implemented now, but the Keyboard shortcuts section display changes)
 
 - **Support for various embeds** (Sylvain)
