@@ -5,10 +5,10 @@
 | Skip back 2 seconds | Shift + Tab | Shift + Tab |
 | Skip back 4 seconds | Ctrl + Shift + , | CMD + Shift + , | 
 | Skip forward 4 seconds | Ctrl + Shift + . | CMD + Shift + . |
-| Navigate to the next line | ENTER | ENTER | 
+| Navigate to the next subtitle | ENTER | ENTER | 
 | Insert line break | Shift + ENTER | Shift + ENTER |
-| Delete empty subtitle line | ESC | ESC |
-| Exit edit mode of current line | ESC | ESC |
+| Delete empty subtitle subtitle | ESC | ESC |
+| Exit edit mode of current subtitle | ESC | ESC |
 
 
 #### Browser defaults that should just work
@@ -16,8 +16,8 @@
 |:---------------------------- |:--------------------------| :--------------------------| 
 | Jump to the next whole word | CTRL + RIGHT Arrow | ALT + RIGHT Arrow | 
 | Jump to the previous whole word | CTRL + LEFT Arrow | ALT + LEFT Arrow |
-| Jump to the start of the line | Fn + RIGHT Arrow | CMD + RIGHT Arrow | 
-| Jump to the end of the line | Fn + LEFT Arrow | CMD + LEFT Arrow |
+| Jump to the start of the subtitle | Fn + RIGHT Arrow | CMD + RIGHT Arrow | 
+| Jump to the end of the subtitle | Fn + LEFT Arrow | CMD + LEFT Arrow |
 | Delete last complete word | CTRL + Backspace | CMD + Backspace |
 
 #### Proposed shortcuts 
@@ -25,9 +25,9 @@ see the [shortcut forum](http://support.amara.org/categories/6573/forums/74605/t
 
 | Action        | Win / Linux   | OS X  |
 |:---------------------------- |:--------------------------| :--------------------------| 
-| Insert sub (above) | Alt + i | Alt + i | 
-| Insert sub (below) | Alt + Shift + i | Alt + Shift + i |
-| Delete current line | Alt + Delete (or Backspace)| Alt + Delete (or Backspace) | 
+| Insert subtitle (above) | Alt + i | Alt + i | 
+| Insert subtitle (below) | Alt + Shift + i | Alt + Shift + i |
+| Delete current subtitle | Alt + Delete (or Backspace)| Alt + Delete (or Backspace) | 
 | Navigate to the previous line | Alt + UP Arrow | Alt + UP Arrow |
 | Undo last action | CTRL + z | CMD + z | #395 |
 | Redo last action | CTRL + Shift + z | CMD + Shift + z | #395 |
