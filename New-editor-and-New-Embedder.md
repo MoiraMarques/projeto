@@ -7,7 +7,7 @@
 
 - **Help** (Sylvain)
   - ~~[#514](https://github.com/pculture/unisubs/issues/514) Implement the new instructions design~~
-  - [#780](https://github.com/pculture/unisubs/issues/780) (Don't need all the shortcuts implemented now, but the Keyboard shortcuts section display changes)
+  - ~~[#780](https://github.com/pculture/unisubs/issues/780) (Don't need all the shortcuts implemented now, but the Keyboard shortcuts section display changes)~~
 
 - **Support for various embeds** (Sylvain)
   - ~~Brightcove [#1125](https://github.com/pculture/unisubs/issues/1125)~~
@@ -34,6 +34,7 @@
 
 - **Other bugs**
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message (Ben: partially in gh-1121 branch).
+- [#1274](https://github.com/pculture/unisubs/issues/1274)  - Team Guidelines display
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
   - ~~[#1256](https://github.com/pculture/unisubs/issues/1256) Possible to Approve incomplete subtitles~~
@@ -46,6 +47,7 @@
   - [#784](https://github.com/pculture/unisubs/issues/784)  Auto-pause options (typing modes)
   - [#779](https://github.com/pculture/unisubs/issues/779) working / reference alignment with long lines.
   - [#995](https://github.com/pculture/unisubs/issues/995), timestamp rounding error (Sylvain)
+  - [#1273](https://github.com/pculture/unisubs/issues/1273) - More shortcuts links for complete list.
   
 
 - **Post New-editor switchover**
