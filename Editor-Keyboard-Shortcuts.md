@@ -13,8 +13,10 @@
 #### Browser defaults that should just work
 | Action        | Win / Linux   | OS X  |
 |:---------------------------- |:--------------------------| :--------------------------| 
-| Jump to the next whole word | CTRL + RIGHT Arrow | CMD + RIGHT Arrow | 
-| Jump to the previous whole word | CTRL + LEFT Arrow | CMD + LEFT Arrow |
+| Jump to the next whole word | CTRL + RIGHT Arrow | ALT + RIGHT Arrow | 
+| Jump to the previous whole word | CTRL + LEFT Arrow | ALT + LEFT Arrow |
+| Jump to the start of the line | Fn + RIGHT Arrow | CMD + RIGHT Arrow | 
+| Jump to the end of the line | Fn + LEFT Arrow | CMD + LEFT Arrow |
 | Delete last complete word | CTRL + Backspace | CMD + Backspace |
 
 #### Proposed shortcuts 
