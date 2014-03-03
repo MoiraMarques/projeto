@@ -21,6 +21,7 @@
 - **Implement existing functionality from Old Editor** (Sylvain)
   - ~~[#785](https://github.com/pculture/unisubs/issues/785) Shift-tab key for skip back~~ in gh-780 branch.
   - [#1043](https://github.com/pculture/unisubs/issues/1043) Reset button (to clear subtitles, or timings)
+  - [#1274](https://github.com/pculture/unisubs/issues/1274)  - Team Guidelines display
 
 - **Update all the dialogs that open the Old editor** [#1121](https://github.com/pculture/unisubs/issues/1121) Refactor open edit dialog code (Ben) *This is mostly done, but a few tickets in the other bugs sections are also related to this branch.  This is the last thing we want to merge to do the switchover*
  - ~~Video page links~~
@@ -34,7 +35,6 @@
 
 - **Other bugs**
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message (Ben: partially in gh-1121 branch).
-- [#1274](https://github.com/pculture/unisubs/issues/1274)  - Team Guidelines display
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
   - [#1239](https://github.com/pculture/unisubs/issues/1239) Making dialog text and buttons consistent with each other.
   - ~~[#1256](https://github.com/pculture/unisubs/issues/1256) Possible to Approve incomplete subtitles~~
