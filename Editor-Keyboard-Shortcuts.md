@@ -3,11 +3,11 @@
 |:---------------------------- |:--------------------------| :--------------------------| 
 | Play / Pause video | Tab | Tab |
 | Skip back 2 seconds | Shift + Tab | Shift + Tab |
+| Skip back 4 seconds | Ctrl + Shift + , | CMD + Shift + , | 
+| Skip forward 4 seconds | Ctrl + Shift + . | CMD + Shift + . |
 | Insert line break | Shift + ENTER | Shift + ENTER |
 | Delete empty subtitle line | ESC | ESC |
 | Exit edit mode of current line | ESC | ESC |
-| Skip back 4 seconds | Ctrl + Shift + , | CMD + Shift + , | 
-| Skip forward 4 seconds | Ctrl + Shift + . | CMD + Shift + . |
 | Navigate to the next line | ENTER | ENTER | 
 
 #### Browser defaults that should just work
