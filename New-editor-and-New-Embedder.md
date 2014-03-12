@@ -35,7 +35,7 @@
 
 - **Other bugs**
   - [#1303](https://github.com/pculture/unisubs/issues/1303) - no expiration date set when starting new task
-  - [#1300](https://github.com/pculture/unisubs/issues/1300) - skipping back doens't messes up red vertical position slider. (could reproduce before, currently can't on new-editor-primary-1043)
+  - [#1300](https://github.com/pculture/unisubs/issues/1300) - skipping back messes up red vertical position slider. (could reproduce before, currently can't on new-editor-primary-1043)
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message (Ben: partially in gh-1121 branch).
   - ~~[#1271](https://github.com/pculture/unisubs/issues/1271) - No autoplay in the new editor.~~
   - ~~[#1195](https://github.com/pculture/unisubs/issues/1195) quotes, apostrophes etc. get escaped (Ben)~~
