@@ -34,6 +34,7 @@
  - ~~[#807](https://github.com/pculture/unisubs/issues/807) base-language argument ignored when opening new editor~~ (Ben)
 
 - **Other bugs**
+  - [#1282](https://github.com/pculture/unisubs/issues/1282) - flash embed stealing shift-tab focs
   - [#1303](https://github.com/pculture/unisubs/issues/1303) - no expiration date set when starting new task
   - [#1300](https://github.com/pculture/unisubs/issues/1300) - skipping back messes up red vertical position slider. (could reproduce before, currently can't on new-editor-primary-1043)
   - [#1198](https://github.com/pculture/unisubs/issues/1198) - All lines are synced message (Ben: partially in gh-1121 branch).
