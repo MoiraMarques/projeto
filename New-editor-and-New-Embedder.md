@@ -1,6 +1,8 @@
 #### Make the new editor the primary editor, and use the new embedder on amara.org
 *(while maintaining the beta editor for fallback.)*
 
+## [All tickets in New Editor Primary Milestone](https://github.com/pculture/unisubs/issues?direction=desc&milestone=6&page=1&sort=updated&state=open)
+
 - **Saving issues** (Ben)
   - ~~[#1138](https://github.com/pculture/unisubs/issues/1138), saving a backup copy each minute~~
   - ~~[#751](https://github.com/pculture/unisubs/issues/751), save local copy on server save failure, Filesaver.js~~
