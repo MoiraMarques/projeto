@@ -105,16 +105,15 @@ We'd need to grab the video id for each entry: **bc:titleid** and store it for s
                 <p begin="00:00:13.500" end="00:00:20.500">Line 6</p>
         </div>
         <div xml:lang="pt">
-    <div>
-      <p begin="00:00:00.000" end="00:00:01.000">This line has <span tts:fontWeight="bold">bold text in it</span></p>
-      <p begin="00:00:01.424" end="00:00:02.501">This line has <span tts:fontStyle="italic">multiline<br/>italics</span></p>
-    </div>
-    <div>
-      <p begin="00:00:02.664" end="00:00:04.048">This one has an evil tag</p>
-      <p begin="00:00:04.411" end="00:00:05.126">this is an edited line.</p>
-    </div>
+          <div>
+            <p begin="00:00:00.000" end="00:00:01.000">This line has <span tts:fontWeight="bold">bold text in it</span></p>
+            <p begin="00:00:01.424" end="00:00:02.501">This line has <span tts:fontStyle="italic">multiline<br/>italics</span></p>
+          </div>
+        <div>
+            <p begin="00:00:02.664" end="00:00:04.048">This one has an evil tag</p>
+            <p begin="00:00:04.411" end="00:00:05.126">this is an edited line.</p>
         </div>
-
+       </div>
    </body> 
 </tt> 
 ```
