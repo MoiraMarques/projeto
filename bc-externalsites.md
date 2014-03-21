@@ -31,8 +31,6 @@
  - player id 
  - write token
  - tags (optional)
-
-
 2. Amara generates a simple mrss feed and pulls in videos based on tag / player / publisher info
 ex: 
 ```
@@ -42,13 +40,34 @@ or
 ```
 http://link.brightcove.com/services/mrss/player<player id>/<publisher id>/new (for all videos added in)
 ```
-
-We'd need to grab the video id for each entry: bc:title id and store it for syncing later.
-
+```
+        <title>Tagged: amara-test</title>
+        <link>http://link.brightcove.com/services/mrss/player2911001534001/2903498771001/tags/amara-test</link>
+        <description/>
+        <copyright>Copyright 2014</copyright>
+        <lastBuildDate>Fri, 21 Mar 2014 04:26:00 -0700</lastBuildDate>
+        <generator>http://www.brightcove.com/?v=1.0</generator>
+        <item>
+            <title>Birds_short</title>
+            <link>http://link.brightcove.com/services/link/bcpid2911001534001/bctid2915728359001?src=mrss</link>
+            <description>Birds_short</description>
+            <guid>http://link.brightcove.com/services/link/bcpid2911001534001/bctid2915728359001?src=mrss</guid>
+            <pubDate>Mon, 09 Dec 2013 12:30:49 -0800</pubDate>
+            <media:player height="270" url="http://link.brightcove.com/services/link/bcpid2911001534001/bctid2915728359001?src=mrss" width="480"/>
+            <media:keywords>amara-test,Amara</media:keywords>
+            <media:thumbnail height="90" url="http://lds.pd.ak.o.brightcove.com/2903498771001/2903498771001_2915792270001_th-52a62879e4b00f8cb61e95e3-1592194018001.jpg?pubId=2903498771001" width="120"/>
+            <media:thumbnail height="360" url="http://lds.pd.ak.o.brightcove.com/2903498771001/2903498771001_2915792269001_vs-52a62879e4b00f8cb61e95e3-1592194018001.jpg?pubId=2903498771001" width="480"/>
+            <bc:playerid>2911001534001</bc:playerid>
+            <bc:titleid>2915728359001</bc:titleid>
+            <bc:duration>37</bc:duration>
+            <dcterms:valid/>
+            <bc:accountid>2903498771001</bc:accountid>
+        </item>
+```
+We'd need to grab the video id for each entry: **bc:titleid** and store it for syncing later.
 3. Once videos are ingested (based on team type, if on-demand, then tasks should be automatically created.
-
 4. When language is completed - captions are synced be to bc using the bc media write api.]
-  - ref: [http://docs.brightcove.com/en/video-cloud/media/reference.html#Captioning
+  - ref: [http://docs.brightcove.com/en/video-cloud/media/reference.html#Captioning]
   - for syncing, bc requires all languages in 1 file: so for each langauge synced, we'd have to pull all the captions for all completed languages and generate a file.
 
 ```
