@@ -81,8 +81,8 @@ We'd need to grab the video id for each entry: **bc:titleid** and store it for s
  - Based on team configuration
 
 ### Syncing
- - When language is completed - captions are synced be to bc using the bc media write api.]
-  - ref: [http://docs.brightcove.com/en/video-cloud/media/reference.html#Captioning]
+ - When language is completed - captions are synced be to bc using the bc media write api.
+  - ref: http://docs.brightcove.com/en/video-cloud/media/reference.html#Captioning
   - for syncing, bc requires all languages in 1 file: so for each langauge synced, we'd have to pull all the captions for all completed languages and generate a file.
 
 ```
