@@ -10,9 +10,10 @@
 
 
 ### Currently:  
- - have support for brightcove player in new editor
+ - Have support for brightcove player in new editor
  - Able to import individual bc urls
  - Able to add simple mrss feeds
+ - Have support for brightcove videos in the embedder / transcript viewer
 
 ### Want: 
  - To simplify the process for user:
