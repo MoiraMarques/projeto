@@ -14,6 +14,7 @@
  - Able to import individual bc urls
  - Able to add simple mrss feeds
  - Have support for brightcove videos in the embedder / transcript viewer
+ - We have a brightcove enterprise account for testing
 
 ### Want: 
  - To simplify the process for user:
