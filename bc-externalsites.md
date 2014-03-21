@@ -32,6 +32,7 @@
  - write token
  - tags (optional)
 2. Amara generates a simple mrss feed and pulls in videos based on tag / player / publisher info
+
 ex: 
 ```
 http://link.brightcove.com/services/mrss/player<player id>/<publisher id>/tags/tag 1/tag 2/...
@@ -66,9 +67,8 @@ http://link.brightcove.com/services/mrss/player<player id>/<publisher id>/new (f
 ```
 We'd need to grab the video id for each entry: **bc:titleid** and store it for syncing later.
 
-3. Once videos are ingested (based on team type, if on-demand, then tasks should be automatically created.
-
-4. When language is completed - captions are synced be to bc using the bc media write api.]
+3.  Once videos are ingested (based on team type, if on-demand, then tasks should be automatically created.
+4.  When language is completed - captions are synced be to bc using the bc media write api.]
   - ref: [http://docs.brightcove.com/en/video-cloud/media/reference.html#Captioning]
   - for syncing, bc requires all languages in 1 file: so for each langauge synced, we'd have to pull all the captions for all completed languages and generate a file.
 
