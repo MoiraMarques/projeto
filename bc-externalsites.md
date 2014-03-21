@@ -1,9 +1,18 @@
 # Brightcove integration
 
+### Summary: 
+ - Amara dev work required is to:
+  - generate the url of a bc mrss feed using supplied parameters.
+  - recognize a feed as coming from bc and store the video id
+  - generate dfxp files of all completed languages
+  - add brightcove to external sites configuration page
+  - implement syncing via the externalsites app and using the bc media write api.
+
+
 ### Currently:  
  - have support for brightcove player in new editor
  - Able to import individual bc urls
- - Able to add bc simple mrss feeds
+ - Able to add simple mrss feeds
 
 ### Want: 
  - To simplify the process for user:
@@ -12,10 +21,10 @@
   - no requirement from them to generate feeds for ingest
  - To be able sync captions back to the user's bc account
 
-### Requires from us:
+### Required to work:
  - User has enterprise level or better bc account
- - Creates a compatible 'amara-player' in bc (chromeless player with javascript enabled)
- - Configures syncing on amara team with:
+ - A compatible 'amara-player' in bc (chromeless player with javascript enabled)
+ - Brightcove configured as an amara external site:
    - publisher id
    - player id
    - api write token
@@ -24,15 +33,14 @@
 ### From brightcove:
   If they could add a default 'amara-player' for users, it would save the users about 5 steps of the config process in the brightcove management console.
 
-### Approach:
-
-1. via ExternalSites configuration tab configure:
+### Configuration
+- via ExternalSites configuration tab configure:
  - publisher id
  - player id 
  - write token
  - tags (optional)
-2. Amara generates a simple mrss feed and pulls in videos based on tag / player / publisher info
-
+### Adding videos to amara
+ - Amara generates a simple mrss feed and pulls in videos based on tag / player / publisher info
 ex: 
 ```
 http://link.brightcove.com/services/mrss/player<player id>/<publisher id>/tags/tag 1/tag 2/...
@@ -67,8 +75,12 @@ http://link.brightcove.com/services/mrss/player<player id>/<publisher id>/new (f
 ```
 We'd need to grab the video id for each entry: **bc:titleid** and store it for syncing later.
 
-3.  Once videos are ingested (based on team type, if on-demand, then tasks should be automatically created.
-4.  When language is completed - captions are synced be to bc using the bc media write api.]
+
+### Workflow
+ - Based on team configuration
+
+### Syncing
+ - When language is completed - captions are synced be to bc using the bc media write api.]
   - ref: [http://docs.brightcove.com/en/video-cloud/media/reference.html#Captioning]
   - for syncing, bc requires all languages in 1 file: so for each langauge synced, we'd have to pull all the captions for all completed languages and generate a file.
 
@@ -118,4 +130,10 @@ We'd need to grab the video id for each entry: **bc:titleid** and store it for s
 </tt> 
 ```
 
+### Other concerns
+ - Content control on the BC side.
+  - BC Users can configure geographic blocks on videos
+  - Security concerns, providing us with a write-access token. 
+    - if they don't want to give us write access - subs would have to be downloadable so the users could manually upload them.
+  - Users with lower level BC accounts don't have access to the BC media api - so they would have to manually upload their subtitles - or choose and alternate method for display (amara embedder, for example)
 
