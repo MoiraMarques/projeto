@@ -1,14 +1,5 @@
 # Brightcove integration
 
-### Summary: 
- - Amara dev work required is to:
-  - generate the url of a bc mrss feed using supplied parameters.
-  - recognize a feed as coming from bc and store the video id
-  - generate dfxp files of all completed languages
-  - add brightcove to external sites configuration page
-  - implement syncing via the externalsites app and using the bc media write api.
-
-
 ### Currently:  
  - Have support for brightcove player in new editor
  - Able to import individual bc urls
@@ -131,6 +122,14 @@ We'd need to grab the video id for each entry: **bc:titleid** and store it for s
    </body> 
 </tt> 
 ```
+
+### Summary: 
+ - Amara dev work required is to:
+  - generate the url of a bc mrss feed using supplied parameters.
+  - recognize a feed as coming from bc and store the video id
+  - generate dfxp files of all completed languages
+  - add brightcove to external sites configuration page
+  - implement syncing via the externalsites app and using the bc media write api.
 
 ### Other concerns
  - Content control on the BC side (geographic restrictions...)
