@@ -132,10 +132,6 @@ We'd need to grab the video id for each entry: **bc:titleid** and store it for s
   - implement syncing via the externalsites app and using the bc media write api.
 
 ### Other concerns
- - Content control on the BC side (geographic restrictions...)
- - Security concerns, providing us with a write-access token.
-    - should we store it more securely in the db
-    - if they don't want to give us write access, subs would have to be downloadable so the users could manually upload them.
  - Users with lower level BC accounts don't have access to the BC media api, they would have to manually upload their subtitles.
  - Should we make a download option for stitched dfxp files?
 
