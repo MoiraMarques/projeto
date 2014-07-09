@@ -2,13 +2,16 @@
 
 Step 1: paste this in your document somewhere (closest to the closing body tag is preferable):
 
+```
 <script type="text/javascript" src='http://amara.org/embedder-iframe'>
 </script>
-
+```
 Step 2: paste this inside your HTML body where you want to include the videos, with the video URL, height, and width of your choosing:
 
+```
 <div class="amara-embed" data-height="480px" data-width="854px" data-url="http://www.youtube.com/watch?v=5CKwCfLUwj4">
 </div>
+```
 
 You can set the following options:
 
