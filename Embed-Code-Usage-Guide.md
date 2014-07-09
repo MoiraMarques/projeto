@@ -15,7 +15,7 @@ Step 2: paste this inside your HTML body where you want to include the videos, w
 
 You can set the following options:
 
-* Hide the menu item to order subtitles by adding data-hide-order="true" in the previous tag.
-* Set the initial active subtitle language by adding data-initial-language="language" in the previous tag, where language is the language code, such as "en" for English.
-* Display the subtitles by default by adding data-show-subtitles-default="true" in the previous tag.
-* Display the transcript by default by adding data-show-transcript-default="true" in the previous tag.
+* Hide the menu item to order subtitles by adding **data-hide-order="true"** in the previous tag.
+* Set the initial active subtitle language by adding **data-initial-language="language"** in the previous tag, where language is the language code, such as "en" for English.
+* Display the subtitles by default by adding **data-show-subtitles-default="true"** in the previous tag.
+* Display the transcript by default by adding **data-show-transcript-default="true"** in the previous tag.
