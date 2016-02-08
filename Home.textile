@@ -1,6 +1,6 @@
 Welcome to the Amara project. We have a lot going on and welcome your contribution!
 
-*Not the help you are looking for? See <a href='http://support.amara.org/support/home'> Amara user support site </a> for end-user questions and documentation*
+*Not the help you are looking for? See <a href='http://support.amara.org/'> Amara user support site </a> for end-user questions and documentation*
 
 <h3>The Essentials</h3>
 * [[Source Code|https://github.com/pculture/unisubs]] - see the **README**
