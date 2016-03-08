@@ -3,7 +3,7 @@
 Step 1: paste this in your document somewhere (closest to the closing body tag is preferable):
 
 ```
-<script type="text/javascript" src='http://amara.org/embedder-iframe'>
+<script type="text/javascript" src='https://amara.org/embedder-iframe'>
 </script>
 ```
 Step 2: paste this inside your HTML body where you want to include the videos, with the video URL, height, and width of your choosing:
