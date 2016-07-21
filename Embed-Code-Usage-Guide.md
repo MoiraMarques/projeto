@@ -19,6 +19,7 @@ You can set the following options:
 * Set the initial active subtitle language by adding **data-initial-language="language"** in the previous tag, where language is the language code, such as "en" for English.
 * Display the subtitles by default by adding **data-show-subtitles-default="true"** in the previous tag.
 * Display the transcript by default by adding **data-show-transcript-default="true"** in the previous tag.
+* Make the embed responsive by adding **data-resizable="true"** in the previous tag.
 
 The subtitles and transcript will display as they do on the Amara video pages and in the [amara embedder example](http://amara.org/embedder-offsite)
 
